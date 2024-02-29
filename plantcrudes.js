@@ -1,0 +1,10919 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : [PROD]KMSJAMUMEDICINE
+ Source Server Type    : MongoDB
+ Source Server Version : 30608 (3.6.8)
+ Source Host           : localhost:27017
+ Source Schema         : kmsjamu
+
+ Target Server Type    : MongoDB
+ Target Server Version : 30608 (3.6.8)
+ File Encoding         : 65001
+
+ Date: 27/05/2023 09:12:05
+*/
+
+
+// ----------------------------
+// Collection structure for plantcrudes
+// ----------------------------
+db.getCollection("plantcrudes").drop();
+db.createCollection("plantcrudes");
+
+// ----------------------------
+// Documents of plantcrudes
+// ----------------------------
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b265c"),
+    idplant: "P00003",
+    idcrude: "S00004",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7eb"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98ae7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b265d"),
+    idplant: "P00004",
+    idcrude: "S00005",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7ec"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98ae8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b265e"),
+    idplant: "P00005",
+    idcrude: "S00006",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7ed"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98ae9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2659"),
+    idplant: "P00001",
+    idcrude: "S00001",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7e8"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98ae5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b265a"),
+    idplant: "P00001",
+    idcrude: "S00002",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7e9"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98ae5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b265b"),
+    idplant: "P00002",
+    idcrude: "S00003",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7ea"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98ae6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b265f"),
+    idplant: "P00006",
+    idcrude: "S00007",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7ee"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aea")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2660"),
+    idplant: "P00006",
+    idcrude: "S00008",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7ef"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aea")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2661"),
+    idplant: "P00007",
+    idcrude: "S00009",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7f0"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aeb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2662"),
+    idplant: "P00007",
+    idcrude: "S00010",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7f1"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aeb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2663"),
+    idplant: "P00007",
+    idcrude: "T00057",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac8d"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aeb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2664"),
+    idplant: "P00007",
+    idcrude: "T00058",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac8e"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aeb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2665"),
+    idplant: "P00008",
+    idcrude: "T00057",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac8d"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aec")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2666"),
+    idplant: "P00008",
+    idcrude: "T00058",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac8e"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aec")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2668"),
+    idplant: "P00010",
+    idcrude: "T00009",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac5d"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aee")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2667"),
+    idplant: "P00009",
+    idcrude: "T00025",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac6d"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aed")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2669"),
+    idplant: "P00010",
+    idcrude: "T00025",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac6d"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aee")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b266a"),
+    idplant: "P00010",
+    idcrude: "T00162",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacf5"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aee")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b266b"),
+    idplant: "P00010",
+    idcrude: "T00210",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead24"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aee")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b266c"),
+    idplant: "P00010",
+    idcrude: "T00226",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead33"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aee")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b266d"),
+    idplant: "P00011",
+    idcrude: "S00011",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7f2"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aef")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b266f"),
+    idplant: "P00013",
+    idcrude: "S00013",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7f4"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b266e"),
+    idplant: "P00012",
+    idcrude: "S00012",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7f3"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2671"),
+    idplant: "P00015",
+    idcrude: "S00015",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7f6"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2672"),
+    idplant: "P00016",
+    idcrude: "S00016",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7f7"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2673"),
+    idplant: "P00017",
+    idcrude: "S00017",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7f8"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2674"),
+    idplant: "P00017",
+    idcrude: "S00018",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7f9"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2675"),
+    idplant: "P00018",
+    idcrude: "S00019",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7fa"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2676"),
+    idplant: "P00019",
+    idcrude: "S00020",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7fb"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2677"),
+    idplant: "P00020",
+    idcrude: "S00021",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7fc"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2678"),
+    idplant: "P00020",
+    idcrude: "S00022",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7fd"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2670"),
+    idplant: "P00014",
+    idcrude: "S00014",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7f5"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2679"),
+    idplant: "P00021",
+    idcrude: "S00023",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7fe"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98af9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b267a"),
+    idplant: "P00022",
+    idcrude: "S00024",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea7ff"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98afa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b267b"),
+    idplant: "P00023",
+    idcrude: "T00175",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead02"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98afb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b267c"),
+    idplant: "P00023",
+    idcrude: "T00212",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead26"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98afb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b267d"),
+    idplant: "P00024",
+    idcrude: "S00025",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea800"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98afc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b267f"),
+    idplant: "P00024",
+    idcrude: "T00212",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead26"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98afc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2680"),
+    idplant: "P00025",
+    idcrude: "S00026",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea801"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98afd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2681"),
+    idplant: "P00026",
+    idcrude: "S00027",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea802"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98afe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2682"),
+    idplant: "P00027",
+    idcrude: "S00028",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea803"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aff")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2683"),
+    idplant: "P00027",
+    idcrude: "S00029",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea804"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aff")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2684"),
+    idplant: "P00027",
+    idcrude: "S00030",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea805"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98aff")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2685"),
+    idplant: "P00028",
+    idcrude: "T00118",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacca"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b00")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2686"),
+    idplant: "P00029",
+    idcrude: "S00031",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea806"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2687"),
+    idplant: "P00030",
+    idcrude: "S00032",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea807"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b02")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b267e"),
+    idplant: "P00024",
+    idcrude: "T00175",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead02"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98afc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2688"),
+    idplant: "P00031",
+    idcrude: "S00033",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea808"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b03")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b268a"),
+    idplant: "P00033",
+    idcrude: "S00035",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea80a"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b05")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b268b"),
+    idplant: "P00033",
+    idcrude: "T00110",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc2"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b05")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2689"),
+    idplant: "P00032",
+    idcrude: "S00034",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea809"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b04")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b268e"),
+    idplant: "P00034",
+    idcrude: "S00037",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea80c"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b06")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b268f"),
+    idplant: "P00034",
+    idcrude: "S00038",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea80d"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b06")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2690"),
+    idplant: "P00035",
+    idcrude: "S00039",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea80e"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b268c"),
+    idplant: "P00033",
+    idcrude: "T00233",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead39"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b05")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2691"),
+    idplant: "P00035",
+    idcrude: "T00142",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eace1"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2692"),
+    idplant: "P00036",
+    idcrude: "S00040",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea80f"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2693"),
+    idplant: "P00037",
+    idcrude: "S00041",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea810"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b09")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2694"),
+    idplant: "P00038",
+    idcrude: "S00042",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea811"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b0a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2695"),
+    idplant: "P00039",
+    idcrude: "S00043",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea812"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b0b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2696"),
+    idplant: "P00040",
+    idcrude: "S00044",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea813"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b0c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2697"),
+    idplant: "P00041",
+    idcrude: "S00045",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea814"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b0d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2698"),
+    idplant: "P00041",
+    idcrude: "T00190",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead11"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b0d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2699"),
+    idplant: "P00042",
+    idcrude: "S00046",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea815"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b0e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b269a"),
+    idplant: "P00043",
+    idcrude: "S00047",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea816"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b0f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b269b"),
+    idplant: "P00043",
+    idcrude: "S00048",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea817"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b0f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b269c"),
+    idplant: "P00044",
+    idcrude: "S00049",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea818"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b10")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b269d"),
+    idplant: "P00045",
+    idcrude: "S00050",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea819"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b11")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b269e"),
+    idplant: "P00046",
+    idcrude: "T00153",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacec"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b12")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b269f"),
+    idplant: "P00047",
+    idcrude: "S00051",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea81a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26a0"),
+    idplant: "P00047",
+    idcrude: "S00052",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea81b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26a1"),
+    idplant: "P00047",
+    idcrude: "S00053",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea81c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b268d"),
+    idplant: "P00034",
+    idcrude: "S00036",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea80b"),
+    refPlant: ObjectId("5cf8cce213bc061d4cd98b06")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26a2"),
+    idplant: "P00047",
+    idcrude: "S00054",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea81d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26a3"),
+    idplant: "P00047",
+    idcrude: "S00055",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea81e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26a4"),
+    idplant: "P00048",
+    idcrude: "S00056",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea81f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b14")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26a6"),
+    idplant: "P00050",
+    idcrude: "S00058",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea821"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b16")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26a5"),
+    idplant: "P00049",
+    idcrude: "S00057",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea820"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b15")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26a8"),
+    idplant: "P00051",
+    idcrude: "S00060",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea823"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26a7"),
+    idplant: "P00050",
+    idcrude: "S00059",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea822"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b16")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26a9"),
+    idplant: "P00052",
+    idcrude: "S00061",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea824"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b18")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26aa"),
+    idplant: "P00053",
+    idcrude: "T00091",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacaf"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b19")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ab"),
+    idplant: "P00053",
+    idcrude: "T00207",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead21"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b19")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ac"),
+    idplant: "P00054",
+    idcrude: "S00062",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea825"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b1a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ad"),
+    idplant: "P00055",
+    idcrude: "T00220",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead2d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b1b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ae"),
+    idplant: "P00056",
+    idcrude: "S00063",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea826"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b1c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26af"),
+    idplant: "P00057",
+    idcrude: "S00064",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea827"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b1d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26b0"),
+    idplant: "P00058",
+    idcrude: "S00065",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea828"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b1e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26b1"),
+    idplant: "P00058",
+    idcrude: "S00066",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea829"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b1e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26b2"),
+    idplant: "P00059",
+    idcrude: "S00067",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea82a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b1f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26b3"),
+    idplant: "P00060",
+    idcrude: "S00068",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea82b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b20")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26b4"),
+    idplant: "P00060",
+    idcrude: "S00069",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea82c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b20")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26b5"),
+    idplant: "P00061",
+    idcrude: "S00070",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea82d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b21")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26b6"),
+    idplant: "P00061",
+    idcrude: "S00071",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea82e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b21")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26b7"),
+    idplant: "P00062",
+    idcrude: "S00072",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea82f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b22")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26b8"),
+    idplant: "P00062",
+    idcrude: "S00073",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea830"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b22")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26b9"),
+    idplant: "P00063",
+    idcrude: "S00074",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea831"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b23")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ba"),
+    idplant: "P00064",
+    idcrude: "S00075",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea832"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b24")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26bb"),
+    idplant: "P00064",
+    idcrude: "T00122",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaccd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b24")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26bc"),
+    idplant: "P00065",
+    idcrude: "S00076",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea833"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b25")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26bd"),
+    idplant: "P00066",
+    idcrude: "T00133",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacd8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b26")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26bf"),
+    idplant: "P00067",
+    idcrude: "T00149",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eace8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b27")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26be"),
+    idplant: "P00067",
+    idcrude: "S00077",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea834"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b27")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26c0"),
+    idplant: "P00068",
+    idcrude: "T00104",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacbc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b28")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26c1"),
+    idplant: "P00069",
+    idcrude: "S00078",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea835"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b29")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26c2"),
+    idplant: "P00070",
+    idcrude: "T00137",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacdc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b2a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26c3"),
+    idplant: "P00071",
+    idcrude: "S00079",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea836"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b2b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26c4"),
+    idplant: "P00072",
+    idcrude: "S00080",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea837"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b2c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26c6"),
+    idplant: "P00074",
+    idcrude: "S00082",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea839"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b2e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26c5"),
+    idplant: "P00073",
+    idcrude: "S00081",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea838"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b2d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26c7"),
+    idplant: "P00075",
+    idcrude: "S00083",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea83a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b2f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26c8"),
+    idplant: "P00075",
+    idcrude: "S00084",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea83b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b2f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26c9"),
+    idplant: "P00076",
+    idcrude: "S00085",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea83c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b30")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ca"),
+    idplant: "P00077",
+    idcrude: "T00174",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead01"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26cb"),
+    idplant: "P00078",
+    idcrude: "T00155",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacee"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26cc"),
+    idplant: "P00078",
+    idcrude: "T00174",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead01"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ce"),
+    idplant: "P00078",
+    idcrude: "T00243",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead41"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26cf"),
+    idplant: "P00078",
+    idcrude: "T00244",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead42"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26d1"),
+    idplant: "P00079",
+    idcrude: "S00086",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea83d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b33")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26d0"),
+    idplant: "P00078",
+    idcrude: "T00278",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead64"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26d2"),
+    idplant: "P00079",
+    idcrude: "S00087",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea83e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b33")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26d3"),
+    idplant: "P00079",
+    idcrude: "S00088",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea83f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b33")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26d4"),
+    idplant: "P00079",
+    idcrude: "S00089",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea840"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b33")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26d5"),
+    idplant: "P00080",
+    idcrude: "S00090",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea841"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b34")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26d7"),
+    idplant: "P00081",
+    idcrude: "S00092",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea843"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b35")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26d6"),
+    idplant: "P00080",
+    idcrude: "S00091",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea842"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b34")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26d8"),
+    idplant: "P00082",
+    idcrude: "T00137",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacdc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b36")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26cd"),
+    idplant: "P00078",
+    idcrude: "T00242",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead40"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26d9"),
+    idplant: "P00083",
+    idcrude: "S00093",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea844"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b37")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26dd"),
+    idplant: "P00085",
+    idcrude: "S00096",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea847"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b39")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26da"),
+    idplant: "P00084",
+    idcrude: "S00094",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea845"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b38")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26de"),
+    idplant: "P00086",
+    idcrude: "S00097",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea848"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26dc"),
+    idplant: "P00084",
+    idcrude: "T00059",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac8f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b38")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26df"),
+    idplant: "P00086",
+    idcrude: "S00098",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea849"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26e0"),
+    idplant: "P00086",
+    idcrude: "T00117",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26e2"),
+    idplant: "P00086",
+    idcrude: "T00205",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead1f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26e1"),
+    idplant: "P00086",
+    idcrude: "T00160",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacf3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26db"),
+    idplant: "P00084",
+    idcrude: "S00095",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea846"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b38")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26e3"),
+    idplant: "P00086",
+    idcrude: "T00206",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead20"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26e4"),
+    idplant: "P00086",
+    idcrude: "T00239",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead3d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26e7"),
+    idplant: "P00088",
+    idcrude: "S00101",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea84c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26e8"),
+    idplant: "P00089",
+    idcrude: "S00102",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea84d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26e5"),
+    idplant: "P00087",
+    idcrude: "S00099",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea84a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26e6"),
+    idplant: "P00087",
+    idcrude: "S00100",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43cdd41810e502ea84b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26e9"),
+    idplant: "P00090",
+    idcrude: "T00129",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacd4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ea"),
+    idplant: "P00091",
+    idcrude: "T00129",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacd4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b3f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26eb"),
+    idplant: "P00092",
+    idcrude: "S00103",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea84e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b40")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ee"),
+    idplant: "P00095",
+    idcrude: "S00106",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea851"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26f0"),
+    idplant: "P00095",
+    idcrude: "T00241",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead3f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ed"),
+    idplant: "P00094",
+    idcrude: "S00105",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea850"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b42")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26f1"),
+    idplant: "P00096",
+    idcrude: "S00107",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea852"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b44")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ef"),
+    idplant: "P00095",
+    idcrude: "T00083",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaca7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26f2"),
+    idplant: "P00097",
+    idcrude: "S00108",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea853"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b45")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26f3"),
+    idplant: "P00098",
+    idcrude: "T00192",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead13"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b46")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26f5"),
+    idplant: "P00100",
+    idcrude: "S00110",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea855"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b48")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26f4"),
+    idplant: "P00099",
+    idcrude: "S00109",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea854"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b47")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26f7"),
+    idplant: "P00102",
+    idcrude: "S00112",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea857"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b4a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ec"),
+    idplant: "P00093",
+    idcrude: "S00104",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea84f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b41")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26f6"),
+    idplant: "P00101",
+    idcrude: "S00111",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea856"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b49")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26fa"),
+    idplant: "P00104",
+    idcrude: "S00115",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea85a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b4c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26fb"),
+    idplant: "P00105",
+    idcrude: "T00065",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac95"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b4d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26fc"),
+    idplant: "P00106",
+    idcrude: "T00131",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacd6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b4e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26fd"),
+    idplant: "P00106",
+    idcrude: "T00217",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead2a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b4e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26fe"),
+    idplant: "P00107",
+    idcrude: "S00116",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea85b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b4f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26ff"),
+    idplant: "P00108",
+    idcrude: "T00076",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaca0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b50")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2700"),
+    idplant: "P00109",
+    idcrude: "S00117",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea85c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b51")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2701"),
+    idplant: "P00110",
+    idcrude: "S00118",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea85d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b52")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2702"),
+    idplant: "P00110",
+    idcrude: "T00015",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac63"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b52")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2703"),
+    idplant: "P00111",
+    idcrude: "T00109",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b53")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2704"),
+    idplant: "P00112",
+    idcrude: "T00092",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacb0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b54")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2705"),
+    idplant: "P00112",
+    idcrude: "T00150",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eace9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b54")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2706"),
+    idplant: "P00112",
+    idcrude: "T00234",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead3a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b54")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2707"),
+    idplant: "P00113",
+    idcrude: "S00119",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea85e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b55")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2708"),
+    idplant: "P00113",
+    idcrude: "T00109",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b55")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2709"),
+    idplant: "P00114",
+    idcrude: "S00120",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea85f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b56")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b270a"),
+    idplant: "P00115",
+    idcrude: "T00092",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacb0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b57")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26f9"),
+    idplant: "P00103",
+    idcrude: "S00114",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea859"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b4b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b26f8"),
+    idplant: "P00102",
+    idcrude: "S00113",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea858"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b4a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b270c"),
+    idplant: "P00117",
+    idcrude: "S00122",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea861"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b59")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b270b"),
+    idplant: "P00116",
+    idcrude: "S00121",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea860"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b58")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b270d"),
+    idplant: "P00118",
+    idcrude: "S00123",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea862"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b5a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b270e"),
+    idplant: "P00119",
+    idcrude: "S00124",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea863"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b5b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b270f"),
+    idplant: "P00120",
+    idcrude: "S00125",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea864"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b5c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2711"),
+    idplant: "P00121",
+    idcrude: "S00127",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea866"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b5d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2713"),
+    idplant: "P00122",
+    idcrude: "S00129",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea868"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b5e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2712"),
+    idplant: "P00122",
+    idcrude: "S00128",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea867"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b5e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2714"),
+    idplant: "P00123",
+    idcrude: "S00130",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea869"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b5f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2715"),
+    idplant: "P00124",
+    idcrude: "S00131",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea86a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b60")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2716"),
+    idplant: "P00125",
+    idcrude: "S00132",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea86b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b61")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2717"),
+    idplant: "P00125",
+    idcrude: "T00272",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead5e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b61")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2718"),
+    idplant: "P00126",
+    idcrude: "S00133",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea86c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b62")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2710"),
+    idplant: "P00120",
+    idcrude: "S00126",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea865"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b5c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b271a"),
+    idplant: "P00128",
+    idcrude: "S00135",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea86e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b64")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2719"),
+    idplant: "P00127",
+    idcrude: "S00134",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea86d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b63")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b271d"),
+    idplant: "P00131",
+    idcrude: "T00132",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacd7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b67")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b271e"),
+    idplant: "P00132",
+    idcrude: "S00138",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea871"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b68")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b271f"),
+    idplant: "P00132",
+    idcrude: "S00139",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea872"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b68")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2720"),
+    idplant: "P00133",
+    idcrude: "S00140",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea873"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b69")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2721"),
+    idplant: "P00134",
+    idcrude: "S00141",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea874"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b6a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2722"),
+    idplant: "P00135",
+    idcrude: "S00142",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea875"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b6b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2723"),
+    idplant: "P00136",
+    idcrude: "S00143",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea876"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b6c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2724"),
+    idplant: "P00137",
+    idcrude: "S00144",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea877"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b6d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2726"),
+    idplant: "P00139",
+    idcrude: "S00146",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea879"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b6f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2725"),
+    idplant: "P00138",
+    idcrude: "S00145",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea878"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b6e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b271c"),
+    idplant: "P00130",
+    idcrude: "S00137",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea870"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b66")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2728"),
+    idplant: "P00141",
+    idcrude: "S00148",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea87b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b71")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2727"),
+    idplant: "P00140",
+    idcrude: "S00147",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea87a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b70")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2729"),
+    idplant: "P00142",
+    idcrude: "S00149",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea87c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b72")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b272b"),
+    idplant: "P00142",
+    idcrude: "S00151",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea87e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b72")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b271b"),
+    idplant: "P00129",
+    idcrude: "S00136",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea86f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b65")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b272a"),
+    idplant: "P00142",
+    idcrude: "S00150",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea87d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b72")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b272e"),
+    idplant: "P00144",
+    idcrude: "S00154",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea881"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b74")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b272f"),
+    idplant: "P00145",
+    idcrude: "S00155",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea882"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b75")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2730"),
+    idplant: "P00146",
+    idcrude: "T00141",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eace0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b76")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b272d"),
+    idplant: "P00143",
+    idcrude: "S00153",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea880"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b73")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2731"),
+    idplant: "P00147",
+    idcrude: "S00156",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea883"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b77")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2732"),
+    idplant: "P00148",
+    idcrude: "S00157",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea884"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b78")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2733"),
+    idplant: "P00148",
+    idcrude: "S00158",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea885"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b78")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2734"),
+    idplant: "P00149",
+    idcrude: "S00159",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea886"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b79")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2735"),
+    idplant: "P00150",
+    idcrude: "S00160",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea887"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b7a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b272c"),
+    idplant: "P00142",
+    idcrude: "S00152",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea87f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b72")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2736"),
+    idplant: "P00151",
+    idcrude: "S00161",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea888"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b7b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2737"),
+    idplant: "P00152",
+    idcrude: "S00162",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea889"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b7c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2738"),
+    idplant: "P00152",
+    idcrude: "S00163",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea88a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b7c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2739"),
+    idplant: "P00153",
+    idcrude: "S00164",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea88b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b7d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b273a"),
+    idplant: "P00154",
+    idcrude: "S00165",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea88c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b7e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b273d"),
+    idplant: "P00156",
+    idcrude: "S00167",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea88e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b80")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b273e"),
+    idplant: "P00157",
+    idcrude: "S00168",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea88f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b81")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b273f"),
+    idplant: "P00157",
+    idcrude: "T00112",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b81")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2741"),
+    idplant: "P00158",
+    idcrude: "S00170",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea891"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b82")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2740"),
+    idplant: "P00158",
+    idcrude: "S00169",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea890"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b82")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2742"),
+    idplant: "P00159",
+    idcrude: "S00171",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea892"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b83")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2743"),
+    idplant: "P00160",
+    idcrude: "S00172",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea893"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b84")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2744"),
+    idplant: "P00160",
+    idcrude: "S00173",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea894"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b84")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2745"),
+    idplant: "P00160",
+    idcrude: "T00066",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac96"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b84")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2747"),
+    idplant: "P00161",
+    idcrude: "S00175",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea896"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b85")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2746"),
+    idplant: "P00161",
+    idcrude: "S00174",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea895"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b85")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2748"),
+    idplant: "P00162",
+    idcrude: "S00176",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea897"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b86")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b273c"),
+    idplant: "P00155",
+    idcrude: "T00064",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac94"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b7f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2749"),
+    idplant: "P00163",
+    idcrude: "T00172",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacff"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b87")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b274a"),
+    idplant: "P00164",
+    idcrude: "S00177",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea898"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b88")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b274c"),
+    idplant: "P00165",
+    idcrude: "S00179",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea89a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b89")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b274b"),
+    idplant: "P00165",
+    idcrude: "S00178",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea899"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b89")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b273b"),
+    idplant: "P00155",
+    idcrude: "S00166",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea88d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b7f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b274e"),
+    idplant: "P00166",
+    idcrude: "S00181",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea89c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b274f"),
+    idplant: "P00167",
+    idcrude: "S00182",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea89d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b274d"),
+    idplant: "P00165",
+    idcrude: "S00180",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea89b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b89")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2750"),
+    idplant: "P00168",
+    idcrude: "S00183",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea89e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2751"),
+    idplant: "P00168",
+    idcrude: "S00184",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea89f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2753"),
+    idplant: "P00168",
+    idcrude: "S00186",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8a1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2752"),
+    idplant: "P00168",
+    idcrude: "S00185",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8a0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2754"),
+    idplant: "P00169",
+    idcrude: "S00187",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8a2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2758"),
+    idplant: "P00171",
+    idcrude: "S00190",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8a5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2755"),
+    idplant: "P00169",
+    idcrude: "S00188",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8a3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2759"),
+    idplant: "P00171",
+    idcrude: "S00191",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8a6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b275a"),
+    idplant: "P00171",
+    idcrude: "S00192",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8a7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b275b"),
+    idplant: "P00171",
+    idcrude: "S00193",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8a8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b275c"),
+    idplant: "P00171",
+    idcrude: "S00194",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8a9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b275d"),
+    idplant: "P00172",
+    idcrude: "S00195",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8aa"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b90")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b275e"),
+    idplant: "P00172",
+    idcrude: "S00196",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ab"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b90")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2760"),
+    idplant: "P00172",
+    idcrude: "S00198",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ad"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b90")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b275f"),
+    idplant: "P00172",
+    idcrude: "S00197",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ac"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b90")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2761"),
+    idplant: "P00172",
+    idcrude: "S00199",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ae"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b90")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2757"),
+    idplant: "P00170",
+    idcrude: "S00189",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8a4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2762"),
+    idplant: "P00173",
+    idcrude: "S00200",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8af"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b91")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2763"),
+    idplant: "P00174",
+    idcrude: "S00201",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8b0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b92")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2764"),
+    idplant: "P00174",
+    idcrude: "S00202",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8b1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b92")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2765"),
+    idplant: "P00175",
+    idcrude: "S00203",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8b2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b93")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2756"),
+    idplant: "P00169",
+    idcrude: "T00053",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac89"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b8d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2766"),
+    idplant: "P00175",
+    idcrude: "S00204",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8b3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b93")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2767"),
+    idplant: "P00176",
+    idcrude: "S00205",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8b4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b94")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2768"),
+    idplant: "P00177",
+    idcrude: "S00206",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8b5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b95")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b276b"),
+    idplant: "P00180",
+    idcrude: "S00209",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8b8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b98")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b276c"),
+    idplant: "P00181",
+    idcrude: "S00210",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8b9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b99")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b276d"),
+    idplant: "P00181",
+    idcrude: "S00211",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ba"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b99")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b276e"),
+    idplant: "P00181",
+    idcrude: "S00212",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8bb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b99")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b276f"),
+    idplant: "P00182",
+    idcrude: "S00213",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8bc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b9a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2770"),
+    idplant: "P00183",
+    idcrude: "S00214",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8bd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b9b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2771"),
+    idplant: "P00184",
+    idcrude: "S00215",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8be"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b9c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2772"),
+    idplant: "P00184",
+    idcrude: "S00216",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8bf"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b9c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2773"),
+    idplant: "P00185",
+    idcrude: "S00217",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8c0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b9d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2774"),
+    idplant: "P00185",
+    idcrude: "S00218",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8c1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b9d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b276a"),
+    idplant: "P00179",
+    idcrude: "S00208",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8b7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b97")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2775"),
+    idplant: "P00185",
+    idcrude: "T00168",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacfb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b9d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2776"),
+    idplant: "P00186",
+    idcrude: "S00219",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8c2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b9e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2777"),
+    idplant: "P00187",
+    idcrude: "S00220",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8c3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b9f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2778"),
+    idplant: "P00188",
+    idcrude: "S00221",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8c4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2769"),
+    idplant: "P00178",
+    idcrude: "S00207",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8b6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98b96")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2779"),
+    idplant: "P00188",
+    idcrude: "T00044",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac80"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b277a"),
+    idplant: "P00189",
+    idcrude: "S00222",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8c5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b277b"),
+    idplant: "P00189",
+    idcrude: "T00044",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac80"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b277e"),
+    idplant: "P00192",
+    idcrude: "S00225",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8c8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b277f"),
+    idplant: "P00193",
+    idcrude: "S00226",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8c9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2781"),
+    idplant: "P00195",
+    idcrude: "S00227",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ca"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2782"),
+    idplant: "P00196",
+    idcrude: "S00228",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8cb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2783"),
+    idplant: "P00196",
+    idcrude: "S00229",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8cc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b277d"),
+    idplant: "P00191",
+    idcrude: "S00224",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8c7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2784"),
+    idplant: "P00196",
+    idcrude: "S00230",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8cd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2785"),
+    idplant: "P00196",
+    idcrude: "S00231",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ce"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2786"),
+    idplant: "P00196",
+    idcrude: "S00232",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8cf"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2780"),
+    idplant: "P00194",
+    idcrude: "T00094",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacb2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b277c"),
+    idplant: "P00190",
+    idcrude: "S00223",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8c6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2787"),
+    idplant: "P00196",
+    idcrude: "S00233",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8d0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2788"),
+    idplant: "P00197",
+    idcrude: "S00234",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8d1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ba9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b278c"),
+    idplant: "P00198",
+    idcrude: "T00198",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead19"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98baa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b278d"),
+    idplant: "P00198",
+    idcrude: "T00199",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead1a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98baa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b278e"),
+    idplant: "P00199",
+    idcrude: "S00237",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8d4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bab")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b278f"),
+    idplant: "P00200",
+    idcrude: "S00238",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8d5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bac")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2789"),
+    idplant: "P00198",
+    idcrude: "S00235",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8d2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98baa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b278b"),
+    idplant: "P00198",
+    idcrude: "T00051",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac87"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98baa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2790"),
+    idplant: "P00200",
+    idcrude: "S00239",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8d6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bac")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2791"),
+    idplant: "P00201",
+    idcrude: "S00240",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8d7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bad")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2792"),
+    idplant: "P00202",
+    idcrude: "S00241",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8d8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bae")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2793"),
+    idplant: "P00203",
+    idcrude: "S00242",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8d9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98baf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2794"),
+    idplant: "P00204",
+    idcrude: "S00243",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8da"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b278a"),
+    idplant: "P00198",
+    idcrude: "S00236",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8d3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98baa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2795"),
+    idplant: "P00205",
+    idcrude: "S00244",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8db"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2796"),
+    idplant: "P00206",
+    idcrude: "S00245",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8dc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2797"),
+    idplant: "P00206",
+    idcrude: "S00246",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8dd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b279a"),
+    idplant: "P00207",
+    idcrude: "S00249",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8e0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2798"),
+    idplant: "P00206",
+    idcrude: "S00247",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8de"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b279d"),
+    idplant: "P00207",
+    idcrude: "T00032",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac74"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b279c"),
+    idplant: "P00207",
+    idcrude: "S00251",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8e2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b279e"),
+    idplant: "P00207",
+    idcrude: "T00043",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac7f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b279f"),
+    idplant: "P00208",
+    idcrude: "S00252",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8e3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27a0"),
+    idplant: "P00209",
+    idcrude: "S00253",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8e4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b279b"),
+    idplant: "P00207",
+    idcrude: "S00250",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8e1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27a2"),
+    idplant: "P00209",
+    idcrude: "S00255",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8e6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27a3"),
+    idplant: "P00209",
+    idcrude: "S00256",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8e7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27a4"),
+    idplant: "P00210",
+    idcrude: "S00257",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8e8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27a1"),
+    idplant: "P00209",
+    idcrude: "S00254",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8e5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27a6"),
+    idplant: "P00212",
+    idcrude: "S00259",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ea"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27a5"),
+    idplant: "P00211",
+    idcrude: "S00258",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8e9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2799"),
+    idplant: "P00206",
+    idcrude: "S00248",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8df"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27a7"),
+    idplant: "P00213",
+    idcrude: "T00032",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac74"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bb9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27a8"),
+    idplant: "P00214",
+    idcrude: "S00260",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8eb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27a9"),
+    idplant: "P00214",
+    idcrude: "S00261",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ec"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27aa"),
+    idplant: "P00214",
+    idcrude: "T00119",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaccb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ad"),
+    idplant: "P00215",
+    idcrude: "S00263",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ee"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bbb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ae"),
+    idplant: "P00215",
+    idcrude: "S00264",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ef"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bbb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27af"),
+    idplant: "P00216",
+    idcrude: "T00119",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaccb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bbc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27b0"),
+    idplant: "P00216",
+    idcrude: "T00128",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacd3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bbc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27b1"),
+    idplant: "P00217",
+    idcrude: "S00265",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8f0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bbd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27b2"),
+    idplant: "P00217",
+    idcrude: "S00266",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8f1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bbd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27b3"),
+    idplant: "P00217",
+    idcrude: "S00267",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8f2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bbd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ac"),
+    idplant: "P00215",
+    idcrude: "S00262",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ed"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bbb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27b4"),
+    idplant: "P00218",
+    idcrude: "S00268",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8f3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bbe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27b5"),
+    idplant: "P00219",
+    idcrude: "S00269",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8f4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bbf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27b6"),
+    idplant: "P00220",
+    idcrude: "S00270",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8f5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27b7"),
+    idplant: "P00220",
+    idcrude: "T00006",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac5a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27b8"),
+    idplant: "P00221",
+    idcrude: "T00006",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac5a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ab"),
+    idplant: "P00214",
+    idcrude: "T00128",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacd3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27b9"),
+    idplant: "P00222",
+    idcrude: "T00006",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac5a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ba"),
+    idplant: "P00223",
+    idcrude: "S00271",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8f6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27bb"),
+    idplant: "P00224",
+    idcrude: "S00272",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8f7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27be"),
+    idplant: "P00227",
+    idcrude: "S00275",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8fa"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27bf"),
+    idplant: "P00228",
+    idcrude: "S00276",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8fb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27c0"),
+    idplant: "P00228",
+    idcrude: "T00087",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacab"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27c1"),
+    idplant: "P00229",
+    idcrude: "T00103",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacbb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27c2"),
+    idplant: "P00230",
+    idcrude: "S00277",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8fc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bca")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27c3"),
+    idplant: "P00230",
+    idcrude: "S00278",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8fd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bca")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27c4"),
+    idplant: "P00230",
+    idcrude: "S00279",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8fe"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bca")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27c6"),
+    idplant: "P00232",
+    idcrude: "S00281",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea900"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bcc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27c5"),
+    idplant: "P00231",
+    idcrude: "S00280",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8ff"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bcb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27c7"),
+    idplant: "P00233",
+    idcrude: "S00282",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea901"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bcd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27c8"),
+    idplant: "P00233",
+    idcrude: "T00196",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead17"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bcd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ca"),
+    idplant: "P00235",
+    idcrude: "S00284",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea903"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bcf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27cb"),
+    idplant: "P00236",
+    idcrude: "S00285",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea904"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27c9"),
+    idplant: "P00234",
+    idcrude: "S00283",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea902"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bce")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27cc"),
+    idplant: "P00237",
+    idcrude: "S00286",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea905"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27bd"),
+    idplant: "P00226",
+    idcrude: "S00274",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8f9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27cd"),
+    idplant: "P00238",
+    idcrude: "S00287",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea906"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ce"),
+    idplant: "P00238",
+    idcrude: "S00288",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea907"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27bc"),
+    idplant: "P00225",
+    idcrude: "S00273",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea8f8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bc5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27cf"),
+    idplant: "P00238",
+    idcrude: "S00289",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea908"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27d0"),
+    idplant: "P00239",
+    idcrude: "S00290",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea909"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27d1"),
+    idplant: "P00240",
+    idcrude: "S00291",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea90a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27d2"),
+    idplant: "P00241",
+    idcrude: "S00292",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea90b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27d3"),
+    idplant: "P00242",
+    idcrude: "S00293",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea90c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27d4"),
+    idplant: "P00243",
+    idcrude: "S00294",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea90d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27d5"),
+    idplant: "P00243",
+    idcrude: "T00020",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac68"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27d6"),
+    idplant: "P00244",
+    idcrude: "T00020",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac68"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27da"),
+    idplant: "P00247",
+    idcrude: "S00297",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea910"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bdb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27db"),
+    idplant: "P00248",
+    idcrude: "T00070",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac9a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bdc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27dc"),
+    idplant: "P00248",
+    idcrude: "T00209",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead23"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bdc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27dd"),
+    idplant: "P00249",
+    idcrude: "T00014",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac62"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bdd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27de"),
+    idplant: "P00250",
+    idcrude: "S00298",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea911"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bde")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27df"),
+    idplant: "P00250",
+    idcrude: "S00299",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea912"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bde")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27e0"),
+    idplant: "P00251",
+    idcrude: "S00300",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea913"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bdf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27e1"),
+    idplant: "P00251",
+    idcrude: "S00301",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea914"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bdf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27e2"),
+    idplant: "P00252",
+    idcrude: "S00302",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea915"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27e3"),
+    idplant: "P00253",
+    idcrude: "S00303",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea916"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27e4"),
+    idplant: "P00254",
+    idcrude: "T00068",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac98"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27e5"),
+    idplant: "P00254",
+    idcrude: "T00262",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead54"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27e6"),
+    idplant: "P00255",
+    idcrude: "S00304",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea917"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27d9"),
+    idplant: "P00247",
+    idcrude: "S00296",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea90f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bdb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27e7"),
+    idplant: "P00255",
+    idcrude: "T00068",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac98"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27e9"),
+    idplant: "P00256",
+    idcrude: "S00305",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea918"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27d7"),
+    idplant: "P00245",
+    idcrude: "T00020",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac68"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bd9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ea"),
+    idplant: "P00257",
+    idcrude: "S00306",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea919"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27eb"),
+    idplant: "P00258",
+    idcrude: "S00307",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea91a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ec"),
+    idplant: "P00259",
+    idcrude: "S00308",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea91b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27e8"),
+    idplant: "P00255",
+    idcrude: "T00262",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead54"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ee"),
+    idplant: "P00261",
+    idcrude: "S00309",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea91c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27d8"),
+    idplant: "P00246",
+    idcrude: "S00295",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea90e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bda")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ef"),
+    idplant: "P00262",
+    idcrude: "S00310",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea91d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bea")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ed"),
+    idplant: "P00260",
+    idcrude: "T00106",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacbe"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98be8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27f0"),
+    idplant: "P00263",
+    idcrude: "S00311",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea91e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98beb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27f1"),
+    idplant: "P00263",
+    idcrude: "S00312",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea91f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98beb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27f2"),
+    idplant: "P00264",
+    idcrude: "S00313",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea920"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bec")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27f3"),
+    idplant: "P00265",
+    idcrude: "S00314",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea921"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bed")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27f4"),
+    idplant: "P00265",
+    idcrude: "S00315",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea922"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bed")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27f5"),
+    idplant: "P00266",
+    idcrude: "S00316",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea923"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bee")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27f6"),
+    idplant: "P00267",
+    idcrude: "S00317",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea924"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bef")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27f7"),
+    idplant: "P00268",
+    idcrude: "S00318",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea925"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27f8"),
+    idplant: "P00269",
+    idcrude: "S00319",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea926"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27fc"),
+    idplant: "P00271",
+    idcrude: "S00321",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea928"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27fd"),
+    idplant: "P00272",
+    idcrude: "S00322",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea929"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27fa"),
+    idplant: "P00270",
+    idcrude: "T00008",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac5c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27fe"),
+    idplant: "P00273",
+    idcrude: "S00323",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea92a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27ff"),
+    idplant: "P00274",
+    idcrude: "S00324",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea92b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2800"),
+    idplant: "P00275",
+    idcrude: "S00325",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea92c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2801"),
+    idplant: "P00276",
+    idcrude: "S00326",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea92d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27f9"),
+    idplant: "P00270",
+    idcrude: "S00320",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea927"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2804"),
+    idplant: "P00278",
+    idcrude: "S00328",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea92f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bfa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2805"),
+    idplant: "P00279",
+    idcrude: "S00329",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea930"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bfb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2806"),
+    idplant: "P00280",
+    idcrude: "S00330",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea931"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bfc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2803"),
+    idplant: "P00277",
+    idcrude: "S00327",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea92e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2807"),
+    idplant: "P00280",
+    idcrude: "S00331",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea932"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bfc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2808"),
+    idplant: "P00280",
+    idcrude: "S00332",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea933"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bfc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2809"),
+    idplant: "P00281",
+    idcrude: "S00333",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea934"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bfd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b280a"),
+    idplant: "P00281",
+    idcrude: "S00334",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea935"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bfd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b27fb"),
+    idplant: "P00270",
+    idcrude: "T00250",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead48"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b280b"),
+    idplant: "P00281",
+    idcrude: "S00335",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea936"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bfd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2802"),
+    idplant: "P00276",
+    idcrude: "T00027",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac6f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bf8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b280c"),
+    idplant: "P00282",
+    idcrude: "S00336",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea937"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bfe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b280d"),
+    idplant: "P00282",
+    idcrude: "S00337",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea938"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bfe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b280e"),
+    idplant: "P00283",
+    idcrude: "S00338",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea939"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98bff")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b280f"),
+    idplant: "P00284",
+    idcrude: "S00339",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea93a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c00")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2810"),
+    idplant: "P00285",
+    idcrude: "S00340",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea93b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2811"),
+    idplant: "P00285",
+    idcrude: "S00341",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea93c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2812"),
+    idplant: "P00285",
+    idcrude: "S00342",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea93d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2816"),
+    idplant: "P00285",
+    idcrude: "T00204",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead1e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2817"),
+    idplant: "P00286",
+    idcrude: "S00345",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea940"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c02")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2818"),
+    idplant: "P00286",
+    idcrude: "S00346",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea941"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c02")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2819"),
+    idplant: "P00287",
+    idcrude: "S00347",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea942"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c03")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2815"),
+    idplant: "P00285",
+    idcrude: "T00055",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac8b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b281a"),
+    idplant: "P00288",
+    idcrude: "S00348",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea943"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c04")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b281b"),
+    idplant: "P00289",
+    idcrude: "S00349",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea944"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c05")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b281c"),
+    idplant: "P00290",
+    idcrude: "S00351",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea946"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c06")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b281d"),
+    idplant: "P00291",
+    idcrude: "S00352",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea947"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2813"),
+    idplant: "P00285",
+    idcrude: "S00343",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea93e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2820"),
+    idplant: "P00294",
+    idcrude: "T00022",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac6a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2821"),
+    idplant: "P00294",
+    idcrude: "T00248",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead46"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b281f"),
+    idplant: "P00293",
+    idcrude: "S00354",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea949"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c09")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2822"),
+    idplant: "P00295",
+    idcrude: "S00355",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea94a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2823"),
+    idplant: "P00295",
+    idcrude: "S00356",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea94b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2824"),
+    idplant: "P00295",
+    idcrude: "S00357",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea94c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2826"),
+    idplant: "P00296",
+    idcrude: "T00073",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac9d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2825"),
+    idplant: "P00295",
+    idcrude: "S00358",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea94d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2814"),
+    idplant: "P00285",
+    idcrude: "S00344",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea93f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2827"),
+    idplant: "P00296",
+    idcrude: "T00211",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead25"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2828"),
+    idplant: "P00297",
+    idcrude: "S00359",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea94e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2829"),
+    idplant: "P00297",
+    idcrude: "S00360",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea94f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b282a"),
+    idplant: "P00298",
+    idcrude: "S00361",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea950"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b282b"),
+    idplant: "P00299",
+    idcrude: "T00082",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaca6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c0f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b281e"),
+    idplant: "P00292",
+    idcrude: "S00353",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea948"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b282e"),
+    idplant: "P00301",
+    idcrude: "T00230",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead37"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c11")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b282f"),
+    idplant: "P00302",
+    idcrude: "S00363",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea952"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c12")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b282d"),
+    idplant: "P00301",
+    idcrude: "T00163",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacf6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c11")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2830"),
+    idplant: "P00303",
+    idcrude: "S00364",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea953"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2831"),
+    idplant: "P00303",
+    idcrude: "S00365",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea954"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2832"),
+    idplant: "P00303",
+    idcrude: "S00366",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea955"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2833"),
+    idplant: "P00304",
+    idcrude: "S00367",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea956"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c14")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b282c"),
+    idplant: "P00300",
+    idcrude: "S00362",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea951"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c10")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2834"),
+    idplant: "P00304",
+    idcrude: "S00368",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea957"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c14")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2838"),
+    idplant: "P00306",
+    idcrude: "S00372",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea95b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c16")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2839"),
+    idplant: "P00307",
+    idcrude: "S00374",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea95d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2837"),
+    idplant: "P00306",
+    idcrude: "S00371",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea95a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c16")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b283a"),
+    idplant: "P00308",
+    idcrude: "S00375",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea95e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c18")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b283b"),
+    idplant: "P00308",
+    idcrude: "S00376",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea95f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c18")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b283c"),
+    idplant: "P00309",
+    idcrude: "S00377",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea960"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c19")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b283d"),
+    idplant: "P00309",
+    idcrude: "S00378",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea961"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c19")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b283e"),
+    idplant: "P00309",
+    idcrude: "S00379",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea962"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c19")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2835"),
+    idplant: "P00305",
+    idcrude: "S00369",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea958"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c15")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2836"),
+    idplant: "P00305",
+    idcrude: "S00370",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea959"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c15")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b283f"),
+    idplant: "P00309",
+    idcrude: "S00380",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea963"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c19")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2840"),
+    idplant: "P00310",
+    idcrude: "S00381",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea964"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c1a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2841"),
+    idplant: "P00311",
+    idcrude: "S00382",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea965"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c1b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2842"),
+    idplant: "P00312",
+    idcrude: "S00383",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea966"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c1c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2843"),
+    idplant: "P00313",
+    idcrude: "S00384",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea967"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c1d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2844"),
+    idplant: "P00314",
+    idcrude: "S00385",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea968"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c1e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2845"),
+    idplant: "P00315",
+    idcrude: "S00386",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea969"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c1f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2849"),
+    idplant: "P00319",
+    idcrude: "S00388",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea96b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c23")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b284a"),
+    idplant: "P00320",
+    idcrude: "S00389",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea96c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c24")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2846"),
+    idplant: "P00316",
+    idcrude: "T00171",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacfe"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c20")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b284c"),
+    idplant: "P00322",
+    idcrude: "T00001",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac55"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c26")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b284b"),
+    idplant: "P00321",
+    idcrude: "S00390",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea96d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c25")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2848"),
+    idplant: "P00318",
+    idcrude: "S00387",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea96a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c22")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b284e"),
+    idplant: "P00323",
+    idcrude: "T00159",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacf2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c27")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b284d"),
+    idplant: "P00323",
+    idcrude: "S00391",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea96e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c27")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b284f"),
+    idplant: "P00324",
+    idcrude: "S00392",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea96f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c28")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2850"),
+    idplant: "P00325",
+    idcrude: "S00393",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea970"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c29")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2851"),
+    idplant: "P00326",
+    idcrude: "S00394",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea971"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2847"),
+    idplant: "P00317",
+    idcrude: "T00171",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacfe"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c21")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2852"),
+    idplant: "P00327",
+    idcrude: "S00395",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea972"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2853"),
+    idplant: "P00327",
+    idcrude: "S00396",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea973"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2856"),
+    idplant: "P00329",
+    idcrude: "S00399",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea976"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2857"),
+    idplant: "P00330",
+    idcrude: "S00400",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea977"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2858"),
+    idplant: "P00330",
+    idcrude: "S00401",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea978"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b285a"),
+    idplant: "P00331",
+    idcrude: "S00403",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea97a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2859"),
+    idplant: "P00331",
+    idcrude: "S00402",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea979"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b285b"),
+    idplant: "P00331",
+    idcrude: "T00136",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacdb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b285c"),
+    idplant: "P00332",
+    idcrude: "S00404",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea97b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c30")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2855"),
+    idplant: "P00328",
+    idcrude: "S00398",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea975"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b285e"),
+    idplant: "P00332",
+    idcrude: "S00406",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea97d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c30")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b285d"),
+    idplant: "P00332",
+    idcrude: "S00405",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea97c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c30")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b285f"),
+    idplant: "P00332",
+    idcrude: "S00407",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea97e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c30")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2861"),
+    idplant: "P00333",
+    idcrude: "T00123",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacce"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2860"),
+    idplant: "P00333",
+    idcrude: "S00408",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea97f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2854"),
+    idplant: "P00327",
+    idcrude: "S00397",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea974"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c2b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2862"),
+    idplant: "P00333",
+    idcrude: "T00124",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaccf"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2866"),
+    idplant: "P00335",
+    idcrude: "S00412",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea983"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c33")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2863"),
+    idplant: "P00334",
+    idcrude: "S00409",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea980"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2867"),
+    idplant: "P00336",
+    idcrude: "S00413",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea984"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c34")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2869"),
+    idplant: "P00337",
+    idcrude: "S00415",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea986"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c35")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2868"),
+    idplant: "P00337",
+    idcrude: "S00414",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea985"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c35")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b286a"),
+    idplant: "P00338",
+    idcrude: "S00416",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea987"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c36")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b286b"),
+    idplant: "P00339",
+    idcrude: "T00040",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac7c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c37")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b286c"),
+    idplant: "P00340",
+    idcrude: "S00417",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea988"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c38")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b286d"),
+    idplant: "P00341",
+    idcrude: "S00418",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea989"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c39")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b286e"),
+    idplant: "P00342",
+    idcrude: "T00181",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead08"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c3a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2865"),
+    idplant: "P00334",
+    idcrude: "S00411",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea982"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b286f"),
+    idplant: "P00343",
+    idcrude: "S00419",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea98a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c3b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2870"),
+    idplant: "P00344",
+    idcrude: "S00420",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea98b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c3c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2871"),
+    idplant: "P00345",
+    idcrude: "S00421",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea98c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c3d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2872"),
+    idplant: "P00346",
+    idcrude: "S00422",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea98d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c3e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2864"),
+    idplant: "P00334",
+    idcrude: "S00410",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea981"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2873"),
+    idplant: "P00347",
+    idcrude: "S00423",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea98e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c3f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2877"),
+    idplant: "P00349",
+    idcrude: "S00427",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea992"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c41")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2874"),
+    idplant: "P00348",
+    idcrude: "S00424",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea98f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c40")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2878"),
+    idplant: "P00350",
+    idcrude: "S00428",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea993"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c42")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2879"),
+    idplant: "P00351",
+    idcrude: "S00429",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea994"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2876"),
+    idplant: "P00348",
+    idcrude: "S00426",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea991"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c40")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b287a"),
+    idplant: "P00351",
+    idcrude: "S00430",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea995"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b287b"),
+    idplant: "P00351",
+    idcrude: "S00431",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea996"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b287c"),
+    idplant: "P00351",
+    idcrude: "T00007",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac5b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b287d"),
+    idplant: "P00352",
+    idcrude: "S00432",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea997"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c44")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2875"),
+    idplant: "P00348",
+    idcrude: "S00425",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea990"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c40")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b287e"),
+    idplant: "P00352",
+    idcrude: "T00185",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c44")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2882"),
+    idplant: "P00356",
+    idcrude: "S00434",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea999"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c48")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b287f"),
+    idplant: "P00353",
+    idcrude: "T00185",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c45")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2883"),
+    idplant: "P00357",
+    idcrude: "S00435",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea99a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c49")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2884"),
+    idplant: "P00358",
+    idcrude: "T00146",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eace5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c4a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2886"),
+    idplant: "P00359",
+    idcrude: "S00437",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea99c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c4b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2885"),
+    idplant: "P00359",
+    idcrude: "S00436",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea99b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c4b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2887"),
+    idplant: "P00360",
+    idcrude: "S00438",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea99d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c4c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2888"),
+    idplant: "P00360",
+    idcrude: "S00439",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea99e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c4c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2889"),
+    idplant: "P00361",
+    idcrude: "T00050",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac86"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c4d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b288a"),
+    idplant: "P00361",
+    idcrude: "T00197",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead18"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c4d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2881"),
+    idplant: "P00355",
+    idcrude: "S00433",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea998"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c47")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b288b"),
+    idplant: "P00361",
+    idcrude: "T00237",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead3c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c4d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b288c"),
+    idplant: "P00362",
+    idcrude: "S00440",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea99f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c4e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b288d"),
+    idplant: "P00363",
+    idcrude: "S00441",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9a0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c4f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b288e"),
+    idplant: "P00364",
+    idcrude: "S00442",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9a1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c50")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2880"),
+    idplant: "P00354",
+    idcrude: "T00182",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead09"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c46")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b288f"),
+    idplant: "P00365",
+    idcrude: "S00443",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9a2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c51")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2893"),
+    idplant: "P00366",
+    idcrude: "S00447",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9a6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c52")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2890"),
+    idplant: "P00365",
+    idcrude: "S00444",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9a3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c51")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2894"),
+    idplant: "P00367",
+    idcrude: "S00448",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9a7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c53")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2895"),
+    idplant: "P00367",
+    idcrude: "S00449",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9a8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c53")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2892"),
+    idplant: "P00366",
+    idcrude: "S00446",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9a5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c52")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2896"),
+    idplant: "P00367",
+    idcrude: "T00069",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac99"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c53")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2897"),
+    idplant: "P00367",
+    idcrude: "T00227",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead34"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c53")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2898"),
+    idplant: "P00367",
+    idcrude: "T00229",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead36"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c53")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2899"),
+    idplant: "P00368",
+    idcrude: "S00450",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9a9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c54")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b289a"),
+    idplant: "P00369",
+    idcrude: "S00451",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9aa"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c55")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b2891"),
+    idplant: "P00365",
+    idcrude: "S00445",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9a4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c51")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b289b"),
+    idplant: "P00369",
+    idcrude: "S00452",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ab"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c55")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b289c"),
+    idplant: "P00369",
+    idcrude: "T00130",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacd5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c55")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b289d"),
+    idplant: "P00370",
+    idcrude: "S00453",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ac"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c56")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b289e"),
+    idplant: "P00370",
+    idcrude: "S00454",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ad"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c56")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b289f"),
+    idplant: "P00371",
+    idcrude: "S00455",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ae"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c57")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28a0"),
+    idplant: "P00372",
+    idcrude: "S00456",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9af"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c58")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28a1"),
+    idplant: "P00373",
+    idcrude: "S00457",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9b0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c59")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28a3"),
+    idplant: "P00375",
+    idcrude: "T00187",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c5b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28a4"),
+    idplant: "P00376",
+    idcrude: "T00187",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c5c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28a6"),
+    idplant: "P00378",
+    idcrude: "S00460",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9b3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c5e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28a2"),
+    idplant: "P00374",
+    idcrude: "S00458",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9b1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c5a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28a5"),
+    idplant: "P00377",
+    idcrude: "S00459",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9b2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c5d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28a8"),
+    idplant: "P00379",
+    idcrude: "T00183",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c5f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28a9"),
+    idplant: "P00380",
+    idcrude: "S00461",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9b4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c60")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28aa"),
+    idplant: "P00380",
+    idcrude: "T00183",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c60")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28a7"),
+    idplant: "P00378",
+    idcrude: "T00187",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c5e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28ab"),
+    idplant: "P00381",
+    idcrude: "T00187",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c61")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28ac"),
+    idplant: "P00382",
+    idcrude: "T00183",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c62")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28ad"),
+    idplant: "P00383",
+    idcrude: "S00462",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9b5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c63")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28ae"),
+    idplant: "P00383",
+    idcrude: "S00463",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9b6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c63")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28b0"),
+    idplant: "P00385",
+    idcrude: "S00465",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9b8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c65")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28b1"),
+    idplant: "P00386",
+    idcrude: "S00466",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9b9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c66")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28b2"),
+    idplant: "P00387",
+    idcrude: "S00467",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ba"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c67")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28b3"),
+    idplant: "P00387",
+    idcrude: "S00468",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9bb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c67")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28b4"),
+    idplant: "P00387",
+    idcrude: "S00469",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9bc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c67")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28b5"),
+    idplant: "P00387",
+    idcrude: "S00470",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9bd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c67")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28b6"),
+    idplant: "P00387",
+    idcrude: "S00471",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9be"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c67")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28b7"),
+    idplant: "P00388",
+    idcrude: "S00472",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9bf"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c68")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28b8"),
+    idplant: "P00388",
+    idcrude: "T00039",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac7b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c68")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28b9"),
+    idplant: "P00388",
+    idcrude: "T00084",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaca8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c68")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28ba"),
+    idplant: "P00388",
+    idcrude: "T00200",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead1b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c68")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d5595285101d5c3b28af"),
+    idplant: "P00384",
+    idcrude: "S00464",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9b7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c64")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28bb"),
+    idplant: "P00389",
+    idcrude: "S00474",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9c1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c69")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28bc"),
+    idplant: "P00390",
+    idcrude: "S00475",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9c2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c6a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28bd"),
+    idplant: "P00391",
+    idcrude: "S00476",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9c3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c6b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28c0"),
+    idplant: "P00393",
+    idcrude: "S00480",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9c7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c6d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28c1"),
+    idplant: "P00394",
+    idcrude: "S00481",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9c8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c6e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28be"),
+    idplant: "P00391",
+    idcrude: "S00477",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9c4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c6b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28c2"),
+    idplant: "P00395",
+    idcrude: "S00482",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9c9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c6f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28c3"),
+    idplant: "P00396",
+    idcrude: "S00483",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ca"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c70")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28c4"),
+    idplant: "P00396",
+    idcrude: "S00484",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9cb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c70")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28c5"),
+    idplant: "P00396",
+    idcrude: "S00485",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9cc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c70")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28c6"),
+    idplant: "P00397",
+    idcrude: "S00489",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9d0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c71")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28c7"),
+    idplant: "P00398",
+    idcrude: "S00490",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9d1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c72")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28c8"),
+    idplant: "P00399",
+    idcrude: "S00491",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9d2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c73")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28c9"),
+    idplant: "P00400",
+    idcrude: "S00492",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9d3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c74")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28ca"),
+    idplant: "P00400",
+    idcrude: "S00493",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9d4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c74")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28cc"),
+    idplant: "P00400",
+    idcrude: "S00495",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9d6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c74")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28cd"),
+    idplant: "P00400",
+    idcrude: "S00496",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9d7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c74")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28ce"),
+    idplant: "P00401",
+    idcrude: "S00497",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9d8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c75")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28cf"),
+    idplant: "P00401",
+    idcrude: "S00498",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9d9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c75")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28bf"),
+    idplant: "P00392",
+    idcrude: "S00478",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9c5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c6c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28d0"),
+    idplant: "P00402",
+    idcrude: "S00499",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9da"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c76")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28d1"),
+    idplant: "P00402",
+    idcrude: "S00500",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9db"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c76")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28d2"),
+    idplant: "P00402",
+    idcrude: "S00501",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9dc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c76")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28d3"),
+    idplant: "P00403",
+    idcrude: "T00102",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacba"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c77")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28d4"),
+    idplant: "P00404",
+    idcrude: "S00503",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9de"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c78")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28d5"),
+    idplant: "P00404",
+    idcrude: "S00504",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9df"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c78")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28d6"),
+    idplant: "P00405",
+    idcrude: "S00505",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9e0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c79")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28d8"),
+    idplant: "P00407",
+    idcrude: "S00507",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9e2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c7b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28d7"),
+    idplant: "P00406",
+    idcrude: "S00506",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9e1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c7a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28d9"),
+    idplant: "P00408",
+    idcrude: "S00508",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9e3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c7c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28db"),
+    idplant: "P00409",
+    idcrude: "S00510",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9e5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c7d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28da"),
+    idplant: "P00408",
+    idcrude: "S00509",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9e4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c7c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28dc"),
+    idplant: "P00410",
+    idcrude: "S00511",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9e6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c7e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28dd"),
+    idplant: "P00411",
+    idcrude: "S00512",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9e7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c7f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28de"),
+    idplant: "P00411",
+    idcrude: "S00513",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9e8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c7f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28df"),
+    idplant: "P00412",
+    idcrude: "S00515",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ea"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c80")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28e0"),
+    idplant: "P00413",
+    idcrude: "S00516",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9eb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c81")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28e1"),
+    idplant: "P00414",
+    idcrude: "S00517",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ec"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c82")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28cb"),
+    idplant: "P00400",
+    idcrude: "S00494",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9d5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c74")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28e2"),
+    idplant: "P00414",
+    idcrude: "S00518",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ed"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c82")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28e4"),
+    idplant: "P00416",
+    idcrude: "S00520",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ef"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c84")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28e3"),
+    idplant: "P00415",
+    idcrude: "S00519",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ee"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c83")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28e5"),
+    idplant: "P00417",
+    idcrude: "S00521",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9f0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c85")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28e6"),
+    idplant: "P00418",
+    idcrude: "S00522",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9f1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c86")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28e8"),
+    idplant: "P00419",
+    idcrude: "T00147",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eace6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c87")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28e7"),
+    idplant: "P00419",
+    idcrude: "S00523",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9f2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c87")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28e9"),
+    idplant: "P00420",
+    idcrude: "T00089",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacad"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c88")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28ea"),
+    idplant: "P00420",
+    idcrude: "T00224",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead31"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c88")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28eb"),
+    idplant: "P00421",
+    idcrude: "S00524",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9f3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c89")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28ec"),
+    idplant: "P00422",
+    idcrude: "S00526",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9f5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c8a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28ed"),
+    idplant: "P00423",
+    idcrude: "S00527",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9f6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c8b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28ee"),
+    idplant: "P00424",
+    idcrude: "S00529",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9f8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c8c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28f0"),
+    idplant: "P00426",
+    idcrude: "S00531",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9fa"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c8e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28f1"),
+    idplant: "P00427",
+    idcrude: "S00532",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9fb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c8f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28ef"),
+    idplant: "P00425",
+    idcrude: "S00530",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9f9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c8d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28f2"),
+    idplant: "P00428",
+    idcrude: "S00533",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9fc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c90")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28f3"),
+    idplant: "P00429",
+    idcrude: "S00534",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9fd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c91")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28f4"),
+    idplant: "P00429",
+    idcrude: "S00535",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9fe"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c91")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28f6"),
+    idplant: "P00429",
+    idcrude: "S00537",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa00"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c91")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28f7"),
+    idplant: "P00430",
+    idcrude: "S00538",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa01"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c92")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28f8"),
+    idplant: "P00431",
+    idcrude: "S00540",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa03"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c93")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28f9"),
+    idplant: "P00431",
+    idcrude: "S00541",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa04"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c93")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28fa"),
+    idplant: "P00431",
+    idcrude: "S00542",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa05"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c93")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28f5"),
+    idplant: "P00429",
+    idcrude: "S00536",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502ea9ff"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c91")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28fb"),
+    idplant: "P00432",
+    idcrude: "S00543",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa06"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c94")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28fc"),
+    idplant: "P00433",
+    idcrude: "S00545",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa08"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c95")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28fe"),
+    idplant: "P00435",
+    idcrude: "S00547",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa0a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c97")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28ff"),
+    idplant: "P00435",
+    idcrude: "S00548",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa0b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c97")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2900"),
+    idplant: "P00435",
+    idcrude: "S00549",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa0c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c97")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2901"),
+    idplant: "P00435",
+    idcrude: "S00550",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa0d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c97")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2902"),
+    idplant: "P00435",
+    idcrude: "S00551",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa0e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c97")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2903"),
+    idplant: "P00436",
+    idcrude: "S00552",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa0f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c98")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2904"),
+    idplant: "P00436",
+    idcrude: "S00553",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa10"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c98")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2905"),
+    idplant: "P00437",
+    idcrude: "S00554",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa11"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c99")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2906"),
+    idplant: "P00438",
+    idcrude: "S00555",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa12"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c9a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2907"),
+    idplant: "P00438",
+    idcrude: "T00134",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacd9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c9a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2908"),
+    idplant: "P00438",
+    idcrude: "T00246",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead44"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c9a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2909"),
+    idplant: "P00438",
+    idcrude: "T00247",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead45"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c9a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b290a"),
+    idplant: "P00439",
+    idcrude: "S00556",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa13"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c9b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b28fd"),
+    idplant: "P00434",
+    idcrude: "S00546",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa09"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c96")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b290b"),
+    idplant: "P00440",
+    idcrude: "S00557",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa14"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c9c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b290e"),
+    idplant: "P00443",
+    idcrude: "S00560",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa17"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c9f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b290c"),
+    idplant: "P00441",
+    idcrude: "S00558",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa15"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c9d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2910"),
+    idplant: "P00444",
+    idcrude: "S00562",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa19"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2911"),
+    idplant: "P00445",
+    idcrude: "S00563",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa1a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2912"),
+    idplant: "P00446",
+    idcrude: "S00564",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa1b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b290d"),
+    idplant: "P00442",
+    idcrude: "S00559",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa16"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98c9e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2913"),
+    idplant: "P00447",
+    idcrude: "S00565",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa1c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2914"),
+    idplant: "P00448",
+    idcrude: "S00568",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa1f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2915"),
+    idplant: "P00449",
+    idcrude: "S00569",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa20"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2916"),
+    idplant: "P00450",
+    idcrude: "S00570",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa21"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2918"),
+    idplant: "P00452",
+    idcrude: "S00572",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa23"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2917"),
+    idplant: "P00451",
+    idcrude: "S00571",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa22"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2919"),
+    idplant: "P00453",
+    idcrude: "S00573",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa24"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b291b"),
+    idplant: "P00455",
+    idcrude: "S00575",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa26"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cab")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b291a"),
+    idplant: "P00454",
+    idcrude: "S00574",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa25"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98caa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b291c"),
+    idplant: "P00456",
+    idcrude: "S00576",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa27"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cac")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b291d"),
+    idplant: "P00457",
+    idcrude: "S00577",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa28"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cad")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b291e"),
+    idplant: "P00458",
+    idcrude: "S00578",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa29"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cae")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b291f"),
+    idplant: "P00459",
+    idcrude: "S00579",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa2a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98caf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2920"),
+    idplant: "P00460",
+    idcrude: "T00177",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead04"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2921"),
+    idplant: "P00461",
+    idcrude: "S00581",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa2c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2922"),
+    idplant: "P00462",
+    idcrude: "S00582",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa2d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b290f"),
+    idplant: "P00444",
+    idcrude: "S00561",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa18"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ca0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2923"),
+    idplant: "P00463",
+    idcrude: "S00583",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa2e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2924"),
+    idplant: "P00464",
+    idcrude: "S00584",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa2f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2925"),
+    idplant: "P00465",
+    idcrude: "S00585",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa30"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2926"),
+    idplant: "P00466",
+    idcrude: "S00586",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa31"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2927"),
+    idplant: "P00466",
+    idcrude: "S00587",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa32"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2928"),
+    idplant: "P00467",
+    idcrude: "S00588",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa33"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2929"),
+    idplant: "P00468",
+    idcrude: "S00589",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa34"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b292a"),
+    idplant: "P00468",
+    idcrude: "S00590",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa35"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b292b"),
+    idplant: "P00468",
+    idcrude: "S00591",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa36"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b292c"),
+    idplant: "P00469",
+    idcrude: "S00592",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa37"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b292d"),
+    idplant: "P00469",
+    idcrude: "S00593",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa38"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cb9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b292e"),
+    idplant: "P00470",
+    idcrude: "S00594",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa39"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2930"),
+    idplant: "P00470",
+    idcrude: "T00240",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead3e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2931"),
+    idplant: "P00471",
+    idcrude: "S00595",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa3a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cbb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b292f"),
+    idplant: "P00470",
+    idcrude: "T00191",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead12"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2933"),
+    idplant: "P00473",
+    idcrude: "S00597",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa3c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cbd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2934"),
+    idplant: "P00474",
+    idcrude: "S00598",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa3d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cbe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2935"),
+    idplant: "P00475",
+    idcrude: "S00599",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa3e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cbf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2936"),
+    idplant: "P00475",
+    idcrude: "T00011",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac5f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cbf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2932"),
+    idplant: "P00472",
+    idcrude: "S00596",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa3b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cbc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2937"),
+    idplant: "P00476",
+    idcrude: "S00600",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa3f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2939"),
+    idplant: "P00478",
+    idcrude: "S00602",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa41"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b293a"),
+    idplant: "P00478",
+    idcrude: "T00078",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaca2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2938"),
+    idplant: "P00477",
+    idcrude: "S00601",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa40"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b293b"),
+    idplant: "P00479",
+    idcrude: "S00603",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa42"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b293c"),
+    idplant: "P00480",
+    idcrude: "S00604",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa43"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b293d"),
+    idplant: "P00480",
+    idcrude: "S00605",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa44"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b293f"),
+    idplant: "P00480",
+    idcrude: "S00607",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa46"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2940"),
+    idplant: "P00481",
+    idcrude: "S00608",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa47"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2941"),
+    idplant: "P00481",
+    idcrude: "S00609",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa48"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2942"),
+    idplant: "P00482",
+    idcrude: "S00610",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa49"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2943"),
+    idplant: "P00482",
+    idcrude: "T00047",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac83"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2944"),
+    idplant: "P00482",
+    idcrude: "T00144",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eace3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2945"),
+    idplant: "P00483",
+    idcrude: "S00611",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa4a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2946"),
+    idplant: "P00484",
+    idcrude: "S00612",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa4b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2947"),
+    idplant: "P00484",
+    idcrude: "S00613",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa4c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2948"),
+    idplant: "P00485",
+    idcrude: "S00615",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa4e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2949"),
+    idplant: "P00485",
+    idcrude: "S00616",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa4f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b294a"),
+    idplant: "P00485",
+    idcrude: "T00077",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaca1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b293e"),
+    idplant: "P00480",
+    idcrude: "S00606",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa45"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cc4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b294b"),
+    idplant: "P00486",
+    idcrude: "S00617",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa50"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cca")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b294c"),
+    idplant: "P00486",
+    idcrude: "T00077",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaca1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cca")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b294d"),
+    idplant: "P00487",
+    idcrude: "S00618",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa51"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ccb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b294e"),
+    idplant: "P00488",
+    idcrude: "S00619",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa52"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ccc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2950"),
+    idplant: "P00490",
+    idcrude: "S00621",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa54"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cce")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b294f"),
+    idplant: "P00489",
+    idcrude: "S00620",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa53"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ccd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2952"),
+    idplant: "P00492",
+    idcrude: "T00096",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacb4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2951"),
+    idplant: "P00491",
+    idcrude: "S00622",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa55"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ccf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2953"),
+    idplant: "P00493",
+    idcrude: "T00096",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacb4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2955"),
+    idplant: "P00495",
+    idcrude: "T00056",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac8c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2956"),
+    idplant: "P00496",
+    idcrude: "S00623",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa56"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2958"),
+    idplant: "P00497",
+    idcrude: "T00096",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacb4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2959"),
+    idplant: "P00498",
+    idcrude: "T00096",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacb4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b295b"),
+    idplant: "P00500",
+    idcrude: "S00626",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa59"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2957"),
+    idplant: "P00496",
+    idcrude: "T00056",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac8c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b295a"),
+    idplant: "P00499",
+    idcrude: "S00625",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa58"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b295c"),
+    idplant: "P00501",
+    idcrude: "S00627",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa5a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b295d"),
+    idplant: "P00502",
+    idcrude: "S00628",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa5b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cda")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b295e"),
+    idplant: "P00502",
+    idcrude: "S00629",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa5c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cda")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b295f"),
+    idplant: "P00503",
+    idcrude: "S00631",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa5e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cdb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2960"),
+    idplant: "P00503",
+    idcrude: "S00632",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa5f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cdb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2961"),
+    idplant: "P00504",
+    idcrude: "S00633",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa60"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cdc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2962"),
+    idplant: "P00505",
+    idcrude: "S00634",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa61"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cdd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2963"),
+    idplant: "P00505",
+    idcrude: "S00635",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa62"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cdd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2964"),
+    idplant: "P00505",
+    idcrude: "S00636",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa63"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cdd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2965"),
+    idplant: "P00505",
+    idcrude: "S00637",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa64"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cdd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2954"),
+    idplant: "P00494",
+    idcrude: "T00096",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacb4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cd2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2966"),
+    idplant: "P00506",
+    idcrude: "S00638",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa65"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cde")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2967"),
+    idplant: "P00506",
+    idcrude: "S00639",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa66"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cde")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2968"),
+    idplant: "P00507",
+    idcrude: "S00640",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa67"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cdf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2969"),
+    idplant: "P00508",
+    idcrude: "S00641",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa68"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b296b"),
+    idplant: "P00508",
+    idcrude: "S00643",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa6a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b296a"),
+    idplant: "P00508",
+    idcrude: "S00642",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa69"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b296c"),
+    idplant: "P00509",
+    idcrude: "S00644",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa6b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b296d"),
+    idplant: "P00509",
+    idcrude: "S00645",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa6c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b296e"),
+    idplant: "P00509",
+    idcrude: "S00646",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa6d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b296f"),
+    idplant: "P00510",
+    idcrude: "S00647",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa6e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2970"),
+    idplant: "P00511",
+    idcrude: "S00648",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa6f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2971"),
+    idplant: "P00512",
+    idcrude: "S00649",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa70"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2972"),
+    idplant: "P00513",
+    idcrude: "S00650",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa71"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2974"),
+    idplant: "P00514",
+    idcrude: "S00652",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa73"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2975"),
+    idplant: "P00514",
+    idcrude: "S00653",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa74"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2976"),
+    idplant: "P00514",
+    idcrude: "T00156",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacef"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2977"),
+    idplant: "P00514",
+    idcrude: "T00193",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead14"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2978"),
+    idplant: "P00515",
+    idcrude: "S00654",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa75"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2979"),
+    idplant: "P00516",
+    idcrude: "S00655",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa76"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b297a"),
+    idplant: "P00517",
+    idcrude: "S00656",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa77"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b297b"),
+    idplant: "P00517",
+    idcrude: "S00657",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa78"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2973"),
+    idplant: "P00514",
+    idcrude: "S00651",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43ddd41810e502eaa72"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b297c"),
+    idplant: "P00517",
+    idcrude: "S00658",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa79"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b297d"),
+    idplant: "P00517",
+    idcrude: "S00659",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa7a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ce9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2980"),
+    idplant: "P00518",
+    idcrude: "S00662",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa7d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cea")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b297e"),
+    idplant: "P00518",
+    idcrude: "S00660",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa7b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cea")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2981"),
+    idplant: "P00519",
+    idcrude: "S00663",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa7e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ceb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2982"),
+    idplant: "P00520",
+    idcrude: "S00664",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa7f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cec")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2983"),
+    idplant: "P00520",
+    idcrude: "S00665",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa80"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cec")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2984"),
+    idplant: "P00521",
+    idcrude: "S00666",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa81"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98ced")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2985"),
+    idplant: "P00522",
+    idcrude: "S00668",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa83"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cee")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2986"),
+    idplant: "P00523",
+    idcrude: "S00669",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa84"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cef")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2987"),
+    idplant: "P00523",
+    idcrude: "S00670",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa85"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cef")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2988"),
+    idplant: "P00524",
+    idcrude: "S00671",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa86"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2989"),
+    idplant: "P00525",
+    idcrude: "S00672",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa87"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b298a"),
+    idplant: "P00526",
+    idcrude: "S00673",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa88"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b298c"),
+    idplant: "P00526",
+    idcrude: "S00675",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa8a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b298b"),
+    idplant: "P00526",
+    idcrude: "S00674",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa89"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b298d"),
+    idplant: "P00526",
+    idcrude: "S00676",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa8b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b298e"),
+    idplant: "P00527",
+    idcrude: "S00677",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa8c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b298f"),
+    idplant: "P00528",
+    idcrude: "S00678",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa8d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2990"),
+    idplant: "P00528",
+    idcrude: "S00679",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa8e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2991"),
+    idplant: "P00528",
+    idcrude: "S00680",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa8f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b297f"),
+    idplant: "P00518",
+    idcrude: "S00661",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa7c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cea")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2992"),
+    idplant: "P00529",
+    idcrude: "S00681",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa90"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2994"),
+    idplant: "P00530",
+    idcrude: "S00683",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa92"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2993"),
+    idplant: "P00530",
+    idcrude: "S00682",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa91"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2995"),
+    idplant: "P00530",
+    idcrude: "S00684",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa93"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2996"),
+    idplant: "P00530",
+    idcrude: "T00111",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2997"),
+    idplant: "P00530",
+    idcrude: "T00216",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead29"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2999"),
+    idplant: "P00532",
+    idcrude: "S00686",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa95"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2998"),
+    idplant: "P00531",
+    idcrude: "S00685",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa94"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b299a"),
+    idplant: "P00533",
+    idcrude: "S00687",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa96"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cf9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b299c"),
+    idplant: "P00535",
+    idcrude: "S00689",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa98"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b299b"),
+    idplant: "P00534",
+    idcrude: "S00688",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa97"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b299d"),
+    idplant: "P00535",
+    idcrude: "S00690",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa99"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b299f"),
+    idplant: "P00537",
+    idcrude: "S00691",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa9a"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b299e"),
+    idplant: "P00536",
+    idcrude: "T00180",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead07"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29a0"),
+    idplant: "P00538",
+    idcrude: "S00692",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa9b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29a2"),
+    idplant: "P00538",
+    idcrude: "S00694",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa9d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29a3"),
+    idplant: "P00538",
+    idcrude: "S00695",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa9e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29a4"),
+    idplant: "P00538",
+    idcrude: "S00696",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa9f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29a5"),
+    idplant: "P00538",
+    idcrude: "S00697",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaa0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29a6"),
+    idplant: "P00539",
+    idcrude: "S00699",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaa2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cff")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29a7"),
+    idplant: "P00540",
+    idcrude: "T00165",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacf8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d00")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29a8"),
+    idplant: "P00540",
+    idcrude: "T00281",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead67"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d00")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29a9"),
+    idplant: "P00541",
+    idcrude: "S00700",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaa3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29aa"),
+    idplant: "P00541",
+    idcrude: "S00701",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaa4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29a1"),
+    idplant: "P00538",
+    idcrude: "S00693",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaa9c"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98cfe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ab"),
+    idplant: "P00541",
+    idcrude: "T00186",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0d"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ad"),
+    idplant: "P00543",
+    idcrude: "S00703",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaa6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d03")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ae"),
+    idplant: "P00544",
+    idcrude: "S00704",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaa7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d04")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29b0"),
+    idplant: "P00545",
+    idcrude: "S00706",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaa9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d05")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29b1"),
+    idplant: "P00545",
+    idcrude: "S00707",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaaa"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d05")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29b2"),
+    idplant: "P00546",
+    idcrude: "T00045",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac81"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d06")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29b3"),
+    idplant: "P00546",
+    idcrude: "T00257",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead4f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d06")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ac"),
+    idplant: "P00542",
+    idcrude: "S00702",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaa5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d02")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29b6"),
+    idplant: "P00547",
+    idcrude: "T00257",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead4f"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29b7"),
+    idplant: "P00548",
+    idcrude: "T00105",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacbd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29b8"),
+    idplant: "P00549",
+    idcrude: "S00709",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaac"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d09")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29af"),
+    idplant: "P00544",
+    idcrude: "S00705",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaa8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d04")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29b4"),
+    idplant: "P00547",
+    idcrude: "S00708",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaab"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29b9"),
+    idplant: "P00549",
+    idcrude: "S00710",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaad"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d09")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ba"),
+    idplant: "P00549",
+    idcrude: "S00711",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaae"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d09")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29bb"),
+    idplant: "P00550",
+    idcrude: "S00712",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaaf"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d0a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29bc"),
+    idplant: "P00551",
+    idcrude: "S00713",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaab0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d0b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29b5"),
+    idplant: "P00547",
+    idcrude: "T00045",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac81"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29bd"),
+    idplant: "P00551",
+    idcrude: "S00714",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaab1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d0b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29be"),
+    idplant: "P00552",
+    idcrude: "S00715",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaab2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d0c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29bf"),
+    idplant: "P00553",
+    idcrude: "S00716",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaab3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d0d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29c0"),
+    idplant: "P00554",
+    idcrude: "S00717",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaab4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d0e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29c1"),
+    idplant: "P00555",
+    idcrude: "S00718",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaab5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d0f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29c4"),
+    idplant: "P00556",
+    idcrude: "T00218",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead2b"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d10")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29c5"),
+    idplant: "P00557",
+    idcrude: "S00720",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaab7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d11")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29c6"),
+    idplant: "P00558",
+    idcrude: "S00721",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaab8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d12")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29c7"),
+    idplant: "P00559",
+    idcrude: "S00722",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaab9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29c8"),
+    idplant: "P00560",
+    idcrude: "S00723",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaba"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d14")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29c9"),
+    idplant: "P00561",
+    idcrude: "S00724",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaabb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d15")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ca"),
+    idplant: "P00561",
+    idcrude: "S00725",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaabc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d15")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29cb"),
+    idplant: "P00562",
+    idcrude: "S00726",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaabd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29cc"),
+    idplant: "P00563",
+    idcrude: "S00727",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaabe"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29cd"),
+    idplant: "P00563",
+    idcrude: "S00728",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaabf"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29c3"),
+    idplant: "P00556",
+    idcrude: "T00152",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaceb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d10")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ce"),
+    idplant: "P00563",
+    idcrude: "S00729",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaac0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29cf"),
+    idplant: "P00563",
+    idcrude: "S00730",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaac1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29d0"),
+    idplant: "P00563",
+    idcrude: "S00731",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaac2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29d1"),
+    idplant: "P00563",
+    idcrude: "T00013",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac61"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29c2"),
+    idplant: "P00556",
+    idcrude: "S00719",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaab6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d10")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29d3"),
+    idplant: "P00564",
+    idcrude: "T00170",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacfd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d18")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29d5"),
+    idplant: "P00565",
+    idcrude: "S00733",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaac4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29d6"),
+    idplant: "P00566",
+    idcrude: "S00734",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaac5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29d7"),
+    idplant: "P00566",
+    idcrude: "S00735",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaac6"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29d8"),
+    idplant: "P00567",
+    idcrude: "S00736",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaac7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29d9"),
+    idplant: "P00567",
+    idcrude: "T00086",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacaa"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29da"),
+    idplant: "P00568",
+    idcrude: "S00737",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaac8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29d4"),
+    idplant: "P00565",
+    idcrude: "S00732",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaac3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d19")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29d2"),
+    idplant: "P00563",
+    idcrude: "T00140",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacdf"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29de"),
+    idplant: "P00569",
+    idcrude: "S00738",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaac9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29dc"),
+    idplant: "P00568",
+    idcrude: "T00221",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead2e"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29df"),
+    idplant: "P00570",
+    idcrude: "S00739",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaca")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29e0"),
+    idplant: "P00571",
+    idcrude: "S00740",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaacb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29e1"),
+    idplant: "P00571",
+    idcrude: "T00143",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eace2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29e2"),
+    idplant: "P00571",
+    idcrude: "T00208",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead22"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29e3"),
+    idplant: "P00572",
+    idcrude: "S00741",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaacc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d20")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29dd"),
+    idplant: "P00568",
+    idcrude: "T00225",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead32"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29db"),
+    idplant: "P00568",
+    idcrude: "T00169",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacfc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d1c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29e5"),
+    idplant: "P00574",
+    idcrude: "S00743",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaace"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d22")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29e6"),
+    idplant: "P00575",
+    idcrude: "S00744",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaacf"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d23")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29e8"),
+    idplant: "P00577",
+    idcrude: "S00749",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaad4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d25")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29e9"),
+    idplant: "P00577",
+    idcrude: "S00750",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaad5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d25")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ea"),
+    idplant: "P00577",
+    idcrude: "S00751",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaad6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29eb"),
+    idplant: "P00577",
+    idcrude: "S00752",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaad7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ec"),
+    idplant: "P00578",
+    idcrude: "S00753",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaad8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d26")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ed"),
+    idplant: "P00579",
+    idcrude: "S00754",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaad9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d27")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ee"),
+    idplant: "P00580",
+    idcrude: "S00755",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaada"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d28")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ef"),
+    idplant: "P00580",
+    idcrude: "S00756",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaadb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d28")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29f0"),
+    idplant: "P00581",
+    idcrude: "S00757",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaadc"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d29")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29e7"),
+    idplant: "P00576",
+    idcrude: "S00748",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaad3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d24")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29f1"),
+    idplant: "P00582",
+    idcrude: "S00758",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaadd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d2a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29f2"),
+    idplant: "P00583",
+    idcrude: "S00759",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaade"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d2b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29f3"),
+    idplant: "P00584",
+    idcrude: "S00760",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaadf"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d2c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29f4"),
+    idplant: "P00585",
+    idcrude: "T00138",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacdd"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d2d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29f5"),
+    idplant: "P00585",
+    idcrude: "T00220",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead2d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29e4"),
+    idplant: "P00573",
+    idcrude: "S00742",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaacd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29f6"),
+    idplant: "P00586",
+    idcrude: "S00762",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaae1"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d2e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29f7"),
+    idplant: "P00587",
+    idcrude: "S00763",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaae2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d2f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29f8"),
+    idplant: "P00587",
+    idcrude: "T00079",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaca3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29fb"),
+    idplant: "P00588",
+    idcrude: "S00764",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaae3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d30")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29fc"),
+    idplant: "P00589",
+    idcrude: "S00765",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaae4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29fd"),
+    idplant: "P00590",
+    idcrude: "S00766",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaae5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29fe"),
+    idplant: "P00590",
+    idcrude: "S00767",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaae6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29f9"),
+    idplant: "P00587",
+    idcrude: "T00080",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaca4"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d2f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29ff"),
+    idplant: "P00590",
+    idcrude: "S00768",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaae7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a00"),
+    idplant: "P00590",
+    idcrude: "S00769",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaae8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a01"),
+    idplant: "P00591",
+    idcrude: "S00770",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaae9"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d33")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a02"),
+    idplant: "P00592",
+    idcrude: "S00771",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaea"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d34")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a04"),
+    idplant: "P00592",
+    idcrude: "T00104",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacbc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a03"),
+    idplant: "P00592",
+    idcrude: "S00772",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaeb"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d34")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a05"),
+    idplant: "P00593",
+    idcrude: "S00773",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaec"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d35")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a06"),
+    idplant: "P00593",
+    idcrude: "S00774",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaed"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d35")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a07"),
+    idplant: "P00593",
+    idcrude: "S00775",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaee"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d35")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a08"),
+    idplant: "P00594",
+    idcrude: "S00776",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaef")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a0a"),
+    idplant: "P00595",
+    idcrude: "S00778",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaf1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a09"),
+    idplant: "P00595",
+    idcrude: "S00777",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaf0"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d37")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a0b"),
+    idplant: "P00595",
+    idcrude: "S00779",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaf2"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d37")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b29fa"),
+    idplant: "P00587",
+    idcrude: "T00113",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d2f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a0c"),
+    idplant: "P00596",
+    idcrude: "S00780",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaf3"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d38")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a0d"),
+    idplant: "P00597",
+    idcrude: "T00018",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac66"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d39")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a0e"),
+    idplant: "P00598",
+    idcrude: "S00782",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaf5"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d3a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a0f"),
+    idplant: "P00598",
+    idcrude: "T00018",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac66"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d3a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a10"),
+    idplant: "P00599",
+    idcrude: "S00783",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaf6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a11"),
+    idplant: "P00600",
+    idcrude: "S00784",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaf7"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d3c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a12"),
+    idplant: "P00601",
+    idcrude: "S00785",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaf8"),
+    refPlant: ObjectId("5cf8cce313bc061d4cd98d3d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a13"),
+    idplant: "P00602",
+    idcrude: "S00786",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaf9"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d3e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a15"),
+    idplant: "P00603",
+    idcrude: "S00788",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaafb"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d3f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a17"),
+    idplant: "P00605",
+    idcrude: "T00272",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead5e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d41")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a16"),
+    idplant: "P00604",
+    idcrude: "S00789",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaafc"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d40")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a18"),
+    idplant: "P00606",
+    idcrude: "T00222",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead2f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a1a"),
+    idplant: "P00607",
+    idcrude: "S00790",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaafd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a19"),
+    idplant: "P00606",
+    idcrude: "T00272",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead5e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d42")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a1b"),
+    idplant: "P00607",
+    idcrude: "S00791",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaafe"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a1c"),
+    idplant: "P00607",
+    idcrude: "S00792",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaaff"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a1e"),
+    idplant: "P00609",
+    idcrude: "S00794",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab01")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a1d"),
+    idplant: "P00608",
+    idcrude: "S00793",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab00"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d44")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a1f"),
+    idplant: "P00609",
+    idcrude: "S00795",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab02"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d45")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a20"),
+    idplant: "P00610",
+    idcrude: "S00796",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab03")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a14"),
+    idplant: "P00603",
+    idcrude: "S00787",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaafa"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d3f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a21"),
+    idplant: "P00610",
+    idcrude: "S00797",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab04"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d46")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a24"),
+    idplant: "P00612",
+    idcrude: "S00800",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab07"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d48")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a22"),
+    idplant: "P00610",
+    idcrude: "S00798",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab05"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d46")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a26"),
+    idplant: "P00612",
+    idcrude: "S00802",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab09")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a25"),
+    idplant: "P00612",
+    idcrude: "S00801",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab08"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d48")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a27"),
+    idplant: "P00612",
+    idcrude: "S00803",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab0a"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d48")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a28"),
+    idplant: "P00612",
+    idcrude: "S00804",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab0b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d48")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a29"),
+    idplant: "P00613",
+    idcrude: "S00805",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab0c"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d49")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a2a"),
+    idplant: "P00614",
+    idcrude: "S00806",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab0d"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d4a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a2b"),
+    idplant: "P00615",
+    idcrude: "T00157",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacf0"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d4b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a2c"),
+    idplant: "P00616",
+    idcrude: "T00184",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d4c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a2d"),
+    idplant: "P00617",
+    idcrude: "S00807",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab0e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d4d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a2e"),
+    idplant: "P00618",
+    idcrude: "T00184",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d4e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a2f"),
+    idplant: "P00619",
+    idcrude: "T00184",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d4f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a30"),
+    idplant: "P00620",
+    idcrude: "S00808",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab0f"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d50")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a31"),
+    idplant: "P00620",
+    idcrude: "S00809",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab10")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a32"),
+    idplant: "P00621",
+    idcrude: "S00810",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab11"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d51")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a33"),
+    idplant: "P00621",
+    idcrude: "S00811",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab12"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d51")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a34"),
+    idplant: "P00621",
+    idcrude: "S00812",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a35"),
+    idplant: "P00621",
+    idcrude: "S00813",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab14"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d51")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a36"),
+    idplant: "P00621",
+    idcrude: "S00814",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab15"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d51")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a37"),
+    idplant: "P00621",
+    idcrude: "S00815",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab16")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a38"),
+    idplant: "P00622",
+    idcrude: "S00816",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab17"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d52")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a39"),
+    idplant: "P00623",
+    idcrude: "S00817",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab18"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d53")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a23"),
+    idplant: "P00611",
+    idcrude: "S00799",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab06"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d47")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a3a"),
+    idplant: "P00623",
+    idcrude: "S00818",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab19")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a3b"),
+    idplant: "P00623",
+    idcrude: "S00819",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab1a"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d53")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a3c"),
+    idplant: "P00623",
+    idcrude: "S00820",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab1b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d53")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a3d"),
+    idplant: "P00624",
+    idcrude: "S00821",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab1c"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d54")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a3e"),
+    idplant: "P00625",
+    idcrude: "S00822",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab1d"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d55")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a3f"),
+    idplant: "P00626",
+    idcrude: "S00823",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab1e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d56")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a41"),
+    idplant: "P00627",
+    idcrude: "T00088",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacac"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d57")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55a5285101d5c3b2a40"),
+    idplant: "P00627",
+    idcrude: "S00824",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab1f"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d57")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a42"),
+    idplant: "P00628",
+    idcrude: "S00825",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab20"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d58")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a43"),
+    idplant: "P00628",
+    idcrude: "S00826",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab21")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a45"),
+    idplant: "P00629",
+    idcrude: "S00828",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab23"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d59")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a46"),
+    idplant: "P00630",
+    idcrude: "S00829",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab24"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d5a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a44"),
+    idplant: "P00628",
+    idcrude: "S00827",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab22"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d58")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a48"),
+    idplant: "P00632",
+    idcrude: "T00042",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac7e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a49"),
+    idplant: "P00633",
+    idcrude: "S00831",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab26"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d5d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a47"),
+    idplant: "P00631",
+    idcrude: "S00830",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab25"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d5b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a4c"),
+    idplant: "P00634",
+    idcrude: "S00834",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab29"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d5e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a4a"),
+    idplant: "P00633",
+    idcrude: "S00832",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab27"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d5d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a4b"),
+    idplant: "P00634",
+    idcrude: "S00833",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab28"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d5e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a4d"),
+    idplant: "P00635",
+    idcrude: "S00835",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab2a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a50"),
+    idplant: "P00638",
+    idcrude: "S00839",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab2e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d62")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a4e"),
+    idplant: "P00636",
+    idcrude: "S00836",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab2b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d60")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a52"),
+    idplant: "P00639",
+    idcrude: "S00841",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab30")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a4f"),
+    idplant: "P00637",
+    idcrude: "S00838",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab2d"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d61")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a54"),
+    idplant: "P00640",
+    idcrude: "S00843",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab32"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d64")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a55"),
+    idplant: "P00641",
+    idcrude: "S00844",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab33"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d65")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a51"),
+    idplant: "P00639",
+    idcrude: "S00840",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab2f"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d63")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a53"),
+    idplant: "P00640",
+    idcrude: "S00842",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab31"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d64")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a57"),
+    idplant: "P00642",
+    idcrude: "S00846",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab35")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a56"),
+    idplant: "P00642",
+    idcrude: "S00845",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab34"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d66")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a58"),
+    idplant: "P00642",
+    idcrude: "S00847",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab36"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d66")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a59"),
+    idplant: "P00642",
+    idcrude: "T00024",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac6c"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d66")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a5a"),
+    idplant: "P00643",
+    idcrude: "S00848",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab37"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d67")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a5c"),
+    idplant: "P00645",
+    idcrude: "S00849",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab38")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a5b"),
+    idplant: "P00644",
+    idcrude: "T00021",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac69"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d68")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a5d"),
+    idplant: "P00646",
+    idcrude: "S00850",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab39"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d6a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a5e"),
+    idplant: "P00647",
+    idcrude: "S00851",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab3a"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d6b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a60"),
+    idplant: "P00649",
+    idcrude: "S00853",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab3c"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d6d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a61"),
+    idplant: "P00649",
+    idcrude: "S00854",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab3d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a62"),
+    idplant: "P00649",
+    idcrude: "T00028",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac70"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d6d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a5f"),
+    idplant: "P00648",
+    idcrude: "S00852",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab3b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d6c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a63"),
+    idplant: "P00650",
+    idcrude: "S00856",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab3f"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d6e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a64"),
+    idplant: "P00650",
+    idcrude: "T00126",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacd1"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d6e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a65"),
+    idplant: "P00651",
+    idcrude: "S00857",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab40"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d6f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a67"),
+    idplant: "P00652",
+    idcrude: "S00858",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab41"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d70")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a68"),
+    idplant: "P00653",
+    idcrude: "S00859",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab42"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d71")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a69"),
+    idplant: "P00654",
+    idcrude: "S00860",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab43"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d72")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a6a"),
+    idplant: "P00655",
+    idcrude: "S00861",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab44"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d73")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a6b"),
+    idplant: "P00655",
+    idcrude: "S00862",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab45")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a6c"),
+    idplant: "P00655",
+    idcrude: "S00863",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab46"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d73")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a6d"),
+    idplant: "P00656",
+    idcrude: "S00864",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab47"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d74")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a6e"),
+    idplant: "P00657",
+    idcrude: "S00865",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab48"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d75")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a6f"),
+    idplant: "P00657",
+    idcrude: "T00046",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac82"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d75")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a70"),
+    idplant: "P00658",
+    idcrude: "S00866",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab49")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a71"),
+    idplant: "P00659",
+    idcrude: "S00867",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab4a"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d77")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a72"),
+    idplant: "P00660",
+    idcrude: "S00868",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab4b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d78")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a73"),
+    idplant: "P00661",
+    idcrude: "S00869",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab4c"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d79")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a66"),
+    idplant: "P00651",
+    idcrude: "T00161",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacf4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a74"),
+    idplant: "P00661",
+    idcrude: "S00870",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab4d"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d79")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a75"),
+    idplant: "P00662",
+    idcrude: "T00019",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac67")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a78"),
+    idplant: "P00664",
+    idcrude: "S00872",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab4f"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d7c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a76"),
+    idplant: "P00663",
+    idcrude: "S00871",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab4e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d7b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a77"),
+    idplant: "P00663",
+    idcrude: "T00010",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac5e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d7b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a7a"),
+    idplant: "P00665",
+    idcrude: "S00873",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab50")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a7b"),
+    idplant: "P00665",
+    idcrude: "S00874",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab51"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d7d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a7c"),
+    idplant: "P00666",
+    idcrude: "S00875",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab52"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d7e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a7d"),
+    idplant: "P00667",
+    idcrude: "S00876",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab53"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d7f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a7e"),
+    idplant: "P00668",
+    idcrude: "S00877",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab54"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d80")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a7f"),
+    idplant: "P00668",
+    idcrude: "S00878",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab55")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a80"),
+    idplant: "P00669",
+    idcrude: "S00879",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab56"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d81")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a81"),
+    idplant: "P00670",
+    idcrude: "S00880",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab57"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d82")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a82"),
+    idplant: "P00671",
+    idcrude: "S00881",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab58"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d83")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a84"),
+    idplant: "P00672",
+    idcrude: "S00883",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab5a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a83"),
+    idplant: "P00672",
+    idcrude: "S00882",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab59"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d84")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a85"),
+    idplant: "P00673",
+    idcrude: "S00884",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab5b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d85")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a86"),
+    idplant: "P00673",
+    idcrude: "T00030",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac72"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d85")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a87"),
+    idplant: "P00674",
+    idcrude: "S00886",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab5d"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d86")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a89"),
+    idplant: "P00674",
+    idcrude: "S00888",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab5f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a88"),
+    idplant: "P00674",
+    idcrude: "S00887",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab5e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d86")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a8a"),
+    idplant: "P00674",
+    idcrude: "S00889",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab60"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d86")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a79"),
+    idplant: "P00664",
+    idcrude: "T00135",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacda"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d7c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a8b"),
+    idplant: "P00675",
+    idcrude: "S00890",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab61"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d87")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a8c"),
+    idplant: "P00676",
+    idcrude: "S00891",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab62"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d88")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a8d"),
+    idplant: "P00677",
+    idcrude: "T00167",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacfa"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d89")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a8e"),
+    idplant: "P00678",
+    idcrude: "S00892",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab63")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a8f"),
+    idplant: "P00678",
+    idcrude: "S00893",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab64"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d8a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a90"),
+    idplant: "P00679",
+    idcrude: "S00894",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab65"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d8b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a91"),
+    idplant: "P00680",
+    idcrude: "S00895",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab66"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d8c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a93"),
+    idplant: "P00682",
+    idcrude: "S00897",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab68")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a92"),
+    idplant: "P00681",
+    idcrude: "S00896",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab67"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d8d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a94"),
+    idplant: "P00682",
+    idcrude: "T00037",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac79"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d8e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a95"),
+    idplant: "P00682",
+    idcrude: "T00075",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac9f"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d8e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a96"),
+    idplant: "P00682",
+    idcrude: "T00090",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacae"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d8e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a97"),
+    idplant: "P00682",
+    idcrude: "T00223",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead30"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d8e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a98"),
+    idplant: "P00682",
+    idcrude: "T00245",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a9a"),
+    idplant: "P00684",
+    idcrude: "T00115",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc7"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d90")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a9b"),
+    idplant: "P00685",
+    idcrude: "S00899",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab6a"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d91")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a99"),
+    idplant: "P00683",
+    idcrude: "S00898",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab69"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d8f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a9d"),
+    idplant: "P00686",
+    idcrude: "S00900",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab6b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a9e"),
+    idplant: "P00686",
+    idcrude: "T00115",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc7"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d92")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a9c"),
+    idplant: "P00685",
+    idcrude: "T00115",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc7"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d91")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aa1"),
+    idplant: "P00689",
+    idcrude: "S00903",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab6e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d95")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aa2"),
+    idplant: "P00690",
+    idcrude: "S00904",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab6f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2a9f"),
+    idplant: "P00687",
+    idcrude: "T00115",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc7"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d93")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aa3"),
+    idplant: "P00690",
+    idcrude: "S00905",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab70"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d96")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aa4"),
+    idplant: "P00691",
+    idcrude: "S00906",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab71"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d97")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aa5"),
+    idplant: "P00692",
+    idcrude: "S00907",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab72"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d98")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aa6"),
+    idplant: "P00692",
+    idcrude: "S00908",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab73"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d98")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aa0"),
+    idplant: "P00688",
+    idcrude: "S00901",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab6c"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d94")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aa8"),
+    idplant: "P00693",
+    idcrude: "S00910",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab75"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d99")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aa9"),
+    idplant: "P00694",
+    idcrude: "S00911",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab76"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d9a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aaa"),
+    idplant: "P00695",
+    idcrude: "S00912",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab77"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d9b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aac"),
+    idplant: "P00697",
+    idcrude: "S00914",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab79")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aab"),
+    idplant: "P00696",
+    idcrude: "S00913",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab78"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d9c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aae"),
+    idplant: "P00699",
+    idcrude: "S00916",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab7b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d9f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aad"),
+    idplant: "P00698",
+    idcrude: "S00915",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab7a"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98d9e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aaf"),
+    idplant: "P00700",
+    idcrude: "S00918",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab7d"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ab1"),
+    idplant: "P00701",
+    idcrude: "S00920",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab7f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ab0"),
+    idplant: "P00700",
+    idcrude: "S00919",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab7e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ab2"),
+    idplant: "P00702",
+    idcrude: "S00921",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab80"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ab3"),
+    idplant: "P00703",
+    idcrude: "S00924",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab83"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ab4"),
+    idplant: "P00704",
+    idcrude: "S00925",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab84"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ab5"),
+    idplant: "P00705",
+    idcrude: "S00926",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab85"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ab6"),
+    idplant: "P00705",
+    idcrude: "S00927",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab86")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ab7"),
+    idplant: "P00705",
+    idcrude: "S00928",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab87"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aa7"),
+    idplant: "P00693",
+    idcrude: "S00909",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab74")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ab9"),
+    idplant: "P00706",
+    idcrude: "T00166",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacf9"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2abb"),
+    idplant: "P00708",
+    idcrude: "S00931",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab8a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2abc"),
+    idplant: "P00708",
+    idcrude: "S00932",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab8b"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2abd"),
+    idplant: "P00709",
+    idcrude: "S00933",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab8c"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2abe"),
+    idplant: "P00709",
+    idcrude: "S00934",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab8d"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ab8"),
+    idplant: "P00706",
+    idcrude: "S00929",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab88"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2abf"),
+    idplant: "P00709",
+    idcrude: "S00935",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab8e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ac0"),
+    idplant: "P00709",
+    idcrude: "S00936",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab8f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ac1"),
+    idplant: "P00709",
+    idcrude: "T00176",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead03"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ac2"),
+    idplant: "P00710",
+    idcrude: "S00937",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab90"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98daa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ac3"),
+    idplant: "P00711",
+    idcrude: "S00938",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab91"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dab")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ac4"),
+    idplant: "P00711",
+    idcrude: "S00939",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab92"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dab")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ac5"),
+    idplant: "P00712",
+    idcrude: "S00940",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab93")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ac6"),
+    idplant: "P00712",
+    idcrude: "T00062",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac92"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dac")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ac7"),
+    idplant: "P00712",
+    idcrude: "T00232",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead38"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dac")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ac8"),
+    idplant: "P00713",
+    idcrude: "S00941",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab94"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dad")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ac9"),
+    idplant: "P00713",
+    idcrude: "T00049",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac85"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dad")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aca"),
+    idplant: "P00714",
+    idcrude: "T00052",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac88")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2acb"),
+    idplant: "P00715",
+    idcrude: "S00943",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab96"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98daf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2acc"),
+    idplant: "P00716",
+    idcrude: "T00052",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac88"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98db0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2acd"),
+    idplant: "P00717",
+    idcrude: "S00944",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab97"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98db1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ace"),
+    idplant: "P00718",
+    idcrude: "S00945",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab98"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98db2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2acf"),
+    idplant: "P00719",
+    idcrude: "T00016",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac64")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ad0"),
+    idplant: "P00720",
+    idcrude: "S00946",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab99"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98db4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ad1"),
+    idplant: "P00721",
+    idcrude: "S00947",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab9a"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98db5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ad2"),
+    idplant: "P00722",
+    idcrude: "S00949",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab9c"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98db6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aba"),
+    idplant: "P00707",
+    idcrude: "S00930",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab89"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98da7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ad3"),
+    idplant: "P00723",
+    idcrude: "S00950",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab9d"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98db7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ad4"),
+    idplant: "P00723",
+    idcrude: "S00951",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab9e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ad5"),
+    idplant: "P00724",
+    idcrude: "S00952",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eab9f"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98db8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ad6"),
+    idplant: "P00725",
+    idcrude: "S00953",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaba0"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98db9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ad7"),
+    idplant: "P00726",
+    idcrude: "S00954",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaba1"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ad8"),
+    idplant: "P00726",
+    idcrude: "S00955",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaba2"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ad9"),
+    idplant: "P00726",
+    idcrude: "T00060",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac90")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ada"),
+    idplant: "P00726",
+    idcrude: "T00061",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac91"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2adb"),
+    idplant: "P00726",
+    idcrude: "T00261",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead53"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dba")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ade"),
+    idplant: "P00728",
+    idcrude: "S00958",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaba5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2adc"),
+    idplant: "P00727",
+    idcrude: "S00956",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaba3"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dbb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2adf"),
+    idplant: "P00728",
+    idcrude: "T00004",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac58"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dbc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ae0"),
+    idplant: "P00729",
+    idcrude: "S00959",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaba6"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dbd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ae1"),
+    idplant: "P00730",
+    idcrude: "S00960",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaba7"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dbe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ae3"),
+    idplant: "P00731",
+    idcrude: "S00962",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaba9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ae2"),
+    idplant: "P00731",
+    idcrude: "S00961",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaba8"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dbf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ae4"),
+    idplant: "P00731",
+    idcrude: "S00963",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabaa"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dbf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ae5"),
+    idplant: "P00731",
+    idcrude: "S00964",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabab"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dbf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ae6"),
+    idplant: "P00732",
+    idcrude: "T00098",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacb6"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ae7"),
+    idplant: "P00733",
+    idcrude: "S00965",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabac"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ae8"),
+    idplant: "P00734",
+    idcrude: "S00966",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabad")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ae9"),
+    idplant: "P00735",
+    idcrude: "S00967",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabae"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2add"),
+    idplant: "P00727",
+    idcrude: "S00957",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaba4"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dbb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aea"),
+    idplant: "P00736",
+    idcrude: "T00148",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eace7"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aed"),
+    idplant: "P00738",
+    idcrude: "T00164",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacf7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aee"),
+    idplant: "P00739",
+    idcrude: "S00970",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabb1"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aef"),
+    idplant: "P00740",
+    idcrude: "T00067",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac97"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aeb"),
+    idplant: "P00737",
+    idcrude: "S00968",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabaf"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2af0"),
+    idplant: "P00741",
+    idcrude: "S00971",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabb2"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2af1"),
+    idplant: "P00741",
+    idcrude: "S00972",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabb3"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2af2"),
+    idplant: "P00741",
+    idcrude: "S00973",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabb4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2af3"),
+    idplant: "P00741",
+    idcrude: "S00974",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabb5"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2af4"),
+    idplant: "P00742",
+    idcrude: "S00975",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabb6"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dca")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2af5"),
+    idplant: "P00743",
+    idcrude: "S00976",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabb7"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dcb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2af6"),
+    idplant: "P00744",
+    idcrude: "S00977",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabb8"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dcc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2af7"),
+    idplant: "P00745",
+    idcrude: "S00978",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabb9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2af8"),
+    idplant: "P00745",
+    idcrude: "S00979",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabba"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dcd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2afa"),
+    idplant: "P00747",
+    idcrude: "S00981",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabbc"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dcf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2afb"),
+    idplant: "P00747",
+    idcrude: "T00048",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac84"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dcf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2afc"),
+    idplant: "P00748",
+    idcrude: "S00982",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabbd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2af9"),
+    idplant: "P00746",
+    idcrude: "S00980",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabbb"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dce")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2afd"),
+    idplant: "P00748",
+    idcrude: "S00983",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabbe"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dd0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2afe"),
+    idplant: "P00749",
+    idcrude: "S00984",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabbf"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dd1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aff"),
+    idplant: "P00750",
+    idcrude: "S00985",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabc0"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dd2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b00"),
+    idplant: "P00751",
+    idcrude: "S00986",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabc1"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dd3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2aec"),
+    idplant: "P00737",
+    idcrude: "S00969",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabb0"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dc5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b02"),
+    idplant: "P00752",
+    idcrude: "S00988",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabc3"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dd4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b01"),
+    idplant: "P00751",
+    idcrude: "S00987",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabc2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b03"),
+    idplant: "P00753",
+    idcrude: "S00989",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabc4"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dd5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b04"),
+    idplant: "P00754",
+    idcrude: "S00990",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabc5"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dd6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b05"),
+    idplant: "P00755",
+    idcrude: "S00991",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabc6"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dd7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b06"),
+    idplant: "P00756",
+    idcrude: "S00992",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabc7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b09"),
+    idplant: "P00759",
+    idcrude: "S00995",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabca"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98ddb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b07"),
+    idplant: "P00757",
+    idcrude: "S00993",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabc8"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dd9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b0c"),
+    idplant: "P00760",
+    idcrude: "S00998",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabcd"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98ddc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b0b"),
+    idplant: "P00760",
+    idcrude: "S00997",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabcc"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98ddc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b08"),
+    idplant: "P00758",
+    idcrude: "S00994",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabc9"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dda")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b0e"),
+    idplant: "P00762",
+    idcrude: "S01000",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabcf"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dde")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b0d"),
+    idplant: "P00761",
+    idcrude: "S00999",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabce"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98ddd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b11"),
+    idplant: "P00764",
+    idcrude: "S01003",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabd2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b0f"),
+    idplant: "P00763",
+    idcrude: "S01001",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabd0"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98ddf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b10"),
+    idplant: "P00763",
+    idcrude: "S01002",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabd1"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98ddf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b0a"),
+    idplant: "P00759",
+    idcrude: "S00996",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabcb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b12"),
+    idplant: "P00765",
+    idcrude: "S01004",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabd3"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b16"),
+    idplant: "P00768",
+    idcrude: "S01008",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabd7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b13"),
+    idplant: "P00765",
+    idcrude: "S01005",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabd4"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b17"),
+    idplant: "P00768",
+    idcrude: "S01009",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabd8"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b18"),
+    idplant: "P00768",
+    idcrude: "S01010",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabd9"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b19"),
+    idplant: "P00768",
+    idcrude: "S01011",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabda")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b1a"),
+    idplant: "P00768",
+    idcrude: "S01012",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabdb"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b1b"),
+    idplant: "P00769",
+    idcrude: "S01013",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabdc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b1c"),
+    idplant: "P00770",
+    idcrude: "T00139",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacde"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b1d"),
+    idplant: "P00771",
+    idcrude: "S01014",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabdd"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b1e"),
+    idplant: "P00772",
+    idcrude: "S01015",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabde"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b1f"),
+    idplant: "P00773",
+    idcrude: "S01016",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabdf"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b14"),
+    idplant: "P00766",
+    idcrude: "S01006",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabd5"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b20"),
+    idplant: "P00774",
+    idcrude: "S01017",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabe0"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dea")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b15"),
+    idplant: "P00767",
+    idcrude: "S01007",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabd6"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98de3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b21"),
+    idplant: "P00774",
+    idcrude: "S01018",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabe1"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dea")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b22"),
+    idplant: "P00774",
+    idcrude: "S01019",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabe2"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dea")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b24"),
+    idplant: "P00775",
+    idcrude: "S01021",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabe4"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98deb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b23"),
+    idplant: "P00775",
+    idcrude: "S01020",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabe3"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98deb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b26"),
+    idplant: "P00775",
+    idcrude: "T00124",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaccf")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b25"),
+    idplant: "P00775",
+    idcrude: "T00123",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacce"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98deb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b27"),
+    idplant: "P00776",
+    idcrude: "S01022",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabe5"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dec")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b2a"),
+    idplant: "P00778",
+    idcrude: "S01025",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabe8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b29"),
+    idplant: "P00778",
+    idcrude: "S01024",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabe7"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dee")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b2b"),
+    idplant: "P00779",
+    idcrude: "S01026",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabe9"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98def")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b2c"),
+    idplant: "P00779",
+    idcrude: "S01027",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabea"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98def")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b28"),
+    idplant: "P00777",
+    idcrude: "S01023",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabe6"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98ded")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b2d"),
+    idplant: "P00779",
+    idcrude: "S01028",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabeb"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98def")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b2e"),
+    idplant: "P00780",
+    idcrude: "T00031",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac73"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df0")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b30"),
+    idplant: "P00781",
+    idcrude: "S01030",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabed")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b31"),
+    idplant: "P00781",
+    idcrude: "S01031",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabee"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b32"),
+    idplant: "P00782",
+    idcrude: "S01032",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabef"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b33"),
+    idplant: "P00783",
+    idcrude: "S01033",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabf0"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df3")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b34"),
+    idplant: "P00784",
+    idcrude: "S01034",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabf1"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df4")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b35"),
+    idplant: "P00784",
+    idcrude: "S01035",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabf2")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b36"),
+    idplant: "P00785",
+    idcrude: "S01036",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabf3"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b37"),
+    idplant: "P00786",
+    idcrude: "S01038",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabf5"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df6")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b39"),
+    idplant: "P00787",
+    idcrude: "S01040",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabf7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b3a"),
+    idplant: "P00788",
+    idcrude: "S01041",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabf8"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df8")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b3b"),
+    idplant: "P00789",
+    idcrude: "S01042",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabf9"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df9")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b2f"),
+    idplant: "P00781",
+    idcrude: "S01029",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabec"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df1")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b3c"),
+    idplant: "P00790",
+    idcrude: "S01043",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabfa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b3d"),
+    idplant: "P00790",
+    idcrude: "S01044",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabfb"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dfa")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b3e"),
+    idplant: "P00791",
+    idcrude: "S01045",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabfc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b3f"),
+    idplant: "P00791",
+    idcrude: "S01046",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabfd"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dfb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b40"),
+    idplant: "P00791",
+    idcrude: "S01047",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabfe"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dfb")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b41"),
+    idplant: "P00792",
+    idcrude: "S01048",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabff"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dfc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b42"),
+    idplant: "P00792",
+    idcrude: "S01049",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac00"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dfc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b43"),
+    idplant: "P00792",
+    idcrude: "T00026",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac6e"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dfc")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b44"),
+    idplant: "P00793",
+    idcrude: "T00017",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac65"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dfd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b45"),
+    idplant: "P00793",
+    idcrude: "T00189",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead10"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dfd")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b46"),
+    idplant: "P00794",
+    idcrude: "S01050",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac01"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dfe")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b47"),
+    idplant: "P00795",
+    idcrude: "S01051",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac02"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dff")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b48"),
+    idplant: "P00795",
+    idcrude: "S01052",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac03"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98dff")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b49"),
+    idplant: "P00796",
+    idcrude: "S01053",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac04"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98e00")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b4a"),
+    idplant: "P00796",
+    idcrude: "S01054",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac05"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98e00")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b4b"),
+    idplant: "P00796",
+    idcrude: "S01055",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac06"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98e00")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b4c"),
+    idplant: "P00797",
+    idcrude: "S01056",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b38"),
+    idplant: "P00787",
+    idcrude: "S01039",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eabf6"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98df7")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b4d"),
+    idplant: "P00798",
+    idcrude: "S01057",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac08"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98e02")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b4e"),
+    idplant: "P00798",
+    idcrude: "S01058",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac09"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98e02")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b4f"),
+    idplant: "P00798",
+    idcrude: "S01059",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac0a"),
+    refPlant: ObjectId("5cf8cce413bc061d4cd98e02")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b50"),
+    idplant: "P00799",
+    idcrude: "S01060",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac0b"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e03")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b51"),
+    idplant: "P00800",
+    idcrude: "S01061",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac0c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b52"),
+    idplant: "P00801",
+    idcrude: "S01062",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac0d"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e05")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b53"),
+    idplant: "P00801",
+    idcrude: "S01063",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac0e"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e05")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b54"),
+    idplant: "P00801",
+    idcrude: "S01064",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac0f"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e05")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b55"),
+    idplant: "P00801",
+    idcrude: "S01065",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac10"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e05")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b56"),
+    idplant: "P00802",
+    idcrude: "S01066",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac11"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e06")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b57"),
+    idplant: "P00802",
+    idcrude: "S01067",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac12")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b58"),
+    idplant: "P00802",
+    idcrude: "S01068",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac13"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e06")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b59"),
+    idplant: "P00802",
+    idcrude: "S01069",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac14"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e06")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b5b"),
+    idplant: "P00803",
+    idcrude: "T00033",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac75")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b5c"),
+    idplant: "P00803",
+    idcrude: "T00034",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac76"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b5d"),
+    idplant: "P00803",
+    idcrude: "T00035",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac77"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b5e"),
+    idplant: "P00803",
+    idcrude: "T00228",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead35"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b5f"),
+    idplant: "P00803",
+    idcrude: "T00252",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead4a"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e07")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b5a"),
+    idplant: "P00802",
+    idcrude: "T00081",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eaca5")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b60"),
+    idplant: "P00803",
+    idcrude: "T00253",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead4b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b61"),
+    idplant: "P00804",
+    idcrude: "S01070",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac15"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b62"),
+    idplant: "P00804",
+    idcrude: "S01071",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac16"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b63"),
+    idplant: "P00804",
+    idcrude: "S01072",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b65"),
+    idplant: "P00804",
+    idcrude: "T00034",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac76"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b66"),
+    idplant: "P00804",
+    idcrude: "T00035",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac77"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b64"),
+    idplant: "P00804",
+    idcrude: "T00033",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac75"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b68"),
+    idplant: "P00804",
+    idcrude: "T00252",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead4a"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b69"),
+    idplant: "P00804",
+    idcrude: "T00253",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead4b"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b6b"),
+    idplant: "P00806",
+    idcrude: "S01074",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac19")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b6c"),
+    idplant: "P00807",
+    idcrude: "S01075",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac1a"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e0b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b67"),
+    idplant: "P00804",
+    idcrude: "T00228",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead35"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e08")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b6d"),
+    idplant: "P00807",
+    idcrude: "S01076",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac1b"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e0b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b6e"),
+    idplant: "P00808",
+    idcrude: "T00063",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac93"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e0c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b6f"),
+    idplant: "P00809",
+    idcrude: "S01077",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac1c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b70"),
+    idplant: "P00810",
+    idcrude: "S01078",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac1d"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e0e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b71"),
+    idplant: "P00811",
+    idcrude: "S01079",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac1e"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e0f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b6a"),
+    idplant: "P00805",
+    idcrude: "S01073",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac18"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e09")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b74"),
+    idplant: "P00812",
+    idcrude: "S01082",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac21")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b72"),
+    idplant: "P00811",
+    idcrude: "T00041",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac7d"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e0f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b75"),
+    idplant: "P00813",
+    idcrude: "S01083",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac22"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e11")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b76"),
+    idplant: "P00813",
+    idcrude: "S01084",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac23"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e11")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b78"),
+    idplant: "P00814",
+    idcrude: "T00188",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0f"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e12")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b73"),
+    idplant: "P00811",
+    idcrude: "T00254",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead4c"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e0f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b79"),
+    idplant: "P00814",
+    idcrude: "T00235",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead3b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b7a"),
+    idplant: "P00815",
+    idcrude: "S01085",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac24"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b7b"),
+    idplant: "P00815",
+    idcrude: "T00188",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0f"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b7c"),
+    idplant: "P00815",
+    idcrude: "T00235",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead3b"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e13")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b7e"),
+    idplant: "P00816",
+    idcrude: "T00235",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead3b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b7d"),
+    idplant: "P00816",
+    idcrude: "T00188",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead0f"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e14")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b7f"),
+    idplant: "P00817",
+    idcrude: "S01086",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac25"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e15")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b80"),
+    idplant: "P00818",
+    idcrude: "S01087",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac26"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e16")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b77"),
+    idplant: "P00813",
+    idcrude: "T00002",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac56"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e11")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b84"),
+    idplant: "P00821",
+    idcrude: "S01091",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac2a"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e19")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b85"),
+    idplant: "P00822",
+    idcrude: "S01092",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac2b"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e1a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b82"),
+    idplant: "P00819",
+    idcrude: "S01089",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac28"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b83"),
+    idplant: "P00820",
+    idcrude: "S01090",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac29")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b86"),
+    idplant: "P00823",
+    idcrude: "S01093",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac2c"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e1b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b88"),
+    idplant: "P00825",
+    idcrude: "S01095",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac2e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b87"),
+    idplant: "P00824",
+    idcrude: "S01094",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac2d"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e1c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b89"),
+    idplant: "P00826",
+    idcrude: "S01097",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac30"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e1e")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b8a"),
+    idplant: "P00827",
+    idcrude: "S01098",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac31"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e1f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b8b"),
+    idplant: "P00828",
+    idcrude: "S01099",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac32"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e20")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b8e"),
+    idplant: "P00830",
+    idcrude: "S01102",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac35"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e22")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b8c"),
+    idplant: "P00829",
+    idcrude: "S01100",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac33"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e21")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b8f"),
+    idplant: "P00831",
+    idcrude: "T00173",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead00"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e23")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b90"),
+    idplant: "P00832",
+    idcrude: "S01103",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac36"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e24")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b91"),
+    idplant: "P00832",
+    idcrude: "S01104",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac37"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e24")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b92"),
+    idplant: "P00832",
+    idcrude: "T00173",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead00")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b8d"),
+    idplant: "P00829",
+    idcrude: "S01101",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac34")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b94"),
+    idplant: "P00834",
+    idcrude: "S01106",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac39"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e26")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b93"),
+    idplant: "P00833",
+    idcrude: "S01105",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac38"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e25")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b95"),
+    idplant: "P00834",
+    idcrude: "S01107",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac3a"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e26")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b97"),
+    idplant: "P00835",
+    idcrude: "S01110",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac3d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b96"),
+    idplant: "P00835",
+    idcrude: "S01109",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac3c"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e27")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b81"),
+    idplant: "P00819",
+    idcrude: "S01088",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac27"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e17")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b98"),
+    idplant: "P00835",
+    idcrude: "S01111",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac3e"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e27")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b9c"),
+    idplant: "P00837",
+    idcrude: "S01116",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac43")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b99"),
+    idplant: "P00835",
+    idcrude: "S01112",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac3f"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e27")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b9d"),
+    idplant: "P00837",
+    idcrude: "S01117",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac44"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e29")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b9e"),
+    idplant: "P00837",
+    idcrude: "S01118",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac45"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e29")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ba0"),
+    idplant: "P00839",
+    idcrude: "T00071",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac9b"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e2b")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ba1"),
+    idplant: "P00839",
+    idcrude: "T00202",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead1c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ba2"),
+    idplant: "P00840",
+    idcrude: "T00005",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac59"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e2c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b9b"),
+    idplant: "P00836",
+    idcrude: "S01114",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac41"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e28")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b9f"),
+    idplant: "P00838",
+    idcrude: "S01119",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac46"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e2a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ba3"),
+    idplant: "P00841",
+    idcrude: "S01120",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac47"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e2d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ba4"),
+    idplant: "P00841",
+    idcrude: "S01121",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac48"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e2d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ba5"),
+    idplant: "P00841",
+    idcrude: "S01122",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac49"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e2d")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2b9a"),
+    idplant: "P00835",
+    idcrude: "S01113",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac40"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e27")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ba6"),
+    idplant: "P00842",
+    idcrude: "S01123",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac4a")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ba7"),
+    idplant: "P00843",
+    idcrude: "S01124",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac4b"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e2f")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ba8"),
+    idplant: "P00844",
+    idcrude: "S01125",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac4c"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e30")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bab"),
+    idplant: "P00845",
+    idcrude: "S01129",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac50")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2ba9"),
+    idplant: "P00845",
+    idcrude: "S01127",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac4e"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bad"),
+    idplant: "P00845",
+    idcrude: "T00038",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac7a"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bae"),
+    idplant: "P00845",
+    idcrude: "T00093",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacb1"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2baa"),
+    idplant: "P00845",
+    idcrude: "S01128",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac4f"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bb0"),
+    idplant: "P00845",
+    idcrude: "T00219",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead2c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bb1"),
+    idplant: "P00846",
+    idcrude: "S01130",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac51"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e32")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bb2"),
+    idplant: "P00847",
+    idcrude: "S01131",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac52"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e33")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bb4"),
+    idplant: "P00849",
+    idcrude: "S01133",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac54"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e35")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bb3"),
+    idplant: "P00848",
+    idcrude: "S01132",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac53"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e34")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bb5"),
+    idplant: "P00850",
+    idcrude: "T00072",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac9c")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2baf"),
+    idplant: "P00845",
+    idcrude: "T00194",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502ead15"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bac"),
+    idplant: "P00845",
+    idcrude: "T00036",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eac78"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e31")
+} ]);
+db.getCollection("plantcrudes").insert([ {
+    _id: ObjectId("5cf8d55b5285101d5c3b2bb6"),
+    idplant: "P00850",
+    idcrude: "T00116",
+    __v: NumberInt("0"),
+    refCrude: ObjectId("5cf8d43edd41810e502eacc8"),
+    refPlant: ObjectId("5cf8cce513bc061d4cd98e36")
+} ]);

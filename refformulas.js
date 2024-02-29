@@ -1,0 +1,11100 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : [PROD]KMSJAMUMEDICINE
+ Source Server Type    : MongoDB
+ Source Server Version : 30608 (3.6.8)
+ Source Host           : localhost:27017
+ Source Schema         : kmsjamu
+
+ Target Server Type    : MongoDB
+ Target Server Version : 30608 (3.6.8)
+ File Encoding         : 65001
+
+ Date: 27/05/2023 09:13:12
+*/
+
+
+// ----------------------------
+// Collection structure for refformulas
+// ----------------------------
+db.getCollection("refformulas").drop();
+db.createCollection("refformulas");
+db.getCollection("refformulas").createIndex({
+    idformula: NumberInt("1")
+}, {
+    name: "idformula_1",
+    background: true,
+    unique: true
+});
+
+// ----------------------------
+// Documents of refformulas
+// ----------------------------
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1eb"),
+    idformula: "F00001",
+    idherbsmed: "K00001",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1ef"),
+    idformula: "F00005",
+    idherbsmed: "K00001",
+    ref: "漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1f0"),
+    idformula: "F00006",
+    idherbsmed: "K00001",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1ee"),
+    idformula: "F00004",
+    idherbsmed: "K00001",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1f1"),
+    idformula: "F00007",
+    idherbsmed: "K00001",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1f2"),
+    idformula: "F00008",
+    idherbsmed: "K00001",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1f3"),
+    idformula: "F00009",
+    idherbsmed: "K00002",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1f4"),
+    idformula: "F00010",
+    idherbsmed: "K00003",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1ec"),
+    idformula: "F00002",
+    idherbsmed: "K00001",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1f5"),
+    idformula: "F00011",
+    idherbsmed: "K00003",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1ed"),
+    idformula: "F00003",
+    idherbsmed: "K00001",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1f7"),
+    idformula: "F00013",
+    idherbsmed: "K00003",
+    ref: "漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1f6"),
+    idformula: "F00012",
+    idherbsmed: "K00003",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1f8"),
+    idformula: "F00014",
+    idherbsmed: "K00003",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1f9"),
+    idformula: "F00015",
+    idherbsmed: "K00003",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1fb"),
+    idformula: "F00017",
+    idherbsmed: "K00004",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1fc"),
+    idformula: "F00018",
+    idherbsmed: "K00004",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1fd"),
+    idformula: "F00019",
+    idherbsmed: "K00004",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1fe"),
+    idformula: "F00020",
+    idherbsmed: "K00004",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1ff"),
+    idformula: "F00021",
+    idherbsmed: "K00004",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea200"),
+    idformula: "F00022",
+    idherbsmed: "K00004",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea201"),
+    idformula: "F00023",
+    idherbsmed: "K00004",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea202"),
+    idformula: "F00024",
+    idherbsmed: "K00004",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea1fa"),
+    idformula: "F00016",
+    idherbsmed: "K00003",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea203"),
+    idformula: "F00025",
+    idherbsmed: "K00004",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea204"),
+    idformula: "F00026",
+    idherbsmed: "K00004",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea205"),
+    idformula: "F00031",
+    idherbsmed: "K00005",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea208"),
+    idformula: "F00034",
+    idherbsmed: "K00005",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea206"),
+    idformula: "F00032",
+    idherbsmed: "K00005",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea207"),
+    idformula: "F00033",
+    idherbsmed: "K00005",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea20a"),
+    idformula: "F00028",
+    idherbsmed: "K00005",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea209"),
+    idformula: "F00027",
+    idherbsmed: "K00005",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea20b"),
+    idformula: "F00029",
+    idherbsmed: "K00005",
+    ref: "金匱要略入門：森田幸門著，昭和43.1.15，第2版（森田漢方治療研究所）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea20d"),
+    idformula: "F00035",
+    idherbsmed: "K00006",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea20e"),
+    idformula: "F00036",
+    idherbsmed: "K00006",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea20c"),
+    idformula: "F00030",
+    idherbsmed: "K00005",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea20f"),
+    idformula: "F00037",
+    idherbsmed: "K00006",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea210"),
+    idformula: "F00038",
+    idherbsmed: "K00006",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea211"),
+    idformula: "F00039",
+    idherbsmed: "K00006",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea212"),
+    idformula: "F00040",
+    idherbsmed: "K00006",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea214"),
+    idformula: "F00042",
+    idherbsmed: "K00009",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea215"),
+    idformula: "F00043",
+    idherbsmed: "K00010",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea216"),
+    idformula: "F00044",
+    idherbsmed: "K00011",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea217"),
+    idformula: "F00045",
+    idherbsmed: "K00011",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；あなたの病気の漢方療法：山田光胤著，昭和38.1.15，初版（青樹社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea218"),
+    idformula: "F00046",
+    idherbsmed: "K00011",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea21a"),
+    idformula: "F00048",
+    idherbsmed: "K00011",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea219"),
+    idformula: "F00047",
+    idherbsmed: "K00011",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療三十年：大塚敬節著，昭和34.6.1（創元社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea21b"),
+    idformula: "F00049",
+    idherbsmed: "K00011",
+    ref: "臨床医の漢方：木下繁太朗・鎌江眞吾共著，昭和44（医歯薬出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea213"),
+    idformula: "F00041",
+    idherbsmed: "K00008",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea21c"),
+    idformula: "F00050",
+    idherbsmed: "K00011",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea21d"),
+    idformula: "F00051",
+    idherbsmed: "K00011",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea21f"),
+    idformula: "F00059",
+    idherbsmed: "K00012",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea21e"),
+    idformula: "F00052",
+    idherbsmed: "K00011",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea220"),
+    idformula: "F00060",
+    idherbsmed: "K00012",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea223"),
+    idformula: "F00054",
+    idherbsmed: "K00012",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea224"),
+    idformula: "F00055",
+    idherbsmed: "K00012",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea225"),
+    idformula: "F00056",
+    idherbsmed: "K00012",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea226"),
+    idformula: "F00057",
+    idherbsmed: "K00012",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea227"),
+    idformula: "F00058",
+    idherbsmed: "K00012",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea221"),
+    idformula: "F00061",
+    idherbsmed: "K00012",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea228"),
+    idformula: "F00062",
+    idherbsmed: "K00013",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea229"),
+    idformula: "F00063",
+    idherbsmed: "K00013",
+    ref: "漢方大医典：大塚敬節他著，昭和32.9，第1版（東都書房）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea22c"),
+    idformula: "F00066",
+    idherbsmed: "K00013",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea22a"),
+    idformula: "F00064",
+    idherbsmed: "K00013",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea22b"),
+    idformula: "F00065",
+    idherbsmed: "K00013",
+    ref: "近代漢方薬ハンドブック：高橋良忠著，昭和42.10（薬局新聞社）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea22d"),
+    idformula: "F00067",
+    idherbsmed: "K00013",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea22f"),
+    idformula: "F00069",
+    idherbsmed: "K00013",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea22e"),
+    idformula: "F00068",
+    idherbsmed: "K00013",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療三十年：大塚敬節著，昭和34.6.1（創元社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea230"),
+    idformula: "F00070",
+    idherbsmed: "K00013",
+    ref: "臨床医の漢方：木下繁太朗・鎌江眞吾共著，昭和44（医歯薬出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea222"),
+    idformula: "F00053",
+    idherbsmed: "K00012",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea231"),
+    idformula: "F00071",
+    idherbsmed: "K00013",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea233"),
+    idformula: "F00073",
+    idherbsmed: "K00014",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea234"),
+    idformula: "F00074",
+    idherbsmed: "K00015",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea232"),
+    idformula: "F00072",
+    idherbsmed: "K00013",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea235"),
+    idformula: "F00075",
+    idherbsmed: "K00016",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea238"),
+    idformula: "F00078",
+    idherbsmed: "K00018",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea239"),
+    idformula: "F00079",
+    idherbsmed: "K00018",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea23a"),
+    idformula: "F00080",
+    idherbsmed: "K00018",
+    ref: "外台秘要方：王編著，1955年影印本，1746年日本刊本（人民衛生出版社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea23b"),
+    idformula: "F00081",
+    idherbsmed: "K00018",
+    ref: "現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea23c"),
+    idformula: "F00082",
+    idherbsmed: "K00018",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea236"),
+    idformula: "F00076",
+    idherbsmed: "K00017",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea23d"),
+    idformula: "F00083",
+    idherbsmed: "K00018",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea23e"),
+    idformula: "F00084",
+    idherbsmed: "K00018",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea240"),
+    idformula: "F00086",
+    idherbsmed: "K00018",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea23f"),
+    idformula: "F00085",
+    idherbsmed: "K00018",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea241"),
+    idformula: "F00087",
+    idherbsmed: "K00018",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea242"),
+    idformula: "F00088",
+    idherbsmed: "K00019",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea243"),
+    idformula: "F00090",
+    idherbsmed: "K00020",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea244"),
+    idformula: "F00091",
+    idherbsmed: "K00020",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea245"),
+    idformula: "F00092",
+    idherbsmed: "K00020",
+    ref: "漢方治療百科：荒木正胤著，昭和39（岩崎書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea246"),
+    idformula: "F00093",
+    idherbsmed: "K00020",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea247"),
+    idformula: "F00094",
+    idherbsmed: "K00020",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea248"),
+    idformula: "F00095",
+    idherbsmed: "K00020",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea249"),
+    idformula: "F00096",
+    idherbsmed: "K00020",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea24a"),
+    idformula: "F00097",
+    idherbsmed: "K00020",
+    ref: "続漢方の本：UNKNOWN",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea24b"),
+    idformula: "F00089",
+    idherbsmed: "K00020",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea24c"),
+    idformula: "F00098",
+    idherbsmed: "K00021",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea24d"),
+    idformula: "F00099",
+    idherbsmed: "K00022",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea237"),
+    idformula: "F00077",
+    idherbsmed: "K00018",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea24e"),
+    idformula: "F00100",
+    idherbsmed: "K00023",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea24f"),
+    idformula: "F00101",
+    idherbsmed: "K00023",
+    ref: "漢方掌典：清水藤太郎著，昭和16（薬業往来社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea250"),
+    idformula: "F00102",
+    idherbsmed: "K00023",
+    ref: "現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea251"),
+    idformula: "F00103",
+    idherbsmed: "K00023",
+    ref: "古方薬嚢：荒木性次著，昭和29（漢方精究初竜会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea254"),
+    idformula: "F00106",
+    idherbsmed: "K00023",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea252"),
+    idformula: "F00104",
+    idherbsmed: "K00023",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea255"),
+    idformula: "F00107",
+    idherbsmed: "K00023",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea256"),
+    idformula: "F00108",
+    idherbsmed: "K00023",
+    ref: "臨床と応用：UNKNOWN",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea258"),
+    idformula: "F00110",
+    idherbsmed: "K00025",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea259"),
+    idformula: "F00117",
+    idherbsmed: "K00026",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea257"),
+    idformula: "F00109",
+    idherbsmed: "K00024",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea25a"),
+    idformula: "F00111",
+    idherbsmed: "K00026",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea253"),
+    idformula: "F00105",
+    idherbsmed: "K00023",
+    ref: "明趙開美刊本　影印傷寒論：石原明解題",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea25b"),
+    idformula: "F00112",
+    idherbsmed: "K00026",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea25c"),
+    idformula: "F00113",
+    idherbsmed: "K00026",
+    ref: "傷寒論入門：森田幸門著，昭和33（治療研究所）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea25d"),
+    idformula: "F00114",
+    idherbsmed: "K00026",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea260"),
+    idformula: "F00118",
+    idherbsmed: "K00027",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea25f"),
+    idformula: "F00116",
+    idherbsmed: "K00026",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea261"),
+    idformula: "F00119",
+    idherbsmed: "K00027",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea262"),
+    idformula: "F00120",
+    idherbsmed: "K00027",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea263"),
+    idformula: "F00121",
+    idherbsmed: "K00027",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方と民間薬百科：大塚敬節著（主婦の友社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea25e"),
+    idformula: "F00115",
+    idherbsmed: "K00026",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea265"),
+    idformula: "F00123",
+    idherbsmed: "K00028",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea266"),
+    idformula: "F00124",
+    idherbsmed: "K00028",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea264"),
+    idformula: "F00122",
+    idherbsmed: "K00027",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea269"),
+    idformula: "F00127",
+    idherbsmed: "K00028",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea26a"),
+    idformula: "F00128",
+    idherbsmed: "K00028",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea26b"),
+    idformula: "F00129",
+    idherbsmed: "K00028",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea26c"),
+    idformula: "F00130",
+    idherbsmed: "K00029",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea267"),
+    idformula: "F00125",
+    idherbsmed: "K00028",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea26d"),
+    idformula: "F00131",
+    idherbsmed: "K00029",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea26f"),
+    idformula: "F00133",
+    idherbsmed: "K00029",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea26e"),
+    idformula: "F00132",
+    idherbsmed: "K00029",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea270"),
+    idformula: "F00134",
+    idherbsmed: "K00029",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea271"),
+    idformula: "F00135",
+    idherbsmed: "K00029",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea272"),
+    idformula: "F00136",
+    idherbsmed: "K00029",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea268"),
+    idformula: "F00126",
+    idherbsmed: "K00028",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea276"),
+    idformula: "F00140",
+    idherbsmed: "K00029",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea275"),
+    idformula: "F00139",
+    idherbsmed: "K00029",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea278"),
+    idformula: "F00142",
+    idherbsmed: "K00029",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea277"),
+    idformula: "F00141",
+    idherbsmed: "K00029",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea273"),
+    idformula: "F00137",
+    idherbsmed: "K00029",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea27b"),
+    idformula: "F00145",
+    idherbsmed: "K00032",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea27a"),
+    idformula: "F00144",
+    idherbsmed: "K00031",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea279"),
+    idformula: "F00143",
+    idherbsmed: "K00030",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea27c"),
+    idformula: "F00146",
+    idherbsmed: "K00032",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea27d"),
+    idformula: "F00147",
+    idherbsmed: "K00032",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea27f"),
+    idformula: "F00149",
+    idherbsmed: "K00033",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea274"),
+    idformula: "F00138",
+    idherbsmed: "K00029",
+    ref: "100万人の漢方・診断と治療の実際：寺師睦濟著，昭和48.1（豊文社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea27e"),
+    idformula: "F00148",
+    idherbsmed: "K00032",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea282"),
+    idformula: "F00152",
+    idherbsmed: "K00033",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea281"),
+    idformula: "F00151",
+    idherbsmed: "K00033",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea284"),
+    idformula: "F00154",
+    idherbsmed: "K00033",
+    ref: "漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea283"),
+    idformula: "F00153",
+    idherbsmed: "K00033",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea286"),
+    idformula: "F00156",
+    idherbsmed: "K00033",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea287"),
+    idformula: "F00157",
+    idherbsmed: "K00033",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea280"),
+    idformula: "F00150",
+    idherbsmed: "K00033",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea288"),
+    idformula: "F00158",
+    idherbsmed: "K00033",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea289"),
+    idformula: "F00159",
+    idherbsmed: "K00034",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea28a"),
+    idformula: "F00160",
+    idherbsmed: "K00034",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea28b"),
+    idformula: "F00161",
+    idherbsmed: "K00034",
+    ref: "明趙開美刊本　影印傷寒論：石原明解題",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea285"),
+    idformula: "F00155",
+    idherbsmed: "K00033",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea28e"),
+    idformula: "F00164",
+    idherbsmed: "K00035",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea28c"),
+    idformula: "F00162",
+    idherbsmed: "K00034",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea28f"),
+    idformula: "F00165",
+    idherbsmed: "K00036",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea290"),
+    idformula: "F00166",
+    idherbsmed: "K00036",
+    ref: "校正方輿輗：有持桂里著，1853年刊本",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea292"),
+    idformula: "F00168",
+    idherbsmed: "K00036",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea291"),
+    idformula: "F00167",
+    idherbsmed: "K00036",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea293"),
+    idformula: "F00171",
+    idherbsmed: "K00037",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea294"),
+    idformula: "F00172",
+    idherbsmed: "K00037",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea297"),
+    idformula: "F00175",
+    idherbsmed: "K00037",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea28d"),
+    idformula: "F00163",
+    idherbsmed: "K00034",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea298"),
+    idformula: "F00176",
+    idherbsmed: "K00037",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea296"),
+    idformula: "F00174",
+    idherbsmed: "K00037",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea299"),
+    idformula: "F00177",
+    idherbsmed: "K00037",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea29a"),
+    idformula: "F00178",
+    idherbsmed: "K00037",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea29b"),
+    idformula: "F00169",
+    idherbsmed: "K00037",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea29d"),
+    idformula: "F00179",
+    idherbsmed: "K00038",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea29c"),
+    idformula: "F00170",
+    idherbsmed: "K00037",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea295"),
+    idformula: "F00173",
+    idherbsmed: "K00037",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea29e"),
+    idformula: "F00180",
+    idherbsmed: "K00038",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea29f"),
+    idformula: "F00181",
+    idherbsmed: "K00038",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2a0"),
+    idformula: "F00182",
+    idherbsmed: "K00038",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2a3"),
+    idformula: "F00185",
+    idherbsmed: "K00040",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2a4"),
+    idformula: "F00186",
+    idherbsmed: "K00040",
+    ref: "漢方処方大成：矢数圭堂監修，昭和63.4.15，第1刷（自然社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2a5"),
+    idformula: "F00187",
+    idherbsmed: "K00040",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2a6"),
+    idformula: "F00188",
+    idherbsmed: "K00040",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2a7"),
+    idformula: "F00189",
+    idherbsmed: "K00040",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2a8"),
+    idformula: "F00190",
+    idherbsmed: "K00040",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2a9"),
+    idformula: "F00191",
+    idherbsmed: "K00040",
+    ref: "図説　東洋医学　湯液編㈵　漢方解説：山田光胤・橋本竹二郎共著，昭和59.6.1，初版（学習研究社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2aa"),
+    idformula: "F00192",
+    idherbsmed: "K00040",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2a2"),
+    idformula: "F00184",
+    idherbsmed: "K00040",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ab"),
+    idformula: "F00193",
+    idherbsmed: "K00040",
+    ref: "黙堂柴田良治処方集：柴田良治著，昭和63.12（黙堂社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ac"),
+    idformula: "F00194",
+    idherbsmed: "K00040",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ae"),
+    idformula: "F00196",
+    idherbsmed: "K00040",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ad"),
+    idformula: "F00195",
+    idherbsmed: "K00040",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2af"),
+    idformula: "F00197",
+    idherbsmed: "K00041",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2a1"),
+    idformula: "F00183",
+    idherbsmed: "K00039",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2b0"),
+    idformula: "F00198",
+    idherbsmed: "K00041",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2b1"),
+    idformula: "F00199",
+    idherbsmed: "K00041",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2b5"),
+    idformula: "F00203",
+    idherbsmed: "K00041",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2b2"),
+    idformula: "F00200",
+    idherbsmed: "K00041",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2b6"),
+    idformula: "F00204",
+    idherbsmed: "K00041",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2b8"),
+    idformula: "F00215",
+    idherbsmed: "K00043",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2b7"),
+    idformula: "F00205",
+    idherbsmed: "K00042",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2b9"),
+    idformula: "F00206",
+    idherbsmed: "K00043",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2bb"),
+    idformula: "F00208",
+    idherbsmed: "K00043",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2b4"),
+    idformula: "F00202",
+    idherbsmed: "K00041",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2bc"),
+    idformula: "F00209",
+    idherbsmed: "K00043",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2be"),
+    idformula: "F00211",
+    idherbsmed: "K00043",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2bd"),
+    idformula: "F00210",
+    idherbsmed: "K00043",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ba"),
+    idformula: "F00207",
+    idherbsmed: "K00043",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2c0"),
+    idformula: "F00213",
+    idherbsmed: "K00043",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2bf"),
+    idformula: "F00212",
+    idherbsmed: "K00043",
+    ref: "成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）；漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2b3"),
+    idformula: "F00201",
+    idherbsmed: "K00041",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2c1"),
+    idformula: "F00214",
+    idherbsmed: "K00043",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2c5"),
+    idformula: "F00222",
+    idherbsmed: "K00044",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2c6"),
+    idformula: "F00217",
+    idherbsmed: "K00044",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2c7"),
+    idformula: "F00218",
+    idherbsmed: "K00044",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2c4"),
+    idformula: "F00221",
+    idherbsmed: "K00044",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2c8"),
+    idformula: "F00219",
+    idherbsmed: "K00044",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2c9"),
+    idformula: "F00223",
+    idherbsmed: "K00045",
+    ref: "漢方医学処方解説：矢数道明著，昭和15.1.1（日本漢方医学会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ca"),
+    idformula: "F00224",
+    idherbsmed: "K00045",
+    ref: "医方集解：汪昂編著，1682年日本刊本",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2cb"),
+    idformula: "F00225",
+    idherbsmed: "K00045",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2cc"),
+    idformula: "F00226",
+    idherbsmed: "K00045",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2c2"),
+    idformula: "F00216",
+    idherbsmed: "K00044",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2c3"),
+    idformula: "F00220",
+    idherbsmed: "K00044",
+    ref: "成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ce"),
+    idformula: "F00228",
+    idherbsmed: "K00045",
+    ref: "中国医学大辞典：謝観編著，1957.9，第5次印刷（商務印書館）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2d1"),
+    idformula: "F00231",
+    idherbsmed: "K00045",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2d2"),
+    idformula: "F00232",
+    idherbsmed: "K00046",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2d3"),
+    idformula: "F00233",
+    idherbsmed: "K00047",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2cd"),
+    idformula: "F00227",
+    idherbsmed: "K00045",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2d4"),
+    idformula: "F00234",
+    idherbsmed: "K00048",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2d6"),
+    idformula: "F00236",
+    idherbsmed: "K00050",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2d5"),
+    idformula: "F00235",
+    idherbsmed: "K00049",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2d0"),
+    idformula: "F00230",
+    idherbsmed: "K00045",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2d7"),
+    idformula: "F00237",
+    idherbsmed: "K00051",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2d8"),
+    idformula: "F00238",
+    idherbsmed: "K00051",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2d9"),
+    idformula: "F00239",
+    idherbsmed: "K00051",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2da"),
+    idformula: "F00240",
+    idherbsmed: "K00051",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2db"),
+    idformula: "F00241",
+    idherbsmed: "K00051",
+    ref: "新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2cf"),
+    idformula: "F00229",
+    idherbsmed: "K00045",
+    ref: "黙堂柴田良治処方集：柴田良治著，昭和63.12（黙堂社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2df"),
+    idformula: "F00245",
+    idherbsmed: "K00054",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2de"),
+    idformula: "F00244",
+    idherbsmed: "K00053",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2dd"),
+    idformula: "F00243",
+    idherbsmed: "K00052",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2e1"),
+    idformula: "F00251",
+    idherbsmed: "K00054",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2e0"),
+    idformula: "F00250",
+    idherbsmed: "K00054",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2e3"),
+    idformula: "F00247",
+    idherbsmed: "K00054",
+    ref: "明趙開美刊本　影印傷寒論：石原明解題",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2e2"),
+    idformula: "F00246",
+    idherbsmed: "K00054",
+    ref: "明兪子刊本　影印金匱要略：石原明解題，燎原，昭和48.6.20再版発行；類聚方：吉益東洞編著，1764年刊本",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2e4"),
+    idformula: "F00248",
+    idherbsmed: "K00054",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2dc"),
+    idformula: "F00242",
+    idherbsmed: "K00051",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2e5"),
+    idformula: "F00249",
+    idherbsmed: "K00054",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2e6"),
+    idformula: "F00252",
+    idherbsmed: "K00055",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2e7"),
+    idformula: "F00253",
+    idherbsmed: "K00055",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方大医典：大塚敬節他著，昭和32.9，第1版（東都書房）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2e8"),
+    idformula: "F00254",
+    idherbsmed: "K00055",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2e9"),
+    idformula: "F00255",
+    idherbsmed: "K00055",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2eb"),
+    idformula: "F00257",
+    idherbsmed: "K00056",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ea"),
+    idformula: "F00256",
+    idherbsmed: "K00055",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ec"),
+    idformula: "F00258",
+    idherbsmed: "K00057",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ee"),
+    idformula: "F00260",
+    idherbsmed: "K00057",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ed"),
+    idformula: "F00259",
+    idherbsmed: "K00057",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ef"),
+    idformula: "F00261",
+    idherbsmed: "K00057",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2f1"),
+    idformula: "F00263",
+    idherbsmed: "K00058",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2f0"),
+    idformula: "F00262",
+    idherbsmed: "K00058",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2f2"),
+    idformula: "F00264",
+    idherbsmed: "K00058",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2f3"),
+    idformula: "F00265",
+    idherbsmed: "K00058",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2f6"),
+    idformula: "F00268",
+    idherbsmed: "K00058",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2f5"),
+    idformula: "F00267",
+    idherbsmed: "K00058",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2f4"),
+    idformula: "F00266",
+    idherbsmed: "K00058",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2f8"),
+    idformula: "F00270",
+    idherbsmed: "K00059",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2f9"),
+    idformula: "F00271",
+    idherbsmed: "K00059",
+    ref: "漢方治療百科：荒木正胤著，昭和39（岩崎書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2f7"),
+    idformula: "F00269",
+    idherbsmed: "K00059",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2fc"),
+    idformula: "F00274",
+    idherbsmed: "K00060",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2fa"),
+    idformula: "F00272",
+    idherbsmed: "K00059",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2fd"),
+    idformula: "F00275",
+    idherbsmed: "K00061",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2ff"),
+    idformula: "F00277",
+    idherbsmed: "K00061",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2fe"),
+    idformula: "F00276",
+    idherbsmed: "K00061",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea300"),
+    idformula: "F00278",
+    idherbsmed: "K00061",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea301"),
+    idformula: "F00279",
+    idherbsmed: "K00061",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea2fb"),
+    idformula: "F00273",
+    idherbsmed: "K00059",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea304"),
+    idformula: "F00282",
+    idherbsmed: "K00061",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea305"),
+    idformula: "F00283",
+    idherbsmed: "K00061",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea306"),
+    idformula: "F00284",
+    idherbsmed: "K00061",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea307"),
+    idformula: "F00285",
+    idherbsmed: "K00062",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea302"),
+    idformula: "F00280",
+    idherbsmed: "K00061",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea308"),
+    idformula: "F00286",
+    idherbsmed: "K00062",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea309"),
+    idformula: "F00287",
+    idherbsmed: "K00062",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea30b"),
+    idformula: "F00289",
+    idherbsmed: "K00062",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea30a"),
+    idformula: "F00288",
+    idherbsmed: "K00062",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea30c"),
+    idformula: "F00290",
+    idherbsmed: "K00063",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea30d"),
+    idformula: "F00291",
+    idherbsmed: "K00063",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea30f"),
+    idformula: "F00293",
+    idherbsmed: "K00063",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea30e"),
+    idformula: "F00292",
+    idherbsmed: "K00063",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea310"),
+    idformula: "F00294",
+    idherbsmed: "K00063",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea311"),
+    idformula: "F00295",
+    idherbsmed: "K00063",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea314"),
+    idformula: "F00299",
+    idherbsmed: "K00064",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea313"),
+    idformula: "F00297",
+    idherbsmed: "K00063",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea316"),
+    idformula: "F00300",
+    idherbsmed: "K00065",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea315"),
+    idformula: "F00298",
+    idherbsmed: "K00064",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea303"),
+    idformula: "F00281",
+    idherbsmed: "K00061",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea317"),
+    idformula: "F00301",
+    idherbsmed: "K00066",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea318"),
+    idformula: "F00302",
+    idherbsmed: "K00066",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea319"),
+    idformula: "F00303",
+    idherbsmed: "K00066",
+    ref: "増補万病回春：龔廷賢編著（医林書局出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea31b"),
+    idformula: "F00305",
+    idherbsmed: "K00067",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea31c"),
+    idformula: "F00306",
+    idherbsmed: "K00067",
+    ref: "新刊仁斉直指附遺方論：楊士瀛編著，1550年日本刊本",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea312"),
+    idformula: "F00296",
+    idherbsmed: "K00063",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea31d"),
+    idformula: "F00307",
+    idherbsmed: "K00067",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea31a"),
+    idformula: "F00304",
+    idherbsmed: "K00067",
+    ref: "図説・漢方処方の八網分類：顔焜榮著，昭和56（薬局新聞社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea320"),
+    idformula: "F00310",
+    idherbsmed: "K00069",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea31f"),
+    idformula: "F00309",
+    idherbsmed: "K00068",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea31e"),
+    idformula: "F00308",
+    idherbsmed: "K00068",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea321"),
+    idformula: "F00311",
+    idherbsmed: "K00069",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea324"),
+    idformula: "F00314",
+    idherbsmed: "K00069",
+    ref: "漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea322"),
+    idformula: "F00312",
+    idherbsmed: "K00069",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea326"),
+    idformula: "F00316",
+    idherbsmed: "K00069",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea325"),
+    idformula: "F00315",
+    idherbsmed: "K00069",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea327"),
+    idformula: "F00317",
+    idherbsmed: "K00070",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea328"),
+    idformula: "F00320",
+    idherbsmed: "K00071",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea329"),
+    idformula: "F00321",
+    idherbsmed: "K00071",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea32a"),
+    idformula: "F00322",
+    idherbsmed: "K00071",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea32c"),
+    idformula: "F00324",
+    idherbsmed: "K00071",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea32b"),
+    idformula: "F00323",
+    idherbsmed: "K00071",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea32d"),
+    idformula: "F00318",
+    idherbsmed: "K00071",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea32e"),
+    idformula: "F00319",
+    idherbsmed: "K00071",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea323"),
+    idformula: "F00313",
+    idherbsmed: "K00069",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea32f"),
+    idformula: "F00325",
+    idherbsmed: "K00072",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea331"),
+    idformula: "F00327",
+    idherbsmed: "K00073",
+    ref: "現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea330"),
+    idformula: "F00326",
+    idherbsmed: "K00073",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea332"),
+    idformula: "F00328",
+    idherbsmed: "K00073",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea333"),
+    idformula: "F00329",
+    idherbsmed: "K00073",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea336"),
+    idformula: "F00332",
+    idherbsmed: "K00074",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea337"),
+    idformula: "F00333",
+    idherbsmed: "K00074",
+    ref: "現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea338"),
+    idformula: "F00334",
+    idherbsmed: "K00074",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea339"),
+    idformula: "F00335",
+    idherbsmed: "K00074",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea33b"),
+    idformula: "F00337",
+    idherbsmed: "K00074",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea334"),
+    idformula: "F00330",
+    idherbsmed: "K00073",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea33a"),
+    idformula: "F00336",
+    idherbsmed: "K00074",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea335"),
+    idformula: "F00331",
+    idherbsmed: "K00073",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea33c"),
+    idformula: "F00338",
+    idherbsmed: "K00075",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea33d"),
+    idformula: "F00346",
+    idherbsmed: "K00076",
+    ref: "新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea33e"),
+    idformula: "F00347",
+    idherbsmed: "K00076",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea340"),
+    idformula: "F00349",
+    idherbsmed: "K00076",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea33f"),
+    idformula: "F00348",
+    idherbsmed: "K00076",
+    ref: "漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea341"),
+    idformula: "F00350",
+    idherbsmed: "K00076",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea342"),
+    idformula: "F00351",
+    idherbsmed: "K00076",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea343"),
+    idformula: "F00352",
+    idherbsmed: "K00076",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea344"),
+    idformula: "F00339",
+    idherbsmed: "K00076",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea346"),
+    idformula: "F00341",
+    idherbsmed: "K00076",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea345"),
+    idformula: "F00340",
+    idherbsmed: "K00076",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea347"),
+    idformula: "F00342",
+    idherbsmed: "K00076",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea348"),
+    idformula: "F00343",
+    idherbsmed: "K00076",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）；傷寒論梗概：奥田謙蔵著，昭和29.4.15（東京漢方医学会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea34a"),
+    idformula: "F00345",
+    idherbsmed: "K00076",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea349"),
+    idformula: "F00344",
+    idherbsmed: "K00076",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea34c"),
+    idformula: "F00354",
+    idherbsmed: "K00077",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）；傷寒論梗概：奥田謙蔵著，昭和29.4.15（東京漢方医学会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea34d"),
+    idformula: "F00355",
+    idherbsmed: "K00077",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea34e"),
+    idformula: "F00356",
+    idherbsmed: "K00077",
+    ref: "新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea34b"),
+    idformula: "F00353",
+    idherbsmed: "K00077",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea351"),
+    idformula: "F00359",
+    idherbsmed: "K00077",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea34f"),
+    idformula: "F00357",
+    idherbsmed: "K00077",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea352"),
+    idformula: "F00360",
+    idherbsmed: "K00077",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea350"),
+    idformula: "F00358",
+    idherbsmed: "K00077",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea354"),
+    idformula: "F00362",
+    idherbsmed: "K00078",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea355"),
+    idformula: "F00363",
+    idherbsmed: "K00078",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea356"),
+    idformula: "F00364",
+    idherbsmed: "K00078",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea357"),
+    idformula: "F00365",
+    idherbsmed: "K00078",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea358"),
+    idformula: "F00366",
+    idherbsmed: "K00078",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea353"),
+    idformula: "F00361",
+    idherbsmed: "K00078",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea359"),
+    idformula: "F00367",
+    idherbsmed: "K00078",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea35a"),
+    idformula: "F00368",
+    idherbsmed: "K00078",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea35d"),
+    idformula: "F00371",
+    idherbsmed: "K00079",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea35b"),
+    idformula: "F00369",
+    idherbsmed: "K00079",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea35c"),
+    idformula: "F00370",
+    idherbsmed: "K00079",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea35e"),
+    idformula: "F00372",
+    idherbsmed: "K00079",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea360"),
+    idformula: "F00374",
+    idherbsmed: "K00080",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea361"),
+    idformula: "F00375",
+    idherbsmed: "K00080",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea362"),
+    idformula: "F00376",
+    idherbsmed: "K00080",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea364"),
+    idformula: "F00378",
+    idherbsmed: "K00080",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea365"),
+    idformula: "F00379",
+    idherbsmed: "K00080",
+    ref: "漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea363"),
+    idformula: "F00377",
+    idherbsmed: "K00080",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea366"),
+    idformula: "F00380",
+    idherbsmed: "K00080",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea367"),
+    idformula: "F00381",
+    idherbsmed: "K00080",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea369"),
+    idformula: "F00383",
+    idherbsmed: "K00082",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea35f"),
+    idformula: "F00373",
+    idherbsmed: "K00079",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea368"),
+    idformula: "F00382",
+    idherbsmed: "K00081",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea36b"),
+    idformula: "F00385",
+    idherbsmed: "K00082",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea36a"),
+    idformula: "F00384",
+    idherbsmed: "K00082",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea36e"),
+    idformula: "F00388",
+    idherbsmed: "K00082",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea36c"),
+    idformula: "F00386",
+    idherbsmed: "K00082",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea36f"),
+    idformula: "F00389",
+    idherbsmed: "K00083",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea370"),
+    idformula: "F00390",
+    idherbsmed: "K00083",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea371"),
+    idformula: "F00391",
+    idherbsmed: "K00084",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea373"),
+    idformula: "F00393",
+    idherbsmed: "K00086",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea36d"),
+    idformula: "F00387",
+    idherbsmed: "K00082",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea372"),
+    idformula: "F00392",
+    idherbsmed: "K00085",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea375"),
+    idformula: "F00395",
+    idherbsmed: "K00088",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea374"),
+    idformula: "F00394",
+    idherbsmed: "K00087",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea377"),
+    idformula: "F00397",
+    idherbsmed: "K00089",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea376"),
+    idformula: "F00396",
+    idherbsmed: "K00089",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea379"),
+    idformula: "F00399",
+    idherbsmed: "K00089",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea37a"),
+    idformula: "F00400",
+    idherbsmed: "K00089",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea37b"),
+    idformula: "F00401",
+    idherbsmed: "K00090",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea37c"),
+    idformula: "F00402",
+    idherbsmed: "K00091",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea378"),
+    idformula: "F00398",
+    idherbsmed: "K00089",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea37e"),
+    idformula: "F00404",
+    idherbsmed: "K00092",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea37d"),
+    idformula: "F00403",
+    idherbsmed: "K00092",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea381"),
+    idformula: "F00407",
+    idherbsmed: "K00092",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea37f"),
+    idformula: "F00405",
+    idherbsmed: "K00092",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea380"),
+    idformula: "F00406",
+    idherbsmed: "K00092",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea383"),
+    idformula: "F00409",
+    idherbsmed: "K00093",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea382"),
+    idformula: "F00408",
+    idherbsmed: "K00093",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；続漢方あれこれ：大阪読売新聞社編（浪速社）；実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea384"),
+    idformula: "F00410",
+    idherbsmed: "K00093",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea388"),
+    idformula: "F00414",
+    idherbsmed: "K00094",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea389"),
+    idformula: "F00415",
+    idherbsmed: "K00094",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea38a"),
+    idformula: "F00416",
+    idherbsmed: "K00095",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea38b"),
+    idformula: "F00417",
+    idherbsmed: "K00096",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea38c"),
+    idformula: "F00418",
+    idherbsmed: "K00097",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；続漢方あれこれ：大阪読売新聞社編（浪速社）；臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea386"),
+    idformula: "F00412",
+    idherbsmed: "K00094",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea387"),
+    idformula: "F00413",
+    idherbsmed: "K00094",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea385"),
+    idformula: "F00411",
+    idherbsmed: "K00093",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea38d"),
+    idformula: "F00419",
+    idherbsmed: "K00097",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea38e"),
+    idformula: "F00420",
+    idherbsmed: "K00097",
+    ref: "増補万病回春：龔廷賢編著（医林書局出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea38f"),
+    idformula: "F00421",
+    idherbsmed: "K00097",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea390"),
+    idformula: "F00422",
+    idherbsmed: "K00097",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea391"),
+    idformula: "F00423",
+    idherbsmed: "K00097",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea392"),
+    idformula: "F00424",
+    idherbsmed: "K00097",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea393"),
+    idformula: "F00425",
+    idherbsmed: "K00098",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea396"),
+    idformula: "F00428",
+    idherbsmed: "K00098",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea394"),
+    idformula: "F00426",
+    idherbsmed: "K00098",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea397"),
+    idformula: "F00429",
+    idherbsmed: "K00098",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea395"),
+    idformula: "F00427",
+    idherbsmed: "K00098",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea398"),
+    idformula: "F00430",
+    idherbsmed: "K00098",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea399"),
+    idformula: "F00431",
+    idherbsmed: "K00098",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea39a"),
+    idformula: "F00432",
+    idherbsmed: "K00099",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea39b"),
+    idformula: "F00433",
+    idherbsmed: "K00099",
+    ref: "明趙開美刊本　影印傷寒論：石原明解題",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea39c"),
+    idformula: "F00434",
+    idherbsmed: "K00099",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea39d"),
+    idformula: "F00435",
+    idherbsmed: "K00099",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea39e"),
+    idformula: "F00436",
+    idherbsmed: "K00100",
+    ref: "現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea39f"),
+    idformula: "F00437",
+    idherbsmed: "K00100",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3a0"),
+    idformula: "F00438",
+    idherbsmed: "K00100",
+    ref: "時方歌括：陳修園編著，1956年影印本（人民衛生出版社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3a2"),
+    idformula: "F00440",
+    idherbsmed: "K00100",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3a1"),
+    idformula: "F00439",
+    idherbsmed: "K00100",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3a3"),
+    idformula: "F00441",
+    idherbsmed: "K00100",
+    ref: "漢方処方集成：龍野一雄著，昭和26（東方医学社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3a4"),
+    idformula: "F00442",
+    idherbsmed: "K00100",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3a5"),
+    idformula: "F00443",
+    idherbsmed: "K00100",
+    ref: "中国医学大辞典：謝観編著，1957.9，第5次印刷（商務印書館）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3a7"),
+    idformula: "F00445",
+    idherbsmed: "K00100",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3a6"),
+    idformula: "F00444",
+    idherbsmed: "K00100",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3a9"),
+    idformula: "F00447",
+    idherbsmed: "K00101",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ab"),
+    idformula: "F00449",
+    idherbsmed: "K00101",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3a8"),
+    idformula: "F00446",
+    idherbsmed: "K00100",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ac"),
+    idformula: "F00450",
+    idherbsmed: "K00101",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ad"),
+    idformula: "F00451",
+    idherbsmed: "K00101",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ae"),
+    idformula: "F00452",
+    idherbsmed: "K00102",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3aa"),
+    idformula: "F00448",
+    idherbsmed: "K00101",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3af"),
+    idformula: "F00453",
+    idherbsmed: "K00102",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3b0"),
+    idformula: "F00454",
+    idherbsmed: "K00102",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3b1"),
+    idformula: "F00455",
+    idherbsmed: "K00102",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3b4"),
+    idformula: "F00458",
+    idherbsmed: "K00103",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3b3"),
+    idformula: "F00457",
+    idherbsmed: "K00103",
+    ref: "漢方医学処方解説：矢数道明著，昭和15.1.1（日本漢方医学会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3b5"),
+    idformula: "F00459",
+    idherbsmed: "K00103",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3b6"),
+    idformula: "F00460",
+    idherbsmed: "K00103",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3b8"),
+    idformula: "F00462",
+    idherbsmed: "K00103",
+    ref: "増補万病回春：龔廷賢編著（医林書局出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3b9"),
+    idformula: "F00463",
+    idherbsmed: "K00103",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ba"),
+    idformula: "F00464",
+    idherbsmed: "K00103",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3b2"),
+    idformula: "F00456",
+    idherbsmed: "K00102",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3bc"),
+    idformula: "F00466",
+    idherbsmed: "K00104",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3be"),
+    idformula: "F00468",
+    idherbsmed: "K00104",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3bd"),
+    idformula: "F00467",
+    idherbsmed: "K00104",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3bb"),
+    idformula: "F00465",
+    idherbsmed: "K00104",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3bf"),
+    idformula: "F00469",
+    idherbsmed: "K00104",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3c0"),
+    idformula: "F00470",
+    idherbsmed: "K00104",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3c1"),
+    idformula: "F00471",
+    idherbsmed: "K00104",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3c3"),
+    idformula: "F00472",
+    idherbsmed: "K00105",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3c2"),
+    idformula: "F00478",
+    idherbsmed: "K00105",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3c4"),
+    idformula: "F00473",
+    idherbsmed: "K00105",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3c6"),
+    idformula: "F00475",
+    idherbsmed: "K00105",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3c7"),
+    idformula: "F00476",
+    idherbsmed: "K00105",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3c9"),
+    idformula: "F00479",
+    idherbsmed: "K00106",
+    ref: "漢方医学処方解説：矢数道明著，昭和15.1.1（日本漢方医学会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3b7"),
+    idformula: "F00461",
+    idherbsmed: "K00103",
+    ref: "丹渓心法附餘：方廣編著，1536年刊本（中国金陵梓行）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ca"),
+    idformula: "F00480",
+    idherbsmed: "K00106",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3cc"),
+    idformula: "F00482",
+    idherbsmed: "K00106",
+    ref: "奇効良方：方賢編著，1959年発行（商務印書館）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3c5"),
+    idformula: "F00474",
+    idherbsmed: "K00105",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3cd"),
+    idformula: "F00483",
+    idherbsmed: "K00106",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ce"),
+    idformula: "F00484",
+    idherbsmed: "K00106",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3cf"),
+    idformula: "F00485",
+    idherbsmed: "K00106",
+    ref: "太平恵民和剤局方：陳師文等編著，1971年発行（商務印書館香港分室）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3cb"),
+    idformula: "F00481",
+    idherbsmed: "K00106",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3d0"),
+    idformula: "F00486",
+    idherbsmed: "K00106",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3d3"),
+    idformula: "F00489",
+    idherbsmed: "K00107",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3c8"),
+    idformula: "F00477",
+    idherbsmed: "K00105",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3d4"),
+    idformula: "F00490",
+    idherbsmed: "K00108",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3d5"),
+    idformula: "F00491",
+    idherbsmed: "K00109",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3d6"),
+    idformula: "F00492",
+    idherbsmed: "K00110",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3d7"),
+    idformula: "F00493",
+    idherbsmed: "K00110",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3d8"),
+    idformula: "F00494",
+    idherbsmed: "K00110",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3d9"),
+    idformula: "F00495",
+    idherbsmed: "K00110",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3d1"),
+    idformula: "F00487",
+    idherbsmed: "K00106",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3dc"),
+    idformula: "F00498",
+    idherbsmed: "K00111",
+    ref: "増補万病回春：龔廷賢編著（医林書局出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3db"),
+    idformula: "F00497",
+    idherbsmed: "K00111",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3da"),
+    idformula: "F00496",
+    idherbsmed: "K00111",
+    ref: "薬局製剤　漢方194方の使い方：埴岡博・滝野行亮共著，昭和63.9.30（薬業時報社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療三十年：大塚敬節著，昭和34.6.1（創元社）；漢方保険診療の実際—エキス剤を主とした：勝田正泰著，昭和55.1（パンサイエンス分室）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3dd"),
+    idformula: "F00499",
+    idherbsmed: "K00111",
+    ref: "症例から学ぶ和漢診療学：寺澤捷年著，平成2.1（医学書院）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3d2"),
+    idformula: "F00488",
+    idherbsmed: "K00106",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3de"),
+    idformula: "F00500",
+    idherbsmed: "K00111",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3df"),
+    idformula: "F00501",
+    idherbsmed: "K00111",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3e0"),
+    idformula: "F00502",
+    idherbsmed: "K00111",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3e1"),
+    idformula: "F00503",
+    idherbsmed: "K00112",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3e2"),
+    idformula: "F00507",
+    idherbsmed: "K00113",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3e5"),
+    idformula: "F00510",
+    idherbsmed: "K00113",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3e6"),
+    idformula: "F00511",
+    idherbsmed: "K00113",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3e7"),
+    idformula: "F00512",
+    idherbsmed: "K00113",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3e8"),
+    idformula: "F00513",
+    idherbsmed: "K00113",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3e9"),
+    idformula: "F00504",
+    idherbsmed: "K00113",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ea"),
+    idformula: "F00505",
+    idherbsmed: "K00113",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3eb"),
+    idformula: "F00506",
+    idherbsmed: "K00113",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3e4"),
+    idformula: "F00509",
+    idherbsmed: "K00113",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ec"),
+    idformula: "F00514",
+    idherbsmed: "K00114",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ed"),
+    idformula: "F00515",
+    idherbsmed: "K00114",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ee"),
+    idformula: "F00516",
+    idherbsmed: "K00114",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3ef"),
+    idformula: "F00517",
+    idherbsmed: "K00114",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3e3"),
+    idformula: "F00508",
+    idherbsmed: "K00113",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3f0"),
+    idformula: "F00518",
+    idherbsmed: "K00114",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3f1"),
+    idformula: "F00519",
+    idherbsmed: "K00114",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3f2"),
+    idformula: "F00520",
+    idherbsmed: "K00114",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3f3"),
+    idformula: "F00521",
+    idherbsmed: "K00114",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3f6"),
+    idformula: "F00531",
+    idherbsmed: "K00115",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3f7"),
+    idformula: "F00524",
+    idherbsmed: "K00115",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方大医典：大塚敬節他著，昭和32.9，第1版（東都書房）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3f8"),
+    idformula: "F00525",
+    idherbsmed: "K00115",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3f9"),
+    idformula: "F00526",
+    idherbsmed: "K00115",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3fa"),
+    idformula: "F00527",
+    idherbsmed: "K00115",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3f4"),
+    idformula: "F00522",
+    idherbsmed: "K00114",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3fb"),
+    idformula: "F00528",
+    idherbsmed: "K00115",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea3fd"),
+    idformula: "F00530",
+    idherbsmed: "K00115",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3fc"),
+    idformula: "F00529",
+    idherbsmed: "K00115",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea3ff"),
+    idformula: "F00533",
+    idherbsmed: "K00116",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea3fe"),
+    idformula: "F00532",
+    idherbsmed: "K00116",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea400"),
+    idformula: "F00534",
+    idherbsmed: "K00116",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea401"),
+    idformula: "F00535",
+    idherbsmed: "K00116",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea402"),
+    idformula: "F00536",
+    idherbsmed: "K00117",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea403"),
+    idformula: "F00537",
+    idherbsmed: "K00117",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea404"),
+    idformula: "F00538",
+    idherbsmed: "K00117",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea405"),
+    idformula: "F00539",
+    idherbsmed: "K00117",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59116a5c20644bea3f5"),
+    idformula: "F00523",
+    idherbsmed: "K00114",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea406"),
+    idformula: "F00540",
+    idherbsmed: "K00117",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea407"),
+    idformula: "F00541",
+    idherbsmed: "K00117",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea40b"),
+    idformula: "F00545",
+    idherbsmed: "K00118",
+    ref: "傷寒論入門：森田幸門著，昭和33（治療研究所）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea408"),
+    idformula: "F00542",
+    idherbsmed: "K00118",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea40d"),
+    idformula: "F00547",
+    idherbsmed: "K00118",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea409"),
+    idformula: "F00543",
+    idherbsmed: "K00118",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea40c"),
+    idformula: "F00546",
+    idherbsmed: "K00118",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea40e"),
+    idformula: "F00548",
+    idherbsmed: "K00118",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea40f"),
+    idformula: "F00549",
+    idherbsmed: "K00118",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea410"),
+    idformula: "F00550",
+    idherbsmed: "K00118",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea411"),
+    idformula: "F00551",
+    idherbsmed: "K00118",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea413"),
+    idformula: "F00553",
+    idherbsmed: "K00119",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea412"),
+    idformula: "F00552",
+    idherbsmed: "K00118",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea416"),
+    idformula: "F00559",
+    idherbsmed: "K00120",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea417"),
+    idformula: "F00560",
+    idherbsmed: "K00120",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea40a"),
+    idformula: "F00544",
+    idherbsmed: "K00118",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea415"),
+    idformula: "F00558",
+    idherbsmed: "K00120",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea418"),
+    idformula: "F00561",
+    idherbsmed: "K00120",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea419"),
+    idformula: "F00562",
+    idherbsmed: "K00120",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea41b"),
+    idformula: "F00555",
+    idherbsmed: "K00120",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea41c"),
+    idformula: "F00556",
+    idherbsmed: "K00120",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea41a"),
+    idformula: "F00554",
+    idherbsmed: "K00120",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea414"),
+    idformula: "F00557",
+    idherbsmed: "K00120",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea41d"),
+    idformula: "F00563",
+    idherbsmed: "K00121",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea41e"),
+    idformula: "F00564",
+    idherbsmed: "K00122",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea41f"),
+    idformula: "F00565",
+    idherbsmed: "K00122",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea420"),
+    idformula: "F00566",
+    idherbsmed: "K00122",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea421"),
+    idformula: "F00567",
+    idherbsmed: "K00122",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea422"),
+    idformula: "F00568",
+    idherbsmed: "K00122",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea423"),
+    idformula: "F00569",
+    idherbsmed: "K00123",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea424"),
+    idformula: "F00570",
+    idherbsmed: "K00123",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea426"),
+    idformula: "F00572",
+    idherbsmed: "K00123",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea427"),
+    idformula: "F00573",
+    idherbsmed: "K00123",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea425"),
+    idformula: "F00571",
+    idherbsmed: "K00123",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea42a"),
+    idformula: "F00576",
+    idherbsmed: "K00123",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea428"),
+    idformula: "F00574",
+    idherbsmed: "K00123",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea429"),
+    idformula: "F00575",
+    idherbsmed: "K00123",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea42b"),
+    idformula: "F00581",
+    idherbsmed: "K00124",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea42c"),
+    idformula: "F00582",
+    idherbsmed: "K00124",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea42f"),
+    idformula: "F00585",
+    idherbsmed: "K00124",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea42d"),
+    idformula: "F00583",
+    idherbsmed: "K00124",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea430"),
+    idformula: "F00577",
+    idherbsmed: "K00124",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea431"),
+    idformula: "F00578",
+    idherbsmed: "K00124",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea432"),
+    idformula: "F00579",
+    idherbsmed: "K00124",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea433"),
+    idformula: "F00580",
+    idherbsmed: "K00124",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea434"),
+    idformula: "F00586",
+    idherbsmed: "K00125",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea436"),
+    idformula: "F00588",
+    idherbsmed: "K00125",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea42e"),
+    idformula: "F00584",
+    idherbsmed: "K00124",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea438"),
+    idformula: "F00590",
+    idherbsmed: "K00125",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea439"),
+    idformula: "F00591",
+    idherbsmed: "K00126",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea435"),
+    idformula: "F00587",
+    idherbsmed: "K00125",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea43a"),
+    idformula: "F00592",
+    idherbsmed: "K00126",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea43b"),
+    idformula: "F00593",
+    idherbsmed: "K00126",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea43c"),
+    idformula: "F00594",
+    idherbsmed: "K00126",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea43d"),
+    idformula: "F00595",
+    idherbsmed: "K00126",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea43e"),
+    idformula: "F00596",
+    idherbsmed: "K00126",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea43f"),
+    idformula: "F00597",
+    idherbsmed: "K00126",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea441"),
+    idformula: "F00599",
+    idherbsmed: "K00126",
+    ref: "黙堂柴田良治処方集：柴田良治著，昭和63.12（黙堂社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea442"),
+    idformula: "F00600",
+    idherbsmed: "K00126",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea444"),
+    idformula: "F00605",
+    idherbsmed: "K00127",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea437"),
+    idformula: "F00589",
+    idherbsmed: "K00125",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea443"),
+    idformula: "F00601",
+    idherbsmed: "K00126",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea446"),
+    idformula: "F00607",
+    idherbsmed: "K00127",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea447"),
+    idformula: "F00608",
+    idherbsmed: "K00127",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea448"),
+    idformula: "F00602",
+    idherbsmed: "K00127",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea449"),
+    idformula: "F00603",
+    idherbsmed: "K00127",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea44a"),
+    idformula: "F00604",
+    idherbsmed: "K00127",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea44b"),
+    idformula: "F00609",
+    idherbsmed: "K00128",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea44c"),
+    idformula: "F00610",
+    idherbsmed: "K00128",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea44d"),
+    idformula: "F00611",
+    idherbsmed: "K00128",
+    ref: "現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea44e"),
+    idformula: "F00612",
+    idherbsmed: "K00128",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea445"),
+    idformula: "F00606",
+    idherbsmed: "K00127",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea44f"),
+    idformula: "F00613",
+    idherbsmed: "K00128",
+    ref: "漢方診療三十年：大塚敬節著，昭和34.6.1（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea450"),
+    idformula: "F00614",
+    idherbsmed: "K00128",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea451"),
+    idformula: "F00615",
+    idherbsmed: "K00128",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea452"),
+    idformula: "F00616",
+    idherbsmed: "K00128",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea453"),
+    idformula: "F00617",
+    idherbsmed: "K00128",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea440"),
+    idformula: "F00598",
+    idherbsmed: "K00126",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea454"),
+    idformula: "F00618",
+    idherbsmed: "K00129",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea456"),
+    idformula: "F00620",
+    idherbsmed: "K00129",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea457"),
+    idformula: "F00621",
+    idherbsmed: "K00129",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea455"),
+    idformula: "F00619",
+    idherbsmed: "K00129",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea458"),
+    idformula: "F00622",
+    idherbsmed: "K00129",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea459"),
+    idformula: "F00623",
+    idherbsmed: "K00129",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea45a"),
+    idformula: "F00624",
+    idherbsmed: "K00129",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea45b"),
+    idformula: "F00625",
+    idherbsmed: "K00129",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea45c"),
+    idformula: "F00629",
+    idherbsmed: "K00130",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea45e"),
+    idformula: "F00631",
+    idherbsmed: "K00130",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea45d"),
+    idformula: "F00630",
+    idherbsmed: "K00130",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea460"),
+    idformula: "F00627",
+    idherbsmed: "K00130",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea45f"),
+    idformula: "F00626",
+    idherbsmed: "K00130",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea461"),
+    idformula: "F00628",
+    idherbsmed: "K00130",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea462"),
+    idformula: "F00632",
+    idherbsmed: "K00132",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea463"),
+    idformula: "F00633",
+    idherbsmed: "K00132",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea464"),
+    idformula: "F00634",
+    idherbsmed: "K00132",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea465"),
+    idformula: "F00635",
+    idherbsmed: "K00132",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea466"),
+    idformula: "F00636",
+    idherbsmed: "K00133",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea469"),
+    idformula: "F00639",
+    idherbsmed: "K00134",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea46a"),
+    idformula: "F00640",
+    idherbsmed: "K00134",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea467"),
+    idformula: "F00637",
+    idherbsmed: "K00134",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea46b"),
+    idformula: "F00641",
+    idherbsmed: "K00134",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea46c"),
+    idformula: "F00642",
+    idherbsmed: "K00134",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea46d"),
+    idformula: "F00643",
+    idherbsmed: "K00135",
+    ref: "漢方大医典：大塚敬節他著，昭和32.9，第1版（東都書房）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea46e"),
+    idformula: "F00644",
+    idherbsmed: "K00135",
+    ref: "現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea468"),
+    idformula: "F00638",
+    idherbsmed: "K00134",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea46f"),
+    idformula: "F00645",
+    idherbsmed: "K00135",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea470"),
+    idformula: "F00646",
+    idherbsmed: "K00135",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea471"),
+    idformula: "F00647",
+    idherbsmed: "K00135",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea474"),
+    idformula: "F00650",
+    idherbsmed: "K00135",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea475"),
+    idformula: "F00651",
+    idherbsmed: "K00136",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea476"),
+    idformula: "F00652",
+    idherbsmed: "K00137",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea472"),
+    idformula: "F00648",
+    idherbsmed: "K00135",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea477"),
+    idformula: "F00654",
+    idherbsmed: "K00138",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea478"),
+    idformula: "F00655",
+    idherbsmed: "K00138",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea479"),
+    idformula: "F00656",
+    idherbsmed: "K00138",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea47a"),
+    idformula: "F00657",
+    idherbsmed: "K00138",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea47b"),
+    idformula: "F00658",
+    idherbsmed: "K00138",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea47c"),
+    idformula: "F00659",
+    idherbsmed: "K00138",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea47e"),
+    idformula: "F00660",
+    idherbsmed: "K00139",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea473"),
+    idformula: "F00649",
+    idherbsmed: "K00135",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea480"),
+    idformula: "F00662",
+    idherbsmed: "K00140",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea47d"),
+    idformula: "F00653",
+    idherbsmed: "K00138",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea481"),
+    idformula: "F00663",
+    idherbsmed: "K00140",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea482"),
+    idformula: "F00664",
+    idherbsmed: "K00140",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea483"),
+    idformula: "F00665",
+    idherbsmed: "K00140",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea484"),
+    idformula: "F00666",
+    idherbsmed: "K00140",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea485"),
+    idformula: "F00667",
+    idherbsmed: "K00140",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea486"),
+    idformula: "F00668",
+    idherbsmed: "K00140",
+    ref: "成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea487"),
+    idformula: "F00669",
+    idherbsmed: "K00140",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea488"),
+    idformula: "F00670",
+    idherbsmed: "K00140",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea47f"),
+    idformula: "F00661",
+    idherbsmed: "K00140",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea489"),
+    idformula: "F00671",
+    idherbsmed: "K00140",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea48c"),
+    idformula: "F00674",
+    idherbsmed: "K00141",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea48d"),
+    idformula: "F00675",
+    idherbsmed: "K00141",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea48a"),
+    idformula: "F00672",
+    idherbsmed: "K00140",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea48f"),
+    idformula: "F00677",
+    idherbsmed: "K00142",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea48e"),
+    idformula: "F00676",
+    idherbsmed: "K00141",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea490"),
+    idformula: "F00678",
+    idherbsmed: "K00143",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea491"),
+    idformula: "F00683",
+    idherbsmed: "K00144",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea492"),
+    idformula: "F00684",
+    idherbsmed: "K00144",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea493"),
+    idformula: "F00685",
+    idherbsmed: "K00144",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea494"),
+    idformula: "F00679",
+    idherbsmed: "K00144",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea495"),
+    idformula: "F00680",
+    idherbsmed: "K00144",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea48b"),
+    idformula: "F00673",
+    idherbsmed: "K00141",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea497"),
+    idformula: "F00682",
+    idherbsmed: "K00144",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea499"),
+    idformula: "F00687",
+    idherbsmed: "K00146",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea496"),
+    idformula: "F00681",
+    idherbsmed: "K00144",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea49b"),
+    idformula: "F00689",
+    idherbsmed: "K00147",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea49c"),
+    idformula: "F00690",
+    idherbsmed: "K00147",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea49d"),
+    idformula: "F00691",
+    idherbsmed: "K00147",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea498"),
+    idformula: "F00686",
+    idherbsmed: "K00146",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea49e"),
+    idformula: "F00692",
+    idherbsmed: "K00148",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea49f"),
+    idformula: "F00693",
+    idherbsmed: "K00148",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4a0"),
+    idformula: "F00694",
+    idherbsmed: "K00148",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4a1"),
+    idformula: "F00695",
+    idherbsmed: "K00148",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4a2"),
+    idformula: "F00696",
+    idherbsmed: "K00148",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4a4"),
+    idformula: "F00708",
+    idherbsmed: "K00149",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4a5"),
+    idformula: "F00709",
+    idherbsmed: "K00149",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4a6"),
+    idformula: "F00710",
+    idherbsmed: "K00149",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4a7"),
+    idformula: "F00698",
+    idherbsmed: "K00149",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea49a"),
+    idformula: "F00688",
+    idherbsmed: "K00147",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4a8"),
+    idformula: "F00699",
+    idherbsmed: "K00149",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4a9"),
+    idformula: "F00700",
+    idherbsmed: "K00149",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4aa"),
+    idformula: "F00701",
+    idherbsmed: "K00149",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ab"),
+    idformula: "F00702",
+    idherbsmed: "K00149",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ac"),
+    idformula: "F00703",
+    idherbsmed: "K00149",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ad"),
+    idformula: "F00704",
+    idherbsmed: "K00149",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ae"),
+    idformula: "F00705",
+    idherbsmed: "K00149",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4af"),
+    idformula: "F00706",
+    idherbsmed: "K00149",
+    ref: "成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4b0"),
+    idformula: "F00707",
+    idherbsmed: "K00149",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4b1"),
+    idformula: "F00711",
+    idherbsmed: "K00150",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4a3"),
+    idformula: "F00697",
+    idherbsmed: "K00148",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4b3"),
+    idformula: "F00713",
+    idherbsmed: "K00151",
+    ref: "傷寒論入門：森田幸門著，昭和33（治療研究所）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4b4"),
+    idformula: "F00714",
+    idherbsmed: "K00151",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4b5"),
+    idformula: "F00715",
+    idherbsmed: "K00151",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4b6"),
+    idformula: "F00716",
+    idherbsmed: "K00151",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4b7"),
+    idformula: "F00717",
+    idherbsmed: "K00151",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4b8"),
+    idformula: "F00718",
+    idherbsmed: "K00151",
+    ref: "漢方診療のレッスン：花輪壽彦著，平成7.9.25（金原出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4b2"),
+    idformula: "F00712",
+    idherbsmed: "K00151",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方と民間薬百科：大塚敬節著（主婦の友社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4bb"),
+    idformula: "F00721",
+    idherbsmed: "K00151",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4b9"),
+    idformula: "F00719",
+    idherbsmed: "K00151",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4bd"),
+    idformula: "F00723",
+    idherbsmed: "K00152",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ba"),
+    idformula: "F00720",
+    idherbsmed: "K00151",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4bf"),
+    idformula: "F00725",
+    idherbsmed: "K00153",
+    ref: "御纂医宗金鑑：呉謙等編著，957年影印本（人民衛生出版社）；中国医学大辞典：謝観編著，1957.9，第5次印刷（商務印書館）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4c0"),
+    idformula: "F00726",
+    idherbsmed: "K00153",
+    ref: "新刊外科正宗：陳実功編著，1964年発行（人民衛生出版社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4bc"),
+    idformula: "F00722",
+    idherbsmed: "K00152",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4c2"),
+    idformula: "F00737",
+    idherbsmed: "K00154",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4c3"),
+    idformula: "F00728",
+    idherbsmed: "K00154",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4c1"),
+    idformula: "F00727",
+    idherbsmed: "K00153",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4c4"),
+    idformula: "F00729",
+    idherbsmed: "K00154",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4c6"),
+    idformula: "F00731",
+    idherbsmed: "K00154",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4c5"),
+    idformula: "F00730",
+    idherbsmed: "K00154",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4c7"),
+    idformula: "F00732",
+    idherbsmed: "K00154",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4c8"),
+    idformula: "F00733",
+    idherbsmed: "K00154",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4c9"),
+    idformula: "F00734",
+    idherbsmed: "K00154",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4cb"),
+    idformula: "F00736",
+    idherbsmed: "K00154",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4be"),
+    idformula: "F00724",
+    idherbsmed: "K00152",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4cd"),
+    idformula: "F00739",
+    idherbsmed: "K00156",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ce"),
+    idformula: "F00740",
+    idherbsmed: "K00156",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4cf"),
+    idformula: "F00741",
+    idherbsmed: "K00156",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4d0"),
+    idformula: "F00742",
+    idherbsmed: "K00156",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ca"),
+    idformula: "F00735",
+    idherbsmed: "K00154",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4d1"),
+    idformula: "F00743",
+    idherbsmed: "K00156",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4d2"),
+    idformula: "F00744",
+    idherbsmed: "K00156",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4d3"),
+    idformula: "F00745",
+    idherbsmed: "K00156",
+    ref: "漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4d4"),
+    idformula: "F00746",
+    idherbsmed: "K00156",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4d6"),
+    idformula: "F00748",
+    idherbsmed: "K00156",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4d5"),
+    idformula: "F00747",
+    idherbsmed: "K00156",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4d8"),
+    idformula: "F00750",
+    idherbsmed: "K00157",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4d7"),
+    idformula: "F00749",
+    idherbsmed: "K00157",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4d9"),
+    idformula: "F00751",
+    idherbsmed: "K00157",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4db"),
+    idformula: "F00753",
+    idherbsmed: "K00157",
+    ref: "増補万病回春：龔廷賢編著（医林書局出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4da"),
+    idformula: "F00752",
+    idherbsmed: "K00157",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4dc"),
+    idformula: "F00754",
+    idherbsmed: "K00157",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4cc"),
+    idformula: "F00738",
+    idherbsmed: "K00155",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4dd"),
+    idformula: "F00755",
+    idherbsmed: "K00157",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4de"),
+    idformula: "F00756",
+    idherbsmed: "K00157",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4df"),
+    idformula: "F00757",
+    idherbsmed: "K00157",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4e1"),
+    idformula: "F00759",
+    idherbsmed: "K00159",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4e0"),
+    idformula: "F00758",
+    idherbsmed: "K00158",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4e2"),
+    idformula: "F00761",
+    idherbsmed: "K00160",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4e5"),
+    idformula: "F00764",
+    idherbsmed: "K00160",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4e3"),
+    idformula: "F00762",
+    idherbsmed: "K00160",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4e6"),
+    idformula: "F00765",
+    idherbsmed: "K00160",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4e7"),
+    idformula: "F00766",
+    idherbsmed: "K00160",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4e8"),
+    idformula: "F00767",
+    idherbsmed: "K00160",
+    ref: "新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4e9"),
+    idformula: "F00768",
+    idherbsmed: "K00160",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ea"),
+    idformula: "F00769",
+    idherbsmed: "K00160",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4eb"),
+    idformula: "F00770",
+    idherbsmed: "K00160",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ec"),
+    idformula: "F00771",
+    idherbsmed: "K00160",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ee"),
+    idformula: "F00760",
+    idherbsmed: "K00160",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ef"),
+    idformula: "F00776",
+    idherbsmed: "K00161",
+    ref: "新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4f0"),
+    idformula: "F00774",
+    idherbsmed: "K00161",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4f1"),
+    idformula: "F00775",
+    idherbsmed: "K00161",
+    ref: "明兪子刊本　影印金匱要略：石原明解題，燎原，昭和48.6.20再版発行；明趙開美刊本　影印傷寒論：石原明解題",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4e4"),
+    idformula: "F00763",
+    idherbsmed: "K00160",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4f3"),
+    idformula: "F00777",
+    idherbsmed: "K00161",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4f2"),
+    idformula: "F00773",
+    idherbsmed: "K00161",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；続漢方あれこれ：大阪読売新聞社編（浪速社）；現代漢方入門：毎日新聞社編，昭和46.12.5（毎日新聞社）；実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4f4"),
+    idformula: "F00778",
+    idherbsmed: "K00161",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4f5"),
+    idformula: "F00779",
+    idherbsmed: "K00161",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ed"),
+    idformula: "F00772",
+    idherbsmed: "K00160",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4f7"),
+    idformula: "F00786",
+    idherbsmed: "K00162",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4f8"),
+    idformula: "F00787",
+    idherbsmed: "K00162",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4f6"),
+    idformula: "F00785",
+    idherbsmed: "K00162",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4fb"),
+    idformula: "F00780",
+    idherbsmed: "K00162",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4f9"),
+    idformula: "F00788",
+    idherbsmed: "K00162",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4fc"),
+    idformula: "F00781",
+    idherbsmed: "K00162",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4fe"),
+    idformula: "F00783",
+    idherbsmed: "K00162",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4fd"),
+    idformula: "F00782",
+    idherbsmed: "K00162",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4fa"),
+    idformula: "F00789",
+    idherbsmed: "K00162",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea500"),
+    idformula: "F00790",
+    idherbsmed: "K00163",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea4ff"),
+    idformula: "F00784",
+    idherbsmed: "K00162",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea502"),
+    idformula: "F00792",
+    idherbsmed: "K00163",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea503"),
+    idformula: "F00793",
+    idherbsmed: "K00163",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea504"),
+    idformula: "F00794",
+    idherbsmed: "K00163",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea505"),
+    idformula: "F00795",
+    idherbsmed: "K00164",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea506"),
+    idformula: "F00796",
+    idherbsmed: "K00164",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea501"),
+    idformula: "F00791",
+    idherbsmed: "K00163",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea508"),
+    idformula: "F00798",
+    idherbsmed: "K00164",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea507"),
+    idformula: "F00797",
+    idherbsmed: "K00164",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea50a"),
+    idformula: "F00800",
+    idherbsmed: "K00165",
+    ref: "漢方大医典：大塚敬節他著，昭和32.9，第1版（東都書房）；東洋医学概論：教科書執筆小委員会，医道の日本社",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea50c"),
+    idformula: "F00802",
+    idherbsmed: "K00165",
+    ref: "皇漢医学：湯本求真著，昭和37（大安）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea509"),
+    idformula: "F00799",
+    idherbsmed: "K00165",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea50d"),
+    idformula: "F00803",
+    idherbsmed: "K00165",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea50e"),
+    idformula: "F00804",
+    idherbsmed: "K00165",
+    ref: "第7改正日本薬局方：日本公定書協会編（広川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea50b"),
+    idformula: "F00801",
+    idherbsmed: "K00165",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea50f"),
+    idformula: "F00805",
+    idherbsmed: "K00165",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea510"),
+    idformula: "F00806",
+    idherbsmed: "K00165",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea511"),
+    idformula: "F00807",
+    idherbsmed: "K00165",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea512"),
+    idformula: "F00808",
+    idherbsmed: "K00166",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea514"),
+    idformula: "F00810",
+    idherbsmed: "K00166",
+    ref: "図説　東洋医学　湯液編㈵　漢方解説：山田光胤・橋本竹二郎共著，昭和59.6.1，初版（学習研究社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea513"),
+    idformula: "F00809",
+    idherbsmed: "K00166",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea516"),
+    idformula: "F00812",
+    idherbsmed: "K00166",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea515"),
+    idformula: "F00811",
+    idherbsmed: "K00166",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea519"),
+    idformula: "F00815",
+    idherbsmed: "K00167",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea518"),
+    idformula: "F00814",
+    idherbsmed: "K00167",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea51a"),
+    idformula: "F00816",
+    idherbsmed: "K00167",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea51b"),
+    idformula: "F00817",
+    idherbsmed: "K00167",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea51e"),
+    idformula: "F00820",
+    idherbsmed: "K00168",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea51d"),
+    idformula: "F00819",
+    idherbsmed: "K00168",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea517"),
+    idformula: "F00813",
+    idherbsmed: "K00167",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea51f"),
+    idformula: "F00821",
+    idherbsmed: "K00168",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea521"),
+    idformula: "F00823",
+    idherbsmed: "K00169",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea520"),
+    idformula: "F00822",
+    idherbsmed: "K00169",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea522"),
+    idformula: "F00824",
+    idherbsmed: "K00169",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea523"),
+    idformula: "F00825",
+    idherbsmed: "K00169",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea524"),
+    idformula: "F00826",
+    idherbsmed: "K00169",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea525"),
+    idformula: "F00827",
+    idherbsmed: "K00169",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea526"),
+    idformula: "F00828",
+    idherbsmed: "K00169",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea529"),
+    idformula: "F00831",
+    idherbsmed: "K00169",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea528"),
+    idformula: "F00830",
+    idherbsmed: "K00169",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea51c"),
+    idformula: "F00818",
+    idherbsmed: "K00167",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea52a"),
+    idformula: "F00835",
+    idherbsmed: "K00170",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea527"),
+    idformula: "F00829",
+    idherbsmed: "K00169",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea52b"),
+    idformula: "F00836",
+    idherbsmed: "K00170",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea52c"),
+    idformula: "F00837",
+    idherbsmed: "K00170",
+    ref: "漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea52f"),
+    idformula: "F00840",
+    idherbsmed: "K00170",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea52d"),
+    idformula: "F00838",
+    idherbsmed: "K00170",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea531"),
+    idformula: "F00833",
+    idherbsmed: "K00170",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea52e"),
+    idformula: "F00839",
+    idherbsmed: "K00170",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea530"),
+    idformula: "F00832",
+    idherbsmed: "K00170",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea533"),
+    idformula: "F00841",
+    idherbsmed: "K00171",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea534"),
+    idformula: "F00845",
+    idherbsmed: "K00172",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea535"),
+    idformula: "F00848",
+    idherbsmed: "K00172",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea536"),
+    idformula: "F00847",
+    idherbsmed: "K00172",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea532"),
+    idformula: "F00834",
+    idherbsmed: "K00170",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea539"),
+    idformula: "F00843",
+    idherbsmed: "K00172",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea538"),
+    idformula: "F00842",
+    idherbsmed: "K00172",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea537"),
+    idformula: "F00846",
+    idherbsmed: "K00172",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea53a"),
+    idformula: "F00844",
+    idherbsmed: "K00172",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea53b"),
+    idformula: "F00849",
+    idherbsmed: "K00173",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea53d"),
+    idformula: "F00851",
+    idherbsmed: "K00173",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea53c"),
+    idformula: "F00850",
+    idherbsmed: "K00173",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea53e"),
+    idformula: "F00852",
+    idherbsmed: "K00173",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea53f"),
+    idformula: "F00853",
+    idherbsmed: "K00173",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea542"),
+    idformula: "F00859",
+    idherbsmed: "K00175",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea540"),
+    idformula: "F00854",
+    idherbsmed: "K00174",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea541"),
+    idformula: "F00855",
+    idherbsmed: "K00174",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea544"),
+    idformula: "F00856",
+    idherbsmed: "K00175",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea545"),
+    idformula: "F00857",
+    idherbsmed: "K00175",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea543"),
+    idformula: "F00860",
+    idherbsmed: "K00175",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea546"),
+    idformula: "F00858",
+    idherbsmed: "K00175",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea548"),
+    idformula: "F00862",
+    idherbsmed: "K00176",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea549"),
+    idformula: "F00863",
+    idherbsmed: "K00176",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea547"),
+    idformula: "F00861",
+    idherbsmed: "K00176",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea54b"),
+    idformula: "F00865",
+    idherbsmed: "K00178",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea54a"),
+    idformula: "F00864",
+    idherbsmed: "K00177",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea54d"),
+    idformula: "F00867",
+    idherbsmed: "K00179",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea54e"),
+    idformula: "F00868",
+    idherbsmed: "K00179",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea54c"),
+    idformula: "F00866",
+    idherbsmed: "K00178",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea550"),
+    idformula: "F00870",
+    idherbsmed: "K00179",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea551"),
+    idformula: "F00871",
+    idherbsmed: "K00179",
+    ref: "太平恵民和剤局方：陳師文等編著，1971年発行（商務印書館香港分室）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea54f"),
+    idformula: "F00869",
+    idherbsmed: "K00179",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea553"),
+    idformula: "F00873",
+    idherbsmed: "K00179",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea552"),
+    idformula: "F00872",
+    idherbsmed: "K00179",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea554"),
+    idformula: "F00874",
+    idherbsmed: "K00179",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea555"),
+    idformula: "F00875",
+    idherbsmed: "K00180",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea558"),
+    idformula: "F00878",
+    idherbsmed: "K00180",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea556"),
+    idformula: "F00876",
+    idherbsmed: "K00180",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea55a"),
+    idformula: "F00880",
+    idherbsmed: "K00180",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea557"),
+    idformula: "F00877",
+    idherbsmed: "K00180",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea55b"),
+    idformula: "F00881",
+    idherbsmed: "K00181",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea55c"),
+    idformula: "F00882",
+    idherbsmed: "K00182",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea55d"),
+    idformula: "F00883",
+    idherbsmed: "K00182",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea55f"),
+    idformula: "F00885",
+    idherbsmed: "K00182",
+    ref: "臨床40年続続漢方治療百話：昭和45.5.30，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea55e"),
+    idformula: "F00884",
+    idherbsmed: "K00182",
+    ref: "臨床35年続漢方百話：昭和40.12.7，矢数道明著（医道の日本社）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea560"),
+    idformula: "F00886",
+    idherbsmed: "K00182",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea561"),
+    idformula: "F00887",
+    idherbsmed: "K00182",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea563"),
+    idformula: "F00889",
+    idherbsmed: "K00182",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea559"),
+    idformula: "F00879",
+    idherbsmed: "K00180",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea565"),
+    idformula: "F00891",
+    idherbsmed: "K00182",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea566"),
+    idformula: "F00892",
+    idherbsmed: "K00182",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea562"),
+    idformula: "F00888",
+    idherbsmed: "K00182",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea567"),
+    idformula: "F00893",
+    idherbsmed: "K00183",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea568"),
+    idformula: "F00894",
+    idherbsmed: "K00183",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea564"),
+    idformula: "F00890",
+    idherbsmed: "K00182",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea569"),
+    idformula: "F00895",
+    idherbsmed: "K00183",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea56b"),
+    idformula: "F00897",
+    idherbsmed: "K00184",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea56c"),
+    idformula: "F00898",
+    idherbsmed: "K00184",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea56d"),
+    idformula: "F00899",
+    idherbsmed: "K00184",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea56e"),
+    idformula: "F00900",
+    idherbsmed: "K00184",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea56f"),
+    idformula: "F00901",
+    idherbsmed: "K00184",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea571"),
+    idformula: "F00907",
+    idherbsmed: "K00185",
+    ref: "漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea570"),
+    idformula: "F00902",
+    idherbsmed: "K00184",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea56a"),
+    idformula: "F00896",
+    idherbsmed: "K00183",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea572"),
+    idformula: "F00908",
+    idherbsmed: "K00185",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea575"),
+    idformula: "F00904",
+    idherbsmed: "K00185",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea573"),
+    idformula: "F00909",
+    idherbsmed: "K00185",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea577"),
+    idformula: "F00906",
+    idherbsmed: "K00185",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea576"),
+    idformula: "F00905",
+    idherbsmed: "K00185",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea578"),
+    idformula: "F00917",
+    idherbsmed: "K00186",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea579"),
+    idformula: "F00910",
+    idherbsmed: "K00186",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea57a"),
+    idformula: "F00911",
+    idherbsmed: "K00186",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea57b"),
+    idformula: "F00912",
+    idherbsmed: "K00186",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea57c"),
+    idformula: "F00913",
+    idherbsmed: "K00186",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea57d"),
+    idformula: "F00914",
+    idherbsmed: "K00186",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea57e"),
+    idformula: "F00915",
+    idherbsmed: "K00186",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea57f"),
+    idformula: "F00916",
+    idherbsmed: "K00186",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea574"),
+    idformula: "F00903",
+    idherbsmed: "K00185",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea581"),
+    idformula: "F00919",
+    idherbsmed: "K00187",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea580"),
+    idformula: "F00918",
+    idherbsmed: "K00187",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；続漢方あれこれ：大阪読売新聞社編（浪速社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea584"),
+    idformula: "F00922",
+    idherbsmed: "K00187",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea585"),
+    idformula: "F00923",
+    idherbsmed: "K00187",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea582"),
+    idformula: "F00920",
+    idherbsmed: "K00187",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea586"),
+    idformula: "F00924",
+    idherbsmed: "K00187",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea589"),
+    idformula: "F00926",
+    idherbsmed: "K00188",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea588"),
+    idformula: "F00925",
+    idherbsmed: "K00188",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方処方の構成と応用：森雄材著，昭和60.6.10（医歯薬出版）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea587"),
+    idformula: "F00929",
+    idherbsmed: "K00188",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea583"),
+    idformula: "F00921",
+    idherbsmed: "K00187",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea58d"),
+    idformula: "F00931",
+    idherbsmed: "K00190",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea58a"),
+    idformula: "F00927",
+    idherbsmed: "K00188",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea58e"),
+    idformula: "F00932",
+    idherbsmed: "K00191",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea590"),
+    idformula: "F00934",
+    idherbsmed: "K00191",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea58f"),
+    idformula: "F00933",
+    idherbsmed: "K00191",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea58c"),
+    idformula: "F00930",
+    idherbsmed: "K00189",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea591"),
+    idformula: "F00935",
+    idherbsmed: "K00191",
+    ref: "臨床35年続漢方百話：昭和40.12.7，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea592"),
+    idformula: "F00936",
+    idherbsmed: "K00191",
+    ref: "臨床40年続続漢方治療百話：昭和45.5.30，矢数道明著（医道の日本社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea58b"),
+    idformula: "F00928",
+    idherbsmed: "K00188",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea593"),
+    idformula: "F00937",
+    idherbsmed: "K00191",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea595"),
+    idformula: "F00939",
+    idherbsmed: "K00191",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea594"),
+    idformula: "F00938",
+    idherbsmed: "K00191",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea596"),
+    idformula: "F00940",
+    idherbsmed: "K00191",
+    ref: "成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea597"),
+    idformula: "F00941",
+    idherbsmed: "K00191",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea598"),
+    idformula: "F00942",
+    idherbsmed: "K00191",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea599"),
+    idformula: "F00943",
+    idherbsmed: "K00191",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea59a"),
+    idformula: "F00944",
+    idherbsmed: "K00191",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea59d"),
+    idformula: "F00947",
+    idherbsmed: "K00193",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea59c"),
+    idformula: "F00946",
+    idherbsmed: "K00193",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea59b"),
+    idformula: "F00945",
+    idherbsmed: "K00192",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea59f"),
+    idformula: "F00949",
+    idherbsmed: "K00193",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea59e"),
+    idformula: "F00948",
+    idherbsmed: "K00193",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；100万人の漢方・診断と治療の実際：寺師睦濟著，昭和48.1（豊文社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5a2"),
+    idformula: "F00953",
+    idherbsmed: "K00194",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5a0"),
+    idformula: "F00950",
+    idherbsmed: "K00193",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5a5"),
+    idformula: "F00956",
+    idherbsmed: "K00194",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5a3"),
+    idformula: "F00954",
+    idherbsmed: "K00194",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5a6"),
+    idformula: "F00952",
+    idherbsmed: "K00194",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5a1"),
+    idformula: "F00951",
+    idherbsmed: "K00193",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5a8"),
+    idformula: "F00958",
+    idherbsmed: "K00195",
+    ref: "三因極一病証方論：陳言編著，1174年日本刊本",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5a7"),
+    idformula: "F00957",
+    idherbsmed: "K00195",
+    ref: "外台秘要方：王編著，1955年影印本，1746年日本刊本（人民衛生出版社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5a9"),
+    idformula: "F00959",
+    idherbsmed: "K00195",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ab"),
+    idformula: "F00961",
+    idherbsmed: "K00195",
+    ref: "備急千金要方：孫思邈編著，1955年影印本，1848年日本刊本（人民衛生出版社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5aa"),
+    idformula: "F00960",
+    idherbsmed: "K00195",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ac"),
+    idformula: "F00962",
+    idherbsmed: "K00195",
+    ref: "中国漢方医学概論：南京中医学院編著，中医学概論邦訳委員会訳編，昭和41.12.10（中国漢方医学概論刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ae"),
+    idformula: "F00964",
+    idherbsmed: "K00195",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ad"),
+    idformula: "F00963",
+    idherbsmed: "K00195",
+    ref: "中国医学大辞典：謝観編著，1957.9，第5次印刷（商務印書館）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5af"),
+    idformula: "F00965",
+    idherbsmed: "K00196",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5b0"),
+    idformula: "F00967",
+    idherbsmed: "K00197",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5b1"),
+    idformula: "F00968",
+    idherbsmed: "K00197",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5b2"),
+    idformula: "F00966",
+    idherbsmed: "K00197",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5b3"),
+    idformula: "F00969",
+    idherbsmed: "K00197",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5b5"),
+    idformula: "F00971",
+    idherbsmed: "K00198",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5b4"),
+    idformula: "F00970",
+    idherbsmed: "K00197",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5b6"),
+    idformula: "F00972",
+    idherbsmed: "K00200",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5a4"),
+    idformula: "F00955",
+    idherbsmed: "K00194",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5b7"),
+    idformula: "F00979",
+    idherbsmed: "K00201",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5b9"),
+    idformula: "F00974",
+    idherbsmed: "K00201",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5b8"),
+    idformula: "F00973",
+    idherbsmed: "K00201",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ba"),
+    idformula: "F00975",
+    idherbsmed: "K00201",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5bb"),
+    idformula: "F00976",
+    idherbsmed: "K00201",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5bc"),
+    idformula: "F00977",
+    idherbsmed: "K00201",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5bd"),
+    idformula: "F00978",
+    idherbsmed: "K00201",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5bf"),
+    idformula: "F00981",
+    idherbsmed: "K00202",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5be"),
+    idformula: "F00980",
+    idherbsmed: "K00202",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5c0"),
+    idformula: "F00982",
+    idherbsmed: "K00202",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5c1"),
+    idformula: "F00983",
+    idherbsmed: "K00202",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5c2"),
+    idformula: "F00984",
+    idherbsmed: "K00202",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5c6"),
+    idformula: "F00988",
+    idherbsmed: "K00202",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5c4"),
+    idformula: "F00986",
+    idherbsmed: "K00202",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5c3"),
+    idformula: "F00985",
+    idherbsmed: "K00202",
+    ref: "100万人の漢方・診断と治療の実際：寺師睦濟著，昭和48.1（豊文社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5c7"),
+    idformula: "F00989",
+    idherbsmed: "K00202",
+    ref: "改訂処方集便法：UNKNOWN",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ca"),
+    idformula: "F00992",
+    idherbsmed: "K00204",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5c9"),
+    idformula: "F00991",
+    idherbsmed: "K00204",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5cb"),
+    idformula: "F00993",
+    idherbsmed: "K00204",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5cc"),
+    idformula: "F00994",
+    idherbsmed: "K00204",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5c5"),
+    idformula: "F00987",
+    idherbsmed: "K00202",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5cd"),
+    idformula: "F00995",
+    idherbsmed: "K00204",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5c8"),
+    idformula: "F00990",
+    idherbsmed: "K00203",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ce"),
+    idformula: "F00996",
+    idherbsmed: "K00205",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5cf"),
+    idformula: "F00997",
+    idherbsmed: "K00206",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5d2"),
+    idformula: "F01000",
+    idherbsmed: "K00206",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5d3"),
+    idformula: "F01001",
+    idherbsmed: "K00206",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5d4"),
+    idformula: "F01002",
+    idherbsmed: "K00206",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5d1"),
+    idformula: "F00999",
+    idherbsmed: "K00206",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方と民間薬百科：大塚敬節著（主婦の友社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5d6"),
+    idformula: "F01004",
+    idherbsmed: "K00206",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5d5"),
+    idformula: "F01003",
+    idherbsmed: "K00206",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5d7"),
+    idformula: "F01005",
+    idherbsmed: "K00207",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5d8"),
+    idformula: "F01006",
+    idherbsmed: "K00208",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5d9"),
+    idformula: "F01007",
+    idherbsmed: "K00208",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5d0"),
+    idformula: "F00998",
+    idherbsmed: "K00206",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5da"),
+    idformula: "F01008",
+    idherbsmed: "K00208",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5db"),
+    idformula: "F01009",
+    idherbsmed: "K00208",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5dc"),
+    idformula: "F01010",
+    idherbsmed: "K00208",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5e0"),
+    idformula: "F01014",
+    idherbsmed: "K00208",
+    ref: "新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5e1"),
+    idformula: "F01015",
+    idherbsmed: "K00208",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5e2"),
+    idformula: "F01016",
+    idherbsmed: "K00208",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5df"),
+    idformula: "F01013",
+    idherbsmed: "K00208",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5e3"),
+    idformula: "F01017",
+    idherbsmed: "K00208",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5e4"),
+    idformula: "F01018",
+    idherbsmed: "K00208",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5e5"),
+    idformula: "F01019",
+    idherbsmed: "K00209",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5e6"),
+    idformula: "F01020",
+    idherbsmed: "K00209",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5e7"),
+    idformula: "F01021",
+    idherbsmed: "K00209",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5dd"),
+    idformula: "F01011",
+    idherbsmed: "K00208",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5de"),
+    idformula: "F01012",
+    idherbsmed: "K00208",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5e9"),
+    idformula: "F01023",
+    idherbsmed: "K00209",
+    ref: "傷寒論入門：森田幸門著，昭和33（治療研究所）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5e8"),
+    idformula: "F01022",
+    idherbsmed: "K00209",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ea"),
+    idformula: "F01024",
+    idherbsmed: "K00209",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ec"),
+    idformula: "F01026",
+    idherbsmed: "K00209",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5eb"),
+    idformula: "F01025",
+    idherbsmed: "K00209",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ed"),
+    idformula: "F01027",
+    idherbsmed: "K00209",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ee"),
+    idformula: "F01028",
+    idherbsmed: "K00209",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ef"),
+    idformula: "F01029",
+    idherbsmed: "K00209",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5f1"),
+    idformula: "F01031",
+    idherbsmed: "K00211",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5f0"),
+    idformula: "F01030",
+    idherbsmed: "K00210",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5f3"),
+    idformula: "F01033",
+    idherbsmed: "K00212",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5f2"),
+    idformula: "F01032",
+    idherbsmed: "K00212",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5f4"),
+    idformula: "F01034",
+    idherbsmed: "K00212",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5f5"),
+    idformula: "F01035",
+    idherbsmed: "K00213",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5f6"),
+    idformula: "F01036",
+    idherbsmed: "K00214",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5f8"),
+    idformula: "F01042",
+    idherbsmed: "K00216",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5f9"),
+    idformula: "F01038",
+    idherbsmed: "K00216",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5f7"),
+    idformula: "F01037",
+    idherbsmed: "K00215",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5fb"),
+    idformula: "F01040",
+    idherbsmed: "K00216",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5fc"),
+    idformula: "F01041",
+    idherbsmed: "K00216",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；増補万病回春：龔廷賢編著（医林書局出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5fa"),
+    idformula: "F01039",
+    idherbsmed: "K00216",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5fe"),
+    idformula: "F01044",
+    idherbsmed: "K00216",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5fd"),
+    idformula: "F01043",
+    idherbsmed: "K00216",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea600"),
+    idformula: "F01046",
+    idherbsmed: "K00216",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea601"),
+    idformula: "F01047",
+    idherbsmed: "K00217",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea602"),
+    idformula: "F01048",
+    idherbsmed: "K00218",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea603"),
+    idformula: "F01049",
+    idherbsmed: "K00218",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea5ff"),
+    idformula: "F01045",
+    idherbsmed: "K00216",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea604"),
+    idformula: "F01050",
+    idherbsmed: "K00218",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea607"),
+    idformula: "F01053",
+    idherbsmed: "K00218",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea605"),
+    idformula: "F01051",
+    idherbsmed: "K00218",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea606"),
+    idformula: "F01052",
+    idherbsmed: "K00218",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea609"),
+    idformula: "F01059",
+    idherbsmed: "K00219",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea608"),
+    idformula: "F01054",
+    idherbsmed: "K00218",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea60b"),
+    idformula: "F01056",
+    idherbsmed: "K00219",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea60a"),
+    idformula: "F01055",
+    idherbsmed: "K00219",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea60c"),
+    idformula: "F01057",
+    idherbsmed: "K00219",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea60f"),
+    idformula: "F01061",
+    idherbsmed: "K00220",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea60d"),
+    idformula: "F01058",
+    idherbsmed: "K00219",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea60e"),
+    idformula: "F01060",
+    idherbsmed: "K00220",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea610"),
+    idformula: "F01062",
+    idherbsmed: "K00220",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea611"),
+    idformula: "F01063",
+    idherbsmed: "K00220",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea613"),
+    idformula: "F01065",
+    idherbsmed: "K00220",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea614"),
+    idformula: "F01066",
+    idherbsmed: "K00220",
+    ref: "新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea615"),
+    idformula: "F01067",
+    idherbsmed: "K00220",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea617"),
+    idformula: "F01069",
+    idherbsmed: "K00220",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea612"),
+    idformula: "F01064",
+    idherbsmed: "K00220",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea616"),
+    idformula: "F01068",
+    idherbsmed: "K00220",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea618"),
+    idformula: "F01070",
+    idherbsmed: "K00221",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea619"),
+    idformula: "F01071",
+    idherbsmed: "K00221",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea61a"),
+    idformula: "F01072",
+    idherbsmed: "K00221",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea61b"),
+    idformula: "F01073",
+    idherbsmed: "K00222",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea61c"),
+    idformula: "F01074",
+    idherbsmed: "K00222",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea61d"),
+    idformula: "F01075",
+    idherbsmed: "K00222",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea620"),
+    idformula: "F01078",
+    idherbsmed: "K00222",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea61f"),
+    idformula: "F01077",
+    idherbsmed: "K00222",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea621"),
+    idformula: "F01079",
+    idherbsmed: "K00223",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea622"),
+    idformula: "F01081",
+    idherbsmed: "K00224",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea623"),
+    idformula: "F01082",
+    idherbsmed: "K00224",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea624"),
+    idformula: "F01083",
+    idherbsmed: "K00224",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea61e"),
+    idformula: "F01076",
+    idherbsmed: "K00222",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea626"),
+    idformula: "F01084",
+    idherbsmed: "K00225",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea625"),
+    idformula: "F01080",
+    idherbsmed: "K00224",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea627"),
+    idformula: "F01085",
+    idherbsmed: "K00225",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea629"),
+    idformula: "F01087",
+    idherbsmed: "K00225",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea62a"),
+    idformula: "F01088",
+    idherbsmed: "K00226",
+    ref: "漢方一貫堂医学：矢数格著，昭和39.7.12（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea62b"),
+    idformula: "F01089",
+    idherbsmed: "K00226",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea62c"),
+    idformula: "F01090",
+    idherbsmed: "K00226",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea62d"),
+    idformula: "F01091",
+    idherbsmed: "K00226",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea62e"),
+    idformula: "F01092",
+    idherbsmed: "K00226",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea628"),
+    idformula: "F01086",
+    idherbsmed: "K00225",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea631"),
+    idformula: "F01095",
+    idherbsmed: "K00227",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea632"),
+    idformula: "F01096",
+    idherbsmed: "K00228",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea633"),
+    idformula: "F01097",
+    idherbsmed: "K00229",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea62f"),
+    idformula: "F01093",
+    idherbsmed: "K00226",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea635"),
+    idformula: "F01099",
+    idherbsmed: "K00230",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea636"),
+    idformula: "F01100",
+    idherbsmed: "K00230",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea634"),
+    idformula: "F01098",
+    idherbsmed: "K00230",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea637"),
+    idformula: "F01101",
+    idherbsmed: "K00230",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea638"),
+    idformula: "F01102",
+    idherbsmed: "K00231",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea630"),
+    idformula: "F01094",
+    idherbsmed: "K00226",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea63a"),
+    idformula: "F01104",
+    idherbsmed: "K00232",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea63b"),
+    idformula: "F01105",
+    idherbsmed: "K00233",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；続漢方あれこれ：大阪読売新聞社編（浪速社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea639"),
+    idformula: "F01103",
+    idherbsmed: "K00232",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方大医典：大塚敬節他著，昭和32.9，第1版（東都書房）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea63d"),
+    idformula: "F01107",
+    idherbsmed: "K00233",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea63e"),
+    idformula: "F01108",
+    idherbsmed: "K00233",
+    ref: "漢方治療百科：荒木正胤著，昭和39（岩崎書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea63f"),
+    idformula: "F01109",
+    idherbsmed: "K00233",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea640"),
+    idformula: "F01110",
+    idherbsmed: "K00233",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea63c"),
+    idformula: "F01106",
+    idherbsmed: "K00233",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea641"),
+    idformula: "F01111",
+    idherbsmed: "K00233",
+    ref: "漢方の本：UNKNOWN",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea644"),
+    idformula: "F01114",
+    idherbsmed: "K00234",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea642"),
+    idformula: "F01112",
+    idherbsmed: "K00234",
+    ref: "漢方の基礎と応用：西岡五夫・大塚恭男・菊谷豊彦共著，昭和59.2.10（薬事新報社）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea645"),
+    idformula: "F01115",
+    idherbsmed: "K00234",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea643"),
+    idformula: "F01113",
+    idherbsmed: "K00234",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療三十年：大塚敬節著，昭和34.6.1（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea647"),
+    idformula: "F01117",
+    idherbsmed: "K00235",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea648"),
+    idformula: "F01118",
+    idherbsmed: "K00235",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea649"),
+    idformula: "F01124",
+    idherbsmed: "K00236",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea646"),
+    idformula: "F01116",
+    idherbsmed: "K00235",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea64a"),
+    idformula: "F01125",
+    idherbsmed: "K00236",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea64b"),
+    idformula: "F01126",
+    idherbsmed: "K00236",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea64c"),
+    idformula: "F01119",
+    idherbsmed: "K00236",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea64d"),
+    idformula: "F01120",
+    idherbsmed: "K00236",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea650"),
+    idformula: "F01123",
+    idherbsmed: "K00236",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea64e"),
+    idformula: "F01121",
+    idherbsmed: "K00236",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea652"),
+    idformula: "F01128",
+    idherbsmed: "K00237",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea64f"),
+    idformula: "F01122",
+    idherbsmed: "K00236",
+    ref: "漢方診療のレッスン：花輪壽彦著，平成7.9.25（金原出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea654"),
+    idformula: "F01130",
+    idherbsmed: "K00237",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea655"),
+    idformula: "F01131",
+    idherbsmed: "K00237",
+    ref: "新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea656"),
+    idformula: "F01132",
+    idherbsmed: "K00237",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea657"),
+    idformula: "F01133",
+    idherbsmed: "K00237",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea659"),
+    idformula: "F01135",
+    idherbsmed: "K00237",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea658"),
+    idformula: "F01134",
+    idherbsmed: "K00237",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea65b"),
+    idformula: "F01137",
+    idherbsmed: "K00238",
+    ref: "金匱要略入門：森田幸門著，昭和43.1.15，第2版（森田漢方治療研究所）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea65a"),
+    idformula: "F01136",
+    idherbsmed: "K00238",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方診療のレッスン：花輪壽彦著，平成7.9.25（金原出版）；漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea65c"),
+    idformula: "F01138",
+    idherbsmed: "K00238",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea65d"),
+    idformula: "F01139",
+    idherbsmed: "K00238",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea651"),
+    idformula: "F01127",
+    idherbsmed: "K00237",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea65e"),
+    idformula: "F01140",
+    idherbsmed: "K00238",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea65f"),
+    idformula: "F01141",
+    idherbsmed: "K00238",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea660"),
+    idformula: "F01142",
+    idherbsmed: "K00238",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea653"),
+    idformula: "F01129",
+    idherbsmed: "K00237",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea661"),
+    idformula: "F01143",
+    idherbsmed: "K00238",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea662"),
+    idformula: "F01144",
+    idherbsmed: "K00238",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea664"),
+    idformula: "F01146",
+    idherbsmed: "K00241",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea665"),
+    idformula: "F01148",
+    idherbsmed: "K00242",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea663"),
+    idformula: "F01145",
+    idherbsmed: "K00240",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea666"),
+    idformula: "F01149",
+    idherbsmed: "K00242",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea667"),
+    idformula: "F01150",
+    idherbsmed: "K00242",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea668"),
+    idformula: "F01151",
+    idherbsmed: "K00242",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea669"),
+    idformula: "F01147",
+    idherbsmed: "K00242",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea66a"),
+    idformula: "F01152",
+    idherbsmed: "K00243",
+    ref: "薬局製剤　漢方194方の使い方：埴岡博・滝野行亮共著，昭和63.9.30（薬業時報社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea66c"),
+    idformula: "F01154",
+    idherbsmed: "K00243",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea66b"),
+    idformula: "F01153",
+    idherbsmed: "K00243",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea66d"),
+    idformula: "F01155",
+    idherbsmed: "K00243",
+    ref: "和漢薬考：小泉栄次郎編著，明治26.11（朝香屋書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea66e"),
+    idformula: "F01156",
+    idherbsmed: "K00244",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea66f"),
+    idformula: "F01157",
+    idherbsmed: "K00244",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea670"),
+    idformula: "F01158",
+    idherbsmed: "K00244",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea671"),
+    idformula: "F01159",
+    idherbsmed: "K00244",
+    ref: "100万人の漢方・診断と治療の実際：寺師睦濟著，昭和48.1（豊文社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea672"),
+    idformula: "F01160",
+    idherbsmed: "K00244",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea673"),
+    idformula: "F01161",
+    idherbsmed: "K00244",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea674"),
+    idformula: "F01162",
+    idherbsmed: "K00244",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea676"),
+    idformula: "F01164",
+    idherbsmed: "K00245",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea677"),
+    idformula: "F01165",
+    idherbsmed: "K00245",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea678"),
+    idformula: "F01166",
+    idherbsmed: "K00245",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea679"),
+    idformula: "F01167",
+    idherbsmed: "K00245",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea675"),
+    idformula: "F01163",
+    idherbsmed: "K00245",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea67a"),
+    idformula: "F01168",
+    idherbsmed: "K00245",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea67b"),
+    idformula: "F01169",
+    idherbsmed: "K00245",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea67c"),
+    idformula: "F01172",
+    idherbsmed: "K00246",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea67e"),
+    idformula: "F01174",
+    idherbsmed: "K00246",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea67f"),
+    idformula: "F01175",
+    idherbsmed: "K00246",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea680"),
+    idformula: "F01176",
+    idherbsmed: "K00246",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea67d"),
+    idformula: "F01173",
+    idherbsmed: "K00246",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea681"),
+    idformula: "F01177",
+    idherbsmed: "K00246",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea683"),
+    idformula: "F01179",
+    idherbsmed: "K00246",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea684"),
+    idformula: "F01170",
+    idherbsmed: "K00246",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea682"),
+    idformula: "F01178",
+    idherbsmed: "K00246",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea685"),
+    idformula: "F01171",
+    idherbsmed: "K00246",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea686"),
+    idformula: "F01180",
+    idherbsmed: "K00248",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea688"),
+    idformula: "F01182",
+    idherbsmed: "K00248",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea687"),
+    idformula: "F01181",
+    idherbsmed: "K00248",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea68b"),
+    idformula: "F01185",
+    idherbsmed: "K00249",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea68a"),
+    idformula: "F01184",
+    idherbsmed: "K00249",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea689"),
+    idformula: "F01183",
+    idherbsmed: "K00248",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea68d"),
+    idformula: "F01187",
+    idherbsmed: "K00249",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea68c"),
+    idformula: "F01186",
+    idherbsmed: "K00249",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea68e"),
+    idformula: "F01188",
+    idherbsmed: "K00249",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea690"),
+    idformula: "F01190",
+    idherbsmed: "K00249",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea68f"),
+    idformula: "F01189",
+    idherbsmed: "K00249",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea691"),
+    idformula: "F01197",
+    idherbsmed: "K00250",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea692"),
+    idformula: "F01198",
+    idherbsmed: "K00250",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea695"),
+    idformula: "F01193",
+    idherbsmed: "K00250",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea693"),
+    idformula: "F01191",
+    idherbsmed: "K00250",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea694"),
+    idformula: "F01192",
+    idherbsmed: "K00250",
+    ref: "金匱要略入門：森田幸門著，昭和43.1.15，第2版（森田漢方治療研究所）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea696"),
+    idformula: "F01194",
+    idherbsmed: "K00250",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea697"),
+    idformula: "F01195",
+    idherbsmed: "K00250",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea699"),
+    idformula: "F01202",
+    idherbsmed: "K00251",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea69a"),
+    idformula: "F01203",
+    idherbsmed: "K00251",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea69c"),
+    idformula: "F01201",
+    idherbsmed: "K00251",
+    ref: "金匱要略入門：森田幸門著，昭和43.1.15，第2版（森田漢方治療研究所）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea69b"),
+    idformula: "F01200",
+    idherbsmed: "K00251",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea69d"),
+    idformula: "F01199",
+    idherbsmed: "K00251",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea69e"),
+    idformula: "F01204",
+    idherbsmed: "K00251",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea698"),
+    idformula: "F01196",
+    idherbsmed: "K00250",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6a0"),
+    idformula: "F01206",
+    idherbsmed: "K00251",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6a2"),
+    idformula: "F01208",
+    idherbsmed: "K00253",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6a3"),
+    idformula: "F01209",
+    idherbsmed: "K00254",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea69f"),
+    idformula: "F01205",
+    idherbsmed: "K00251",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6a1"),
+    idformula: "F01207",
+    idherbsmed: "K00251",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6a5"),
+    idformula: "F01211",
+    idherbsmed: "K00255",
+    ref: "かぜ薬の製造(輸入)承認基準について：厚生省薬務局長通知（薬発第842号），昭和45.9.30",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6a6"),
+    idformula: "F01212",
+    idherbsmed: "K00255",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6a7"),
+    idformula: "F01213",
+    idherbsmed: "K00255",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6a8"),
+    idformula: "F01214",
+    idherbsmed: "K00255",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6a9"),
+    idformula: "F01215",
+    idherbsmed: "K00255",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6a4"),
+    idformula: "F01210",
+    idherbsmed: "K00255",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；続漢方あれこれ：大阪読売新聞社編（浪速社）；実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6ac"),
+    idformula: "F01225",
+    idherbsmed: "K00257",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6ad"),
+    idformula: "F01217",
+    idherbsmed: "K00257",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6ae"),
+    idformula: "F01218",
+    idherbsmed: "K00257",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6af"),
+    idformula: "F01219",
+    idherbsmed: "K00257",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6aa"),
+    idformula: "F01216",
+    idherbsmed: "K00256",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6b0"),
+    idformula: "F01220",
+    idherbsmed: "K00257",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6b1"),
+    idformula: "F01221",
+    idherbsmed: "K00257",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6b2"),
+    idformula: "F01222",
+    idherbsmed: "K00257",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6b3"),
+    idformula: "F01223",
+    idherbsmed: "K00257",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6b4"),
+    idformula: "F01226",
+    idherbsmed: "K00258",
+    ref: "漢方医学処方解説：矢数道明著，昭和15.1.1（日本漢方医学会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6b5"),
+    idformula: "F01227",
+    idherbsmed: "K00258",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6ab"),
+    idformula: "F01224",
+    idherbsmed: "K00257",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6b8"),
+    idformula: "F01230",
+    idherbsmed: "K00258",
+    ref: "増補万病回春：龔廷賢編著（医林書局出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6b9"),
+    idformula: "F01231",
+    idherbsmed: "K00258",
+    ref: "太平恵民和剤局方：陳師文等編著，1971年発行（商務印書館香港分室）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6b6"),
+    idformula: "F01228",
+    idherbsmed: "K00258",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6ba"),
+    idformula: "F01232",
+    idherbsmed: "K00258",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6bb"),
+    idformula: "F01233",
+    idherbsmed: "K00259",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6bc"),
+    idformula: "F01234",
+    idherbsmed: "K00260",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6bd"),
+    idformula: "F01235",
+    idherbsmed: "K00261",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6bf"),
+    idformula: "F01237",
+    idherbsmed: "K00261",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6be"),
+    idformula: "F01236",
+    idherbsmed: "K00261",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6c0"),
+    idformula: "F01238",
+    idherbsmed: "K00261",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6c1"),
+    idformula: "F01239",
+    idherbsmed: "K00261",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6c2"),
+    idformula: "F01240",
+    idherbsmed: "K00261",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59216a5c20644bea6b7"),
+    idformula: "F01229",
+    idherbsmed: "K00258",
+    ref: "中国医学大辞典：謝観編著，1957.9，第5次印刷（商務印書館）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6c3"),
+    idformula: "F01241",
+    idherbsmed: "K00261",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6c6"),
+    idformula: "F01244",
+    idherbsmed: "K00263",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6c8"),
+    idformula: "F01246",
+    idherbsmed: "K00263",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）；漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6c7"),
+    idformula: "F01245",
+    idherbsmed: "K00263",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6c4"),
+    idformula: "F01242",
+    idherbsmed: "K00261",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6cb"),
+    idformula: "F01251",
+    idherbsmed: "K00264",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6ca"),
+    idformula: "F01248",
+    idherbsmed: "K00263",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6c9"),
+    idformula: "F01247",
+    idherbsmed: "K00263",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6cc"),
+    idformula: "F01252",
+    idherbsmed: "K00264",
+    ref: "漢方の基礎と応用：西岡五夫・大塚恭男・菊谷豊彦共著，昭和59.2.10（薬事新報社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6cd"),
+    idformula: "F01253",
+    idherbsmed: "K00264",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6ce"),
+    idformula: "F01254",
+    idherbsmed: "K00264",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6d0"),
+    idformula: "F01256",
+    idherbsmed: "K00264",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6cf"),
+    idformula: "F01255",
+    idherbsmed: "K00264",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6c5"),
+    idformula: "F01243",
+    idherbsmed: "K00262",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6d2"),
+    idformula: "F01258",
+    idherbsmed: "K00264",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6d4"),
+    idformula: "F01260",
+    idherbsmed: "K00264",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6d5"),
+    idformula: "F01249",
+    idherbsmed: "K00264",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6d1"),
+    idformula: "F01257",
+    idherbsmed: "K00264",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6d6"),
+    idformula: "F01250",
+    idherbsmed: "K00264",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6d7"),
+    idformula: "F01261",
+    idherbsmed: "K00265",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6d8"),
+    idformula: "F01262",
+    idherbsmed: "K00265",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6d9"),
+    idformula: "F01263",
+    idherbsmed: "K00265",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6da"),
+    idformula: "F01264",
+    idherbsmed: "K00265",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6d3"),
+    idformula: "F01259",
+    idherbsmed: "K00264",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6dc"),
+    idformula: "F01266",
+    idherbsmed: "K00265",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6db"),
+    idformula: "F01265",
+    idherbsmed: "K00265",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6de"),
+    idformula: "F01268",
+    idherbsmed: "K00266",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6e0"),
+    idformula: "F01270",
+    idherbsmed: "K00266",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6df"),
+    idformula: "F01269",
+    idherbsmed: "K00266",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6e2"),
+    idformula: "F01272",
+    idherbsmed: "K00266",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6dd"),
+    idformula: "F01267",
+    idherbsmed: "K00265",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6e4"),
+    idformula: "F01274",
+    idherbsmed: "K00266",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6e5"),
+    idformula: "F01275",
+    idherbsmed: "K00266",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6e6"),
+    idformula: "F01276",
+    idherbsmed: "K00266",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6e1"),
+    idformula: "F01271",
+    idherbsmed: "K00266",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6e8"),
+    idformula: "F01278",
+    idherbsmed: "K00267",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6e3"),
+    idformula: "F01273",
+    idherbsmed: "K00266",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6eb"),
+    idformula: "F01281",
+    idherbsmed: "K00268",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6ea"),
+    idformula: "F01280",
+    idherbsmed: "K00267",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6e7"),
+    idformula: "F01277",
+    idherbsmed: "K00267",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6ec"),
+    idformula: "F01282",
+    idherbsmed: "K00268",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6ed"),
+    idformula: "F01283",
+    idherbsmed: "K00268",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6ee"),
+    idformula: "F01284",
+    idherbsmed: "K00268",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6f0"),
+    idformula: "F01286",
+    idherbsmed: "K00269",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6ef"),
+    idformula: "F01285",
+    idherbsmed: "K00268",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6f1"),
+    idformula: "F01287",
+    idherbsmed: "K00269",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6f2"),
+    idformula: "F01288",
+    idherbsmed: "K00269",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6f4"),
+    idformula: "F01290",
+    idherbsmed: "K00269",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6e9"),
+    idformula: "F01279",
+    idherbsmed: "K00267",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6f3"),
+    idformula: "F01289",
+    idherbsmed: "K00269",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6f6"),
+    idformula: "F01291",
+    idherbsmed: "K00270",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6f5"),
+    idformula: "F01301",
+    idherbsmed: "K00270",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6f8"),
+    idformula: "F01293",
+    idherbsmed: "K00270",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6f9"),
+    idformula: "F01294",
+    idherbsmed: "K00270",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6fa"),
+    idformula: "F01295",
+    idherbsmed: "K00270",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6fb"),
+    idformula: "F01296",
+    idherbsmed: "K00270",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6fd"),
+    idformula: "F01298",
+    idherbsmed: "K00270",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6ff"),
+    idformula: "F01300",
+    idherbsmed: "K00270",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6f7"),
+    idformula: "F01292",
+    idherbsmed: "K00270",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）；新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea700"),
+    idformula: "F01302",
+    idherbsmed: "K00271",
+    ref: "薬局製剤　漢方194方の使い方：埴岡博・滝野行亮共著，昭和63.9.30（薬業時報社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea701"),
+    idformula: "F01303",
+    idherbsmed: "K00271",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6fc"),
+    idformula: "F01297",
+    idherbsmed: "K00270",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea702"),
+    idformula: "F01304",
+    idherbsmed: "K00271",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea703"),
+    idformula: "F01305",
+    idherbsmed: "K00271",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea705"),
+    idformula: "F01307",
+    idherbsmed: "K00272",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea704"),
+    idformula: "F01306",
+    idherbsmed: "K00272",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方保険診療の実際—エキス剤を主とした：勝田正泰著，昭和55.1（パンサイエンス分室）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea706"),
+    idformula: "F01308",
+    idherbsmed: "K00272",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea707"),
+    idformula: "F01309",
+    idherbsmed: "K00272",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea708"),
+    idformula: "F01310",
+    idherbsmed: "K00272",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea709"),
+    idformula: "F01311",
+    idherbsmed: "K00272",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea70a"),
+    idformula: "F01312",
+    idherbsmed: "K00272",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea70b"),
+    idformula: "F01313",
+    idherbsmed: "K00273",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea70c"),
+    idformula: "F01314",
+    idherbsmed: "K00274",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea70d"),
+    idformula: "F01315",
+    idherbsmed: "K00275",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea70f"),
+    idformula: "F01317",
+    idherbsmed: "K00276",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea70e"),
+    idformula: "F01316",
+    idherbsmed: "K00276",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea710"),
+    idformula: "F01318",
+    idherbsmed: "K00276",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea711"),
+    idformula: "F01319",
+    idherbsmed: "K00276",
+    ref: "漢方古方要方解説：奥田謙蔵著，平成3.8.20，第6版（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea712"),
+    idformula: "F01320",
+    idherbsmed: "K00276",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea713"),
+    idformula: "F01321",
+    idherbsmed: "K00276",
+    ref: "新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea6fe"),
+    idformula: "F01299",
+    idherbsmed: "K00270",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea714"),
+    idformula: "F01322",
+    idherbsmed: "K00276",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea715"),
+    idformula: "F01323",
+    idherbsmed: "K00276",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea717"),
+    idformula: "F01325",
+    idherbsmed: "K00276",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea716"),
+    idformula: "F01324",
+    idherbsmed: "K00276",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea718"),
+    idformula: "F01326",
+    idherbsmed: "K00277",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea719"),
+    idformula: "F01327",
+    idherbsmed: "K00278",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea71a"),
+    idformula: "F01328",
+    idherbsmed: "K00279",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea71b"),
+    idformula: "F01330",
+    idherbsmed: "K00280",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea71c"),
+    idformula: "F01331",
+    idherbsmed: "K00280",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea71d"),
+    idformula: "F01332",
+    idherbsmed: "K00280",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea71e"),
+    idformula: "F01333",
+    idherbsmed: "K00280",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea71f"),
+    idformula: "F01334",
+    idherbsmed: "K00280",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea721"),
+    idformula: "F01336",
+    idherbsmed: "K00280",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea720"),
+    idformula: "F01335",
+    idherbsmed: "K00280",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea722"),
+    idformula: "F01337",
+    idherbsmed: "K00280",
+    ref: "成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea723"),
+    idformula: "F01338",
+    idherbsmed: "K00280",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea724"),
+    idformula: "F01339",
+    idherbsmed: "K00280",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea725"),
+    idformula: "F01340",
+    idherbsmed: "K00280",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea727"),
+    idformula: "F01342",
+    idherbsmed: "K00280",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea728"),
+    idformula: "F01329",
+    idherbsmed: "K00280",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea729"),
+    idformula: "F01343",
+    idherbsmed: "K00281",
+    ref: "漢方医学処方解説：矢数道明著，昭和15.1.1（日本漢方医学会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea72b"),
+    idformula: "F01345",
+    idherbsmed: "K00281",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea72c"),
+    idformula: "F01346",
+    idherbsmed: "K00281",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea726"),
+    idformula: "F01341",
+    idherbsmed: "K00280",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea72d"),
+    idformula: "F01347",
+    idherbsmed: "K00281",
+    ref: "太平恵民和剤局方：陳師文等編著，1971年発行（商務印書館香港分室）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea72e"),
+    idformula: "F01348",
+    idherbsmed: "K00281",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea72a"),
+    idformula: "F01344",
+    idherbsmed: "K00281",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea72f"),
+    idformula: "F01349",
+    idherbsmed: "K00281",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea730"),
+    idformula: "F01350",
+    idherbsmed: "K00281",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea732"),
+    idformula: "F01352",
+    idherbsmed: "K00282",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea733"),
+    idformula: "F01357",
+    idherbsmed: "K00283",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea734"),
+    idformula: "F01358",
+    idherbsmed: "K00283",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea736"),
+    idformula: "F01360",
+    idherbsmed: "K00283",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea731"),
+    idformula: "F01351",
+    idherbsmed: "K00281",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea738"),
+    idformula: "F01353",
+    idherbsmed: "K00283",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea735"),
+    idformula: "F01359",
+    idherbsmed: "K00283",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea739"),
+    idformula: "F01354",
+    idherbsmed: "K00283",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea73a"),
+    idformula: "F01355",
+    idherbsmed: "K00283",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea73b"),
+    idformula: "F01356",
+    idherbsmed: "K00283",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea737"),
+    idformula: "F01361",
+    idherbsmed: "K00283",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea73d"),
+    idformula: "F01363",
+    idherbsmed: "K00284",
+    ref: "漢方治療提要：和田正系著，昭和49.4.1，贈訂第三第2刷（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea73c"),
+    idformula: "F01362",
+    idherbsmed: "K00284",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）；金匱要略入門：森田幸門著，昭和43.1.15，第2版（森田漢方治療研究所）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea73e"),
+    idformula: "F01364",
+    idherbsmed: "K00284",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea740"),
+    idformula: "F01366",
+    idherbsmed: "K00284",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea741"),
+    idformula: "F01367",
+    idherbsmed: "K00284",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea73f"),
+    idformula: "F01365",
+    idherbsmed: "K00284",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea744"),
+    idformula: "F01370",
+    idherbsmed: "K00285",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea743"),
+    idformula: "F01369",
+    idherbsmed: "K00285",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea742"),
+    idformula: "F01368",
+    idherbsmed: "K00284",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea745"),
+    idformula: "F01371",
+    idherbsmed: "K00285",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea748"),
+    idformula: "F01374",
+    idherbsmed: "K00285",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea746"),
+    idformula: "F01372",
+    idherbsmed: "K00285",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea749"),
+    idformula: "F01381",
+    idherbsmed: "K00287",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea74a"),
+    idformula: "F01382",
+    idherbsmed: "K00287",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea74b"),
+    idformula: "F01383",
+    idherbsmed: "K00287",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea747"),
+    idformula: "F01373",
+    idherbsmed: "K00285",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea74d"),
+    idformula: "F01375",
+    idherbsmed: "K00287",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea74e"),
+    idformula: "F01376",
+    idherbsmed: "K00287",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea74f"),
+    idformula: "F01377",
+    idherbsmed: "K00287",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea750"),
+    idformula: "F01378",
+    idherbsmed: "K00287",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea752"),
+    idformula: "F01380",
+    idherbsmed: "K00287",
+    ref: "漢方診療のレッスン：花輪壽彦著，平成7.9.25（金原出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea751"),
+    idformula: "F01379",
+    idherbsmed: "K00287",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea753"),
+    idformula: "F01385",
+    idherbsmed: "K00288",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea74c"),
+    idformula: "F01384",
+    idherbsmed: "K00287",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea754"),
+    idformula: "F01386",
+    idherbsmed: "K00288",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea755"),
+    idformula: "F01387",
+    idherbsmed: "K00288",
+    ref: "備急千金要方：孫思邈編著，1955年影印本，1848年日本刊本（人民衛生出版社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea759"),
+    idformula: "F01391",
+    idherbsmed: "K00289",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea758"),
+    idformula: "F01390",
+    idherbsmed: "K00288",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea756"),
+    idformula: "F01388",
+    idherbsmed: "K00288",
+    ref: "中国医学大辞典：謝観編著，1957.9，第5次印刷（商務印書館）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea75a"),
+    idformula: "F01392",
+    idherbsmed: "K00290",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea757"),
+    idformula: "F01389",
+    idherbsmed: "K00288",
+    ref: "方苑：平岡水走編著，1811年刊本",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea75c"),
+    idformula: "F01394",
+    idherbsmed: "K00290",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea75d"),
+    idformula: "F01395",
+    idherbsmed: "K00290",
+    ref: "漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea75b"),
+    idformula: "F01393",
+    idherbsmed: "K00290",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea760"),
+    idformula: "F01398",
+    idherbsmed: "K00290",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea761"),
+    idformula: "F01399",
+    idherbsmed: "K00291",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea762"),
+    idformula: "F01400",
+    idherbsmed: "K00292",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea75e"),
+    idformula: "F01396",
+    idherbsmed: "K00290",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea75f"),
+    idformula: "F01397",
+    idherbsmed: "K00290",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea764"),
+    idformula: "F01402",
+    idherbsmed: "K00293",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea763"),
+    idformula: "F01401",
+    idherbsmed: "K00293",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；続漢方あれこれ：大阪読売新聞社編（浪速社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea766"),
+    idformula: "F01404",
+    idherbsmed: "K00294",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea765"),
+    idformula: "F01403",
+    idherbsmed: "K00294",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea768"),
+    idformula: "F01406",
+    idherbsmed: "K00295",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea767"),
+    idformula: "F01405",
+    idherbsmed: "K00295",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方と民間薬百科：大塚敬節著（主婦の友社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea76a"),
+    idformula: "F01408",
+    idherbsmed: "K00295",
+    ref: "成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea76b"),
+    idformula: "F01409",
+    idherbsmed: "K00295",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea76c"),
+    idformula: "F01410",
+    idherbsmed: "K00295",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea76e"),
+    idformula: "F01412",
+    idherbsmed: "K00296",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea76f"),
+    idformula: "F01413",
+    idherbsmed: "K00297",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea769"),
+    idformula: "F01407",
+    idherbsmed: "K00295",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea76d"),
+    idformula: "F01411",
+    idherbsmed: "K00295",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea771"),
+    idformula: "F01415",
+    idherbsmed: "K00298",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea770"),
+    idformula: "F01414",
+    idherbsmed: "K00298",
+    ref: "漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea772"),
+    idformula: "F01416",
+    idherbsmed: "K00298",
+    ref: "漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea773"),
+    idformula: "F01417",
+    idherbsmed: "K00299",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea775"),
+    idformula: "F01419",
+    idherbsmed: "K00299",
+    ref: "黙堂柴田良治処方集：柴田良治著，昭和63.12（黙堂社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea774"),
+    idformula: "F01418",
+    idherbsmed: "K00299",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea778"),
+    idformula: "F01422",
+    idherbsmed: "K00299",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea776"),
+    idformula: "F01420",
+    idherbsmed: "K00299",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea779"),
+    idformula: "F01423",
+    idherbsmed: "K00300",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea77b"),
+    idformula: "F01425",
+    idherbsmed: "K00302",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea77a"),
+    idformula: "F01424",
+    idherbsmed: "K00301",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea777"),
+    idformula: "F01421",
+    idherbsmed: "K00299",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea77c"),
+    idformula: "F01426",
+    idherbsmed: "K00302",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea77d"),
+    idformula: "F01427",
+    idherbsmed: "K00302",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea77f"),
+    idformula: "F01429",
+    idherbsmed: "K00302",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea780"),
+    idformula: "F01430",
+    idherbsmed: "K00303",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea781"),
+    idformula: "F01431",
+    idherbsmed: "K00303",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea782"),
+    idformula: "F01432",
+    idherbsmed: "K00303",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea783"),
+    idformula: "F01433",
+    idherbsmed: "K00303",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea77e"),
+    idformula: "F01428",
+    idherbsmed: "K00302",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea786"),
+    idformula: "F01436",
+    idherbsmed: "K00304",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea787"),
+    idformula: "F01437",
+    idherbsmed: "K00305",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea788"),
+    idformula: "F01438",
+    idherbsmed: "K00305",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea784"),
+    idformula: "F01434",
+    idherbsmed: "K00303",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea785"),
+    idformula: "F01435",
+    idherbsmed: "K00303",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea78a"),
+    idformula: "F01440",
+    idherbsmed: "K00305",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea78b"),
+    idformula: "F01441",
+    idherbsmed: "K00305",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea78c"),
+    idformula: "F01442",
+    idherbsmed: "K00305",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea78d"),
+    idformula: "F01443",
+    idherbsmed: "K00305",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea78e"),
+    idformula: "F01444",
+    idherbsmed: "K00305",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea790"),
+    idformula: "F01446",
+    idherbsmed: "K00305",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea791"),
+    idformula: "F01447",
+    idherbsmed: "K00305",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea792"),
+    idformula: "F01448",
+    idherbsmed: "K00305",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea793"),
+    idformula: "F01449",
+    idherbsmed: "K00305",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea794"),
+    idformula: "F01450",
+    idherbsmed: "K00306",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea789"),
+    idformula: "F01439",
+    idherbsmed: "K00305",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea78f"),
+    idformula: "F01445",
+    idherbsmed: "K00305",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea796"),
+    idformula: "F01452",
+    idherbsmed: "K00306",
+    ref: "活10巻11号：UNKNOWN",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea799"),
+    idformula: "F01455",
+    idherbsmed: "K00307",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea798"),
+    idformula: "F01454",
+    idherbsmed: "K00307",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea795"),
+    idformula: "F01451",
+    idherbsmed: "K00306",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea79a"),
+    idformula: "F01456",
+    idherbsmed: "K00307",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea79b"),
+    idformula: "F01457",
+    idherbsmed: "K00307",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea79d"),
+    idformula: "F01459",
+    idherbsmed: "K00307",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea79c"),
+    idformula: "F01458",
+    idherbsmed: "K00307",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea79e"),
+    idformula: "F01460",
+    idherbsmed: "K00308",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea79f"),
+    idformula: "F01461",
+    idherbsmed: "K00309",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea797"),
+    idformula: "F01453",
+    idherbsmed: "K00307",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方大医典：大塚敬節他著，昭和32.9，第1版（東都書房）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7a0"),
+    idformula: "F01462",
+    idherbsmed: "K00310",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7a1"),
+    idformula: "F01463",
+    idherbsmed: "K00311",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7a2"),
+    idformula: "F01464",
+    idherbsmed: "K00311",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）；金匱要略入門：森田幸門著，昭和43.1.15，第2版（森田漢方治療研究所）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7a5"),
+    idformula: "F01467",
+    idherbsmed: "K00311",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7a3"),
+    idformula: "F01465",
+    idherbsmed: "K00311",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7a6"),
+    idformula: "F01474",
+    idherbsmed: "K00312",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7a4"),
+    idformula: "F01466",
+    idherbsmed: "K00311",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7a8"),
+    idformula: "F01469",
+    idherbsmed: "K00312",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7aa"),
+    idformula: "F01471",
+    idherbsmed: "K00312",
+    ref: "新撰類聚方：龍野一雄編，昭和34.10.1（漢方医学大系刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7a7"),
+    idformula: "F01468",
+    idherbsmed: "K00312",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ab"),
+    idformula: "F01472",
+    idherbsmed: "K00312",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ac"),
+    idformula: "F01473",
+    idherbsmed: "K00312",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7a9"),
+    idformula: "F01470",
+    idherbsmed: "K00312",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ae"),
+    idformula: "F01476",
+    idherbsmed: "K00313",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）；漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7af"),
+    idformula: "F01477",
+    idherbsmed: "K00313",
+    ref: "漢方大医典：大塚敬節他著，昭和32.9，第1版（東都書房）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ad"),
+    idformula: "F01475",
+    idherbsmed: "K00313",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；漢方の診かた治しかた：寺師睦濟著，昭和47.10.10，第4版（福村出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7b0"),
+    idformula: "F01478",
+    idherbsmed: "K00313",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7b2"),
+    idformula: "F01480",
+    idherbsmed: "K00313",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7b1"),
+    idformula: "F01479",
+    idherbsmed: "K00313",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7b3"),
+    idformula: "F01481",
+    idherbsmed: "K00313",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7b4"),
+    idformula: "F01482",
+    idherbsmed: "K00313",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7b6"),
+    idformula: "F01484",
+    idherbsmed: "K00315",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7b7"),
+    idformula: "F01485",
+    idherbsmed: "K00316",
+    ref: "薬局製剤　漢方194方の使い方：埴岡博・滝野行亮共著，昭和63.9.30（薬業時報社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7b8"),
+    idformula: "F01486",
+    idherbsmed: "K00316",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7b9"),
+    idformula: "F01487",
+    idherbsmed: "K00316",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ba"),
+    idformula: "F01488",
+    idherbsmed: "K00316",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7bb"),
+    idformula: "F01489",
+    idherbsmed: "K00316",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7bc"),
+    idformula: "F01490",
+    idherbsmed: "K00316",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7be"),
+    idformula: "F01492",
+    idherbsmed: "K00316",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7bd"),
+    idformula: "F01491",
+    idherbsmed: "K00316",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7bf"),
+    idformula: "F01501",
+    idherbsmed: "K00318",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7b5"),
+    idformula: "F01483",
+    idherbsmed: "K00314",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7c0"),
+    idformula: "F01500",
+    idherbsmed: "K00318",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7c1"),
+    idformula: "F01493",
+    idherbsmed: "K00318",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方：長沢元夫著（岩崎書店）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方処方集：龍野一雄著，昭和32.8.1（漢方書林）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7c4"),
+    idformula: "F01496",
+    idherbsmed: "K00318",
+    ref: "第3改正日本薬局方：日本公定書協会編（広川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7c5"),
+    idformula: "F01497",
+    idherbsmed: "K00318",
+    ref: "第7改正日本薬局方：日本公定書協会編（広川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7c6"),
+    idformula: "F01498",
+    idherbsmed: "K00318",
+    ref: "漢方と民間薬百科：大塚敬節著（主婦の友社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7c7"),
+    idformula: "F01499",
+    idherbsmed: "K00318",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7c2"),
+    idformula: "F01494",
+    idherbsmed: "K00318",
+    ref: "漢方薬入門：難波恒雄著，昭和48.11.1（保育社）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7c8"),
+    idformula: "F01502",
+    idherbsmed: "K00319",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7c9"),
+    idformula: "F01503",
+    idherbsmed: "K00319",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ca"),
+    idformula: "F01504",
+    idherbsmed: "K00319",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7cb"),
+    idformula: "F01505",
+    idherbsmed: "K00319",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7cc"),
+    idformula: "F01506",
+    idherbsmed: "K00319",
+    ref: "天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7c3"),
+    idformula: "F01495",
+    idherbsmed: "K00318",
+    ref: "金創膏薬諸方：華岡青洲著（岩崎書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7cd"),
+    idformula: "F01507",
+    idherbsmed: "K00320",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ce"),
+    idformula: "F01508",
+    idherbsmed: "K00321",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7cf"),
+    idformula: "F01509",
+    idherbsmed: "K00321",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7d0"),
+    idformula: "F01510",
+    idherbsmed: "K00323",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7d3"),
+    idformula: "F01513",
+    idherbsmed: "K00324",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7d2"),
+    idformula: "F01512",
+    idherbsmed: "K00324",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7d1"),
+    idformula: "F01511",
+    idherbsmed: "K00324",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7d4"),
+    idformula: "F01514",
+    idherbsmed: "K00324",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7d5"),
+    idformula: "F01515",
+    idherbsmed: "K00324",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7d6"),
+    idformula: "F01516",
+    idherbsmed: "K00324",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7d7"),
+    idformula: "F01517",
+    idherbsmed: "K00324",
+    ref: "漢方精撰百八方−その運用とかんどころ：相見三郎・石原明・伊藤清夫・大塚敬節・藤平健・矢数道明・山田光胤共著，昭和40.3.1初版（臨床漢方研究会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7d8"),
+    idformula: "F01518",
+    idherbsmed: "K00324",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7da"),
+    idformula: "F01520",
+    idherbsmed: "K00324",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7dc"),
+    idformula: "F01522",
+    idherbsmed: "K00325",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7d9"),
+    idformula: "F01519",
+    idherbsmed: "K00324",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7de"),
+    idformula: "F01526",
+    idherbsmed: "K00326",
+    ref: "漢方医学の基礎と診療：西山英雄著，昭和44.3.15（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7dd"),
+    idformula: "F01523",
+    idherbsmed: "K00325",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7df"),
+    idformula: "F01527",
+    idherbsmed: "K00326",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7db"),
+    idformula: "F01521",
+    idherbsmed: "K00325",
+    ref: "漢方処方大成：矢数圭堂監修，昭和63.4.15，第1刷（自然社）；図説・漢方処方の八網分類：顔焜榮著，昭和56（薬局新聞社）；実用処方便覧：矢数圭堂著，昭和63（自然社）；図解・常用漢方処方：顔焜榮著，昭和53.1.5（薬業時報社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7e0"),
+    idformula: "F01528",
+    idherbsmed: "K00326",
+    ref: "実用漢方療法−現代医学の盲点をつく：藤平健著，昭和47.5.1，初版（保健同人社）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7e3"),
+    idformula: "F01531",
+    idherbsmed: "K00326",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7e1"),
+    idformula: "F01529",
+    idherbsmed: "K00326",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7e4"),
+    idformula: "F01532",
+    idherbsmed: "K00326",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7e5"),
+    idformula: "F01524",
+    idherbsmed: "K00326",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7e6"),
+    idformula: "F01525",
+    idherbsmed: "K00326",
+    ref: "改訂新版漢方処方集：龍野一雄編著，昭和49.6.25，改訂（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7e7"),
+    idformula: "F01533",
+    idherbsmed: "K00327",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7e8"),
+    idformula: "F01534",
+    idherbsmed: "K00327",
+    ref: "症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ea"),
+    idformula: "F01536",
+    idherbsmed: "K00327",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7eb"),
+    idformula: "F01537",
+    idherbsmed: "K00327",
+    ref: "成人病の漢方療法：寺師睦宗著，昭和46.8.20（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ed"),
+    idformula: "F01539",
+    idherbsmed: "K00328",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ec"),
+    idformula: "F01538",
+    idherbsmed: "K00327",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7e2"),
+    idformula: "F01530",
+    idherbsmed: "K00326",
+    ref: "100万人の漢方・診断と治療の実際：寺師睦濟著，昭和48.1（豊文社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ef"),
+    idformula: "F01541",
+    idherbsmed: "K00330",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ee"),
+    idformula: "F01540",
+    idherbsmed: "K00329",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7f0"),
+    idformula: "F01542",
+    idherbsmed: "K00330",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7f1"),
+    idformula: "F01543",
+    idherbsmed: "K00331",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7f2"),
+    idformula: "F01544",
+    idherbsmed: "K00331",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7f3"),
+    idformula: "F01545",
+    idherbsmed: "K00331",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7f4"),
+    idformula: "F01546",
+    idherbsmed: "K00332",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）；一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7f6"),
+    idformula: "F01548",
+    idherbsmed: "K00333",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7f7"),
+    idformula: "F01551",
+    idherbsmed: "K00334",
+    ref: "漢方入門講座1，増補改訂漢方入門講座上・下巻：漢方入門講座1：龍野一雄著，昭和27.12.1（東京漢方杏林会編輯部），増補改訂漢方入門講座上・下巻：龍野一雄著 ，昭和49.3.20（中国漢方医学書刊行会）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7f8"),
+    idformula: "F01552",
+    idherbsmed: "K00334",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7e9"),
+    idformula: "F01535",
+    idherbsmed: "K00327",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7fa"),
+    idformula: "F01554",
+    idherbsmed: "K00334",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7fb"),
+    idformula: "F01549",
+    idherbsmed: "K00334",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）；症候による漢方治療の実際：大塚敬節著，昭和38.9.20，初版（南江堂）；明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7f5"),
+    idformula: "F01547",
+    idherbsmed: "K00332",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7fc"),
+    idformula: "F01550",
+    idherbsmed: "K00334",
+    ref: "漢方医学：大塚敬節著，昭和43.8.20/新版漢方医学：大塚敬節著，昭和48.2.16（創元社）；臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）；漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）；漢方診療の実際：大塚敬節・矢数道明・清水藤太郎共著，昭和33.2.15，第4版（南江堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7f9"),
+    idformula: "F01553",
+    idherbsmed: "K00334",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7fd"),
+    idformula: "F01555",
+    idherbsmed: "K00335",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7fe"),
+    idformula: "F01556",
+    idherbsmed: "K00336",
+    ref: "臨床応用漢方処方解説：矢数道明著，昭和41.5.5，初版（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea7ff"),
+    idformula: "F01557",
+    idherbsmed: "K00336",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea801"),
+    idformula: "F01559",
+    idherbsmed: "K00336",
+    ref: "明解漢方処方：西岡一夫・高橋真太郎共著，昭和41.7.10，第1版（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea800"),
+    idformula: "F01558",
+    idherbsmed: "K00336",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea802"),
+    idformula: "F01560",
+    idherbsmed: "K00336",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea803"),
+    idformula: "F01561",
+    idherbsmed: "K00337",
+    ref: "漢方の基礎と応用：西岡五夫・大塚恭男・菊谷豊彦共著，昭和59.2.10（薬事新報社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea805"),
+    idformula: "F01563",
+    idherbsmed: "K00337",
+    ref: "実用漢方処方集：藤平健・山田光胤監修，平成18.7.20，改訂3版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea804"),
+    idformula: "F01562",
+    idherbsmed: "K00337",
+    ref: "漢方処方の構成と応用：森雄材著，昭和60.6.10（医歯薬出版）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea806"),
+    idformula: "F01564",
+    idherbsmed: "K00337",
+    ref: "漢方診療ハンドブック—健保適用エキス剤による：桑木崇秀著，平成7.7（創元社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea807"),
+    idformula: "F01565",
+    idherbsmed: "K00337",
+    ref: "漢方保険診療の実際—エキス剤を主とした：勝田正泰著，昭和55.1（パンサイエンス分室）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea808"),
+    idformula: "F01566",
+    idherbsmed: "K00337",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea809"),
+    idformula: "F01567",
+    idherbsmed: "K00338",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea80c"),
+    idformula: "F01570",
+    idherbsmed: "K00339",
+    ref: "臨床30年漢方百話：昭和35.12.10，矢数道明著（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea80a"),
+    idformula: "F01568",
+    idherbsmed: "K00339",
+    ref: "漢方処方応用の実際：山田光胤著，昭和47.3.1，第3版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea80d"),
+    idformula: "F01571",
+    idherbsmed: "K00339",
+    ref: "漢方後世要方解説：矢数道明著，昭和37.5.30（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea80e"),
+    idformula: "F01572",
+    idherbsmed: "K00339",
+    ref: "経験漢方処方分量集：大塚敬節・矢数道明監修（医道の日本社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea80f"),
+    idformula: "F01573",
+    idherbsmed: "K00339",
+    ref: "漢方診療医典：大塚敬節・矢数道明・清水藤太郎共著，昭和44.1.15，第1版（南山堂）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea810"),
+    idformula: "F01574",
+    idherbsmed: "K00339",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）；天然医薬資源学[第2版]：竹田忠紘・吉川孝文・高橋邦夫・斉藤和季，平成17.3.10，第4刷（廣川書店）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea812"),
+    idformula: "F01576",
+    idherbsmed: "K00339",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea811"),
+    idformula: "F01575",
+    idherbsmed: "K00339",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea80b"),
+    idformula: "F01569",
+    idherbsmed: "K00339",
+    ref: "続漢方あれこれ：大阪読売新聞社編（浪速社）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea813"),
+    idformula: "F01577",
+    idherbsmed: "K00340",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea815"),
+    idformula: "F01579",
+    idherbsmed: "K00340",
+    ref: "漢方方意ノート：千葉古方漢方研究会著，平成5.8.31（丸善）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea817"),
+    idformula: "F01580",
+    idherbsmed: "K00341",
+    ref: "一般用漢方処方の手引き：厚生省薬務局監修，日薬連漢方専門委員会編，平成14.10.1，第5版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea816"),
+    idformula: "F01581",
+    idherbsmed: "K00341",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("refformulas").insert([ {
+    _id: ObjectId("5cf8d59316a5c20644bea814"),
+    idformula: "F01578",
+    idherbsmed: "K00340",
+    ref: "一般用漢方製剤承認基準：厚生労働省医薬食品局，平成20.10.1；改訂一般用漢方処方の手引き：日本公定書協会監修，日薬連漢方生薬製剤協会編，平成21.6.30，初版（じほう）",
+    __v: NumberInt("0")
+} ]);

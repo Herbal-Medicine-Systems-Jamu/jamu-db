@@ -1,0 +1,9453 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : [PROD]KMSJAMUMEDICINE
+ Source Server Type    : MongoDB
+ Source Server Version : 30608 (3.6.8)
+ Source Host           : localhost:27017
+ Source Schema         : kmsjamu
+
+ Target Server Type    : MongoDB
+ Target Server Version : 30608 (3.6.8)
+ File Encoding         : 65001
+
+ Date: 24/05/2023 09:13:14
+*/
+
+
+// ----------------------------
+// Collection structure for companies
+// ----------------------------
+db.getCollection("companies").drop();
+db.createCollection("companies");
+db.getCollection("companies").createIndex({
+    idcompany: NumberInt("1")
+}, {
+    name: "idcompany_1",
+    background: true,
+    unique: true
+});
+
+// ----------------------------
+// Documents of companies
+// ----------------------------
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8a4"),
+    idcompany: "c4",
+    cname: "Bunga Teratai",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8a5"),
+    idcompany: "c5",
+    cname: "Citidirect International Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8a2"),
+    idcompany: "c2",
+    cname: "Al - Barokah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8a6"),
+    idcompany: "c6",
+    cname: "CV Amarthasada Permas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8a1"),
+    idcompany: "c1",
+    cname: "Air Mancur",
+    address: "Jl. Mataram No. 1 Kel. Selong Kec. Kebayoran Baru",
+    city: "Jakarta Selatan",
+    country: "Indonesia",
+    postcode: "12110",
+    contact: "021-428 00575 / 021-428 00577",
+    url: "http://www.airmancur.co.id",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8a3"),
+    idcompany: "c3",
+    cname: "Asy-Syifa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8a7"),
+    idcompany: "c7",
+    cname: "CV. Abad Dua Satu Makmur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8a8"),
+    idcompany: "c8",
+    cname: "CV. Abdi Walidain",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8a9"),
+    idcompany: "c9",
+    cname: "CV. Afiro Medika",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8aa"),
+    idcompany: "c10",
+    cname: "CV. Agaricus Sido Makmur Sentosa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ab"),
+    idcompany: "c11",
+    cname: "CV. AGUNG MEDICA INDONESIA",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ae"),
+    idcompany: "c14",
+    cname: "CV. Al Manar Herbafit",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ac"),
+    idcompany: "c12",
+    cname: "CV. Agung Sejahtera Sejati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ad"),
+    idcompany: "c13",
+    cname: "CV. AKAR PINANG INDONESIA",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8af"),
+    idcompany: "c15",
+    cname: "CV. Alam Aulia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8b1"),
+    idcompany: "c17",
+    cname: "CV. AN` NUR",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8b2"),
+    idcompany: "c18",
+    cname: "CV. Annissa Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8b3"),
+    idcompany: "c19",
+    cname: "CV. Anugerah Alam Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8b0"),
+    idcompany: "c16",
+    cname: "CV. Alvi Sahrin",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8b4"),
+    idcompany: "c20",
+    cname: "CV. Aren Prima laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8b7"),
+    idcompany: "c23",
+    cname: "CV. Bintang Jaya Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8b5"),
+    idcompany: "c21",
+    cname: "CV. Awena Adi Lestari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8b8"),
+    idcompany: "c24",
+    cname: "CV. Bunga",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8b9"),
+    idcompany: "c25",
+    cname: "CV. Burung Walet Dua Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ba"),
+    idcompany: "c26",
+    cname: "CV. Cipta Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8bb"),
+    idcompany: "c27",
+    cname: "CV. Citra Dayak Kapuas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8b6"),
+    idcompany: "c22",
+    cname: "CV. Basmallah Food",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8bc"),
+    idcompany: "c28",
+    cname: "CV. Citra Mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8bd"),
+    idcompany: "c29",
+    cname: "CV. Country Diamond",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8be"),
+    idcompany: "c30",
+    cname: "CV. De Mbe Dhiba Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8bf"),
+    idcompany: "c31",
+    cname: "CV. Dera Alfrima",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8c1"),
+    idcompany: "c33",
+    cname: "CV. Eka Pratama Farmasindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8c2"),
+    idcompany: "c34",
+    cname: "CV. Fitrah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8c3"),
+    idcompany: "c35",
+    cname: "CV. Flora dan Fauna Herbal Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8c4"),
+    idcompany: "c36",
+    cname: "CV. Gajah Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8c5"),
+    idcompany: "c37",
+    cname: "CV. Graha Medika Husada",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8c7"),
+    idcompany: "c39",
+    cname: "CV. HERBACARE 99",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8c6"),
+    idcompany: "c38",
+    cname: "CV. Harvest Gorontalo Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8c8"),
+    idcompany: "c40",
+    cname: "CV. Herbacure 99",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ca"),
+    idcompany: "c42",
+    cname: "CV. Herbalindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8c9"),
+    idcompany: "c41",
+    cname: "CV. Herbal Insani",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8cb"),
+    idcompany: "c43",
+    cname: "CV. HERBALTAMA PERSADA",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8cc"),
+    idcompany: "c44",
+    cname: "CV. HSB Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8cd"),
+    idcompany: "c45",
+    cname: "CV. IKS Bukit Naga Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ce"),
+    idcompany: "c46",
+    cname: "CV. Indoherbal Mandiri Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8cf"),
+    idcompany: "c47",
+    cname: "CV. Indovicco",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8d0"),
+    idcompany: "c48",
+    cname: "CV. Internesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8d1"),
+    idcompany: "c49",
+    cname: "CV. Inti Sumatra Global Bioscience",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8c0"),
+    idcompany: "c32",
+    cname: "CV. Dunia Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8d3"),
+    idcompany: "c51",
+    cname: "CV. Jamu Putra Serang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8d2"),
+    idcompany: "c50",
+    cname: "CV. Intisari Tanaman Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8d4"),
+    idcompany: "c52",
+    cname: "CV. Jamu Tradisional T. Djojo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8d5"),
+    idcompany: "c53",
+    cname: "CV. Jangkar Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8d6"),
+    idcompany: "c54",
+    cname: "CV. Jaya Herbal",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8d7"),
+    idcompany: "c55",
+    cname: "CV. Kartini",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8da"),
+    idcompany: "c58",
+    cname: "CV. Luqman Herbal",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8d8"),
+    idcompany: "c56",
+    cname: "CV. Koonsfito Farmaca",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8d9"),
+    idcompany: "c57",
+    cname: "CV. Liyaudin Lasalimu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8dd"),
+    idcompany: "c61",
+    cname: "CV. Martono Jaya Utama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8dc"),
+    idcompany: "c60",
+    cname: "CV. Mahkota Sari Reymasindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8de"),
+    idcompany: "c62",
+    cname: "CV. Mega Maju Mekar",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8e0"),
+    idcompany: "c64",
+    cname: "CV. Merpati Putih",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8e2"),
+    idcompany: "c66",
+    cname: "CV. Morinda Mitra Sejati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8df"),
+    idcompany: "c63",
+    cname: "CV. Merapi Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8e1"),
+    idcompany: "c65",
+    cname: "CV. Mitra Sejahtera Bersama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8e3"),
+    idcompany: "c67",
+    cname: "CV. MUHAMMADIN CORP.",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8e4"),
+    idcompany: "c68",
+    cname: "CV. Multisari Persada",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8db"),
+    idcompany: "c59",
+    cname: "CV. Luxindo Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8e5"),
+    idcompany: "c69",
+    cname: "CV. Mutiara Sakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8e7"),
+    idcompany: "c71",
+    cname: "CV. Naturaid",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8e6"),
+    idcompany: "c70",
+    cname: "CV. Naga Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8e8"),
+    idcompany: "c72",
+    cname: "CV. Natural Hilife",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8e9"),
+    idcompany: "c73",
+    cname: "CV. Nizar Hasan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ea"),
+    idcompany: "c74",
+    cname: "CV. Nurusy - Syifa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8eb"),
+    idcompany: "c75",
+    cname: "CV. Nusantara Buana Surya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ee"),
+    idcompany: "c78",
+    cname: "CV. Pusat Pengolahan Kelapa Terpadu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ef"),
+    idcompany: "c79",
+    cname: "CV. Puspita Dewi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8f0"),
+    idcompany: "c80",
+    cname: "CV. Putra Pratama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8f1"),
+    idcompany: "c81",
+    cname: "CV. Raja Benua Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ed"),
+    idcompany: "c77",
+    cname: "CV. Pusaka Dhevy Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ec"),
+    idcompany: "c76",
+    cname: "CV. Prima Sari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8f2"),
+    idcompany: "c82",
+    cname: "CV. Rajawali Indosakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8f3"),
+    idcompany: "c83",
+    cname: "CV. Rajawali Perkasa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8f4"),
+    idcompany: "c84",
+    cname: "CV. Rajawali Sakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8f5"),
+    idcompany: "c85",
+    cname: "CV. Rizka Tegar Mulia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8f6"),
+    idcompany: "c86",
+    cname: "CV. Saga Sehat Bersama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8f7"),
+    idcompany: "c87",
+    cname: "CV. Salsa Wangi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8f8"),
+    idcompany: "c88",
+    cname: "CV. Sanjaya Makmur Perkasa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8fa"),
+    idcompany: "c90",
+    cname: "CV. Sari Bumi Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8f9"),
+    idcompany: "c89",
+    cname: "CV. Santri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8fc"),
+    idcompany: "c92",
+    cname: "CV. SAS",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8fe"),
+    idcompany: "c94",
+    cname: "CV. Sejahtera Fitofarma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8fd"),
+    idcompany: "c93",
+    cname: "CV. Sehat Murni Sejahtera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e900"),
+    idcompany: "c96",
+    cname: "CV. Setia Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8ff"),
+    idcompany: "c95",
+    cname: "CV. Semoga Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e903"),
+    idcompany: "c99",
+    cname: "CV. Sinar Mujarab",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e902"),
+    idcompany: "c98",
+    cname: "CV. Sidomulyo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e904"),
+    idcompany: "c100",
+    cname: "CV. Sitiara",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e905"),
+    idcompany: "c101",
+    cname: "CV. Sumber Dinamis Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e8fb"),
+    idcompany: "c91",
+    cname: "CV. Sari Bumi Sakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e907"),
+    idcompany: "c103",
+    cname: "CV. Sunking",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e906"),
+    idcompany: "c102",
+    cname: "CV. Sumber Sari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e908"),
+    idcompany: "c104",
+    cname: "CV. Syifana Berkah Makmur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e909"),
+    idcompany: "c105",
+    cname: "CV. Tanamas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e90a"),
+    idcompany: "c106",
+    cname: "CV. Tiga Aja Safira",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e90b"),
+    idcompany: "c107",
+    cname: "CV. Tiga Kelapa Mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e90c"),
+    idcompany: "c108",
+    cname: "CV. Tirta Cahaya Alam",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e901"),
+    idcompany: "c97",
+    cname: "CV. Sidoluhur Mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e90d"),
+    idcompany: "c109",
+    cname: "CV. Tirta Mustika Biru",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e90e"),
+    idcompany: "c110",
+    cname: "CV. Tri Utami Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e90f"),
+    idcompany: "c111",
+    cname: "CV. Trimitra Agung Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e910"),
+    idcompany: "c112",
+    cname: "CV. Vermindo International",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e911"),
+    idcompany: "c113",
+    cname: "CV. Vicomas Internasional",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e915"),
+    idcompany: "c117",
+    cname: "CV. Wijaya Sentosa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e912"),
+    idcompany: "c114",
+    cname: "CV. Wahyu Illahi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e914"),
+    idcompany: "c116",
+    cname: "CV. Wijaya Makmur Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e913"),
+    idcompany: "c115",
+    cname: "CV. Walet Puti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e919"),
+    idcompany: "c121",
+    cname: "Daun Teratai",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e918"),
+    idcompany: "c120",
+    cname: "Darwin Jamu Godok Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e91a"),
+    idcompany: "c122",
+    cname: "Dewa Honey",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e91b"),
+    idcompany: "c123",
+    cname: "Duta Hong Herbal Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e916"),
+    idcompany: "c118",
+    cname: "CV. William Thrah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e91e"),
+    idcompany: "c126",
+    cname: "Gada Sakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e91c"),
+    idcompany: "c124",
+    cname: "FA. Berkat Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e91d"),
+    idcompany: "c125",
+    cname: "Firma Miki Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e91f"),
+    idcompany: "c127",
+    cname: "Herbal Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e921"),
+    idcompany: "c129",
+    cname: "IKOT Al Ghuroba",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e920"),
+    idcompany: "c128",
+    cname: "Herbalindo Citra Mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e922"),
+    idcompany: "c130",
+    cname: "IKOT Alfiyah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e923"),
+    idcompany: "c131",
+    cname: "IKOT Auto Deck",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e924"),
+    idcompany: "c132",
+    cname: "IKOT Bokashi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e925"),
+    idcompany: "c133",
+    cname: "IKOT Cap Daun",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e926"),
+    idcompany: "c134",
+    cname: "IKOT Cap Tiga Ikan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e927"),
+    idcompany: "c135",
+    cname: "IKOT Gunung Samudra",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e929"),
+    idcompany: "c137",
+    cname: "IKOT Ika Satria",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e92a"),
+    idcompany: "c138",
+    cname: "IKOT Inti Sumatera Gobal Bioscience",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e928"),
+    idcompany: "c136",
+    cname: "IKOT HU JAYA",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e92b"),
+    idcompany: "c139",
+    cname: "IKOT Itarindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e917"),
+    idcompany: "c119",
+    cname: "CV. Zalba",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e92c"),
+    idcompany: "c140",
+    cname: "IKOT Jampi Praban",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e92d"),
+    idcompany: "c141",
+    cname: "IKOT Jamu Mustika Asli Madura",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e92e"),
+    idcompany: "c142",
+    cname: "IKOT Jamu Putri Gunung Jati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e92f"),
+    idcompany: "c143",
+    cname: "IKOT Jamu Sariningrum",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e930"),
+    idcompany: "c144",
+    cname: "IKOT Kampoeng Herba",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e931"),
+    idcompany: "c145",
+    cname: "IKOT Pasagro (CV. Yandesfegal Group)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e933"),
+    idcompany: "c147",
+    cname: "IKOT Prono Jiwo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e932"),
+    idcompany: "c146",
+    cname: "IKOT Permonojati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e934"),
+    idcompany: "c148",
+    cname: "IKOT Ragil Putra",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e935"),
+    idcompany: "c149",
+    cname: "IKOT Rhizoma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e938"),
+    idcompany: "c152",
+    cname: "IKOT Salamah Food",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e939"),
+    idcompany: "c153",
+    cname: "IKOT Sembilan intan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e93a"),
+    idcompany: "c154",
+    cname: "IKOT SKU (Sinar Kemilau Ungu)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e93b"),
+    idcompany: "c155",
+    cname: "IKOT Talenta Wijaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e93c"),
+    idcompany: "c156",
+    cname: "IKOT Wen Spa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e93d"),
+    idcompany: "c157",
+    cname: "IKOT Yayasan Sarana Bhakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e936"),
+    idcompany: "c150",
+    cname: "IKOT Rolid",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e93e"),
+    idcompany: "c158",
+    cname: "IKOT. Al - Afiah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e93f"),
+    idcompany: "c159",
+    cname: "IKOT. Al Hasanah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e940"),
+    idcompany: "c160",
+    cname: "IKOT. Al Hidayah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e941"),
+    idcompany: "c161",
+    cname: "IKOT. Al-Qomar",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e942"),
+    idcompany: "c162",
+    cname: "IKOT. Alam Sari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e944"),
+    idcompany: "c164",
+    cname: "IKOT. An Nuur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e943"),
+    idcompany: "c163",
+    cname: "IKOT. Alfisalam VCO (AVCOL)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e945"),
+    idcompany: "c165",
+    cname: "IKOT. Anak Singa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e937"),
+    idcompany: "c151",
+    cname: "IKOT Salama Nusantara",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e946"),
+    idcompany: "c166",
+    cname: "IKOT. Atsiri Jamalindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e947"),
+    idcompany: "c167",
+    cname: "IKOT. Barokah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e949"),
+    idcompany: "c169",
+    cname: "IKOT. Bintang Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e948"),
+    idcompany: "c168",
+    cname: "IKOT. Bayudewa Sejahtera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e94a"),
+    idcompany: "c170",
+    cname: "IKOT. Budi Lestari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e94b"),
+    idcompany: "c171",
+    cname: "IKOT. Cap Bambu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e94e"),
+    idcompany: "c174",
+    cname: "IKOT. Citra Alam Sentosa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e94f"),
+    idcompany: "c175",
+    cname: "IKOT. Daun Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e950"),
+    idcompany: "c176",
+    cname: "IKOT. Dewi Racik",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e94c"),
+    idcompany: "c172",
+    cname: "IKOT. Cap Tiga Ikan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e951"),
+    idcompany: "c177",
+    cname: "IKOT. Dharma Husada",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e952"),
+    idcompany: "c178",
+    cname: "IKOT. FA. Berkat Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e953"),
+    idcompany: "c179",
+    cname: "IKOT. Farisanu Mobatas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e954"),
+    idcompany: "c180",
+    cname: "IKOT. Galuh Aji",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e955"),
+    idcompany: "c181",
+    cname: "IKOT. Griya Jamu Suket Gendong",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e956"),
+    idcompany: "c182",
+    cname: "IKOT. Gunung Pancoran",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e957"),
+    idcompany: "c183",
+    cname: "IKOT. Handoko",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e958"),
+    idcompany: "c184",
+    cname: "IKOT. Helta",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e959"),
+    idcompany: "c185",
+    cname: "IKOT. Herba Bagus",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e95a"),
+    idcompany: "c186",
+    cname: "IKOT. Hudzaifah Qahira Food",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e95b"),
+    idcompany: "c187",
+    cname: "IKOT. Ibu Kasim",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e95c"),
+    idcompany: "c188",
+    cname: "IKOT. Ibu R. Ningsih",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e95d"),
+    idcompany: "c189",
+    cname: "IKOT. Jamu Garuda",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e95e"),
+    idcompany: "c190",
+    cname: "IKOT. Jamu Helbeh Cap Onta",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e95f"),
+    idcompany: "c191",
+    cname: "IKOT. Jamu Lanang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e960"),
+    idcompany: "c192",
+    cname: "IKOT. Jamu Putri Kahyangan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e94d"),
+    idcompany: "c173",
+    cname: "IKOT. Cipta Madura",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e961"),
+    idcompany: "c193",
+    cname: "IKOT. Kapan Anda",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e963"),
+    idcompany: "c195",
+    cname: "IKOT. Kencono Super",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e962"),
+    idcompany: "c194",
+    cname: "IKOT. KBJ Kem Kem",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e964"),
+    idcompany: "c196",
+    cname: "IKOT. Kholariz",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e965"),
+    idcompany: "c197",
+    cname: "IKOT. KIA",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e966"),
+    idcompany: "c198",
+    cname: "IKOT. Kujaya Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e967"),
+    idcompany: "c199",
+    cname: "IKOT. Liang Liong",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9605ebcc0f0003e968"),
+    idcompany: "c200",
+    cname: "IKOT. Madu Brotowali",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e969"),
+    idcompany: "c201",
+    cname: "IKOT. Mahkota Madura",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e96c"),
+    idcompany: "c204",
+    cname: "IKOT. Mustika Madura",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e96d"),
+    idcompany: "c205",
+    cname: "IKOT. Mustika Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e96e"),
+    idcompany: "c206",
+    cname: "IKOT. Nikisari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e96a"),
+    idcompany: "c202",
+    cname: "IKOT. Mahkota Rizki",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e970"),
+    idcompany: "c208",
+    cname: "IKOT. Ny. Sumiati BRB",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e971"),
+    idcompany: "c209",
+    cname: "IKOT. Nyior Koneng",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e96b"),
+    idcompany: "c203",
+    cname: "IKOT. Melati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e972"),
+    idcompany: "c210",
+    cname: "IKOT. Pabbura Ugi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e974"),
+    idcompany: "c212",
+    cname: "IKOT. Pemanah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e973"),
+    idcompany: "c211",
+    cname: "IKOT. Pancaran Hidup Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e975"),
+    idcompany: "c213",
+    cname: "IKOT. Perusahaan Jamu Ibu Sri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e976"),
+    idcompany: "c214",
+    cname: "IKOT. Prakasita Sekar Mataram",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e977"),
+    idcompany: "c215",
+    cname: "IKOT. Pusaka Ibu Madura",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e978"),
+    idcompany: "c216",
+    cname: "IKOT. Pusoko Sejati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e979"),
+    idcompany: "c217",
+    cname: "IKOT. Putri Waso",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e97a"),
+    idcompany: "c218",
+    cname: "IKOT. Qolbun Salim",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e97c"),
+    idcompany: "c220",
+    cname: "IKOT. Ragil Putra",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e97b"),
+    idcompany: "c219",
+    cname: "IKOT. Rachmat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e97d"),
+    idcompany: "c221",
+    cname: "IKOT. Ridhallah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e97e"),
+    idcompany: "c222",
+    cname: "IKOT. Sari Manjur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e97f"),
+    idcompany: "c223",
+    cname: "IKOT. Sekar Arum",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e980"),
+    idcompany: "c224",
+    cname: "IKOT. Sekar Kedaton",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e981"),
+    idcompany: "c225",
+    cname: "IKOT. Sekar Kusuma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e96f"),
+    idcompany: "c207",
+    cname: "IKOT. Ny. Hadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e982"),
+    idcompany: "c226",
+    cname: "IKOT. Sembilan Mutiara",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e983"),
+    idcompany: "c227",
+    cname: "IKOT. Sengkolan Potre Koneng (Armos)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e984"),
+    idcompany: "c228",
+    cname: "IKOT. Si Jagad Alami",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e985"),
+    idcompany: "c229",
+    cname: "IKOT. Sri Haryanto",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e986"),
+    idcompany: "c230",
+    cname: "IKOT. Sumber Manggis",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e987"),
+    idcompany: "c231",
+    cname: "IKOT. Sungai Duri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e988"),
+    idcompany: "c232",
+    cname: "IKOT. Tamali Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e989"),
+    idcompany: "c233",
+    cname: "IKOT. Tradisional Ibu Dewi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e98a"),
+    idcompany: "c234",
+    cname: "IKOT. Tusanco",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e98b"),
+    idcompany: "c235",
+    cname: "IKOT. Wahyu Sejati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e98d"),
+    idcompany: "c237",
+    cname: "Jamu Borobudur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e98c"),
+    idcompany: "c236",
+    cname: "IOT Sari Sehat qq PT. Capung Indah Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e98e"),
+    idcompany: "c238",
+    cname: "Jamu Iboe",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e990"),
+    idcompany: "c240",
+    cname: "Jamu Puspo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e992"),
+    idcompany: "c242",
+    cname: "Koperasi Koliga",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e993"),
+    idcompany: "c243",
+    cname: "Kopja Aneka Sari Unit I Mekar Sari 1",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e98f"),
+    idcompany: "c239",
+    cname: "Jamu Pusaka Endatu Cap Singa Dua",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e994"),
+    idcompany: "c244",
+    cname: "Kopja Aneka Sari Unit II Sembung Jaya 1",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e996"),
+    idcompany: "c246",
+    cname: "Kopja Aneka Sari Unit V Kukuh Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e995"),
+    idcompany: "c245",
+    cname: "Kopja Aneka Sari Unit III Gunung Sugih 1",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e997"),
+    idcompany: "c247",
+    cname: "Kopja Aneka Sari Unit VI Jati Sari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e998"),
+    idcompany: "c248",
+    cname: "Kopja Aneka Sari Unit VII Ngudi Rahayu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e999"),
+    idcompany: "c249",
+    cname: "Kopja Aneka Sari Unit VIII Ampuh Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e99a"),
+    idcompany: "c250",
+    cname: "Kopja Aneka Sari Unit X Rajawali",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e99b"),
+    idcompany: "c251",
+    cname: "Kopja Aneka Sari Unit XI Sari Manjur 1",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e99c"),
+    idcompany: "c252",
+    cname: "Kopja Aneka Sari Unit XII Gitabuana",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e99d"),
+    idcompany: "c253",
+    cname: "KOPJA Sabuk Kuning",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e99e"),
+    idcompany: "c254",
+    cname: "Kopja Sabuk Kuning Unit V",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e99f"),
+    idcompany: "c255",
+    cname: "KPPT Mekar Sari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9a0"),
+    idcompany: "c256",
+    cname: "Micola",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9a2"),
+    idcompany: "c258",
+    cname: "NM Air Embun",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9a1"),
+    idcompany: "c257",
+    cname: "Minyak Mutiara Hitam",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e991"),
+    idcompany: "c241",
+    cname: "Kalimbubu Putra Mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9a3"),
+    idcompany: "c259",
+    cname: "PD. An Nuur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9a4"),
+    idcompany: "c260",
+    cname: "PD. Bulan Purnama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9a5"),
+    idcompany: "c261",
+    cname: "PD. Eltra Raya Perkasa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9a6"),
+    idcompany: "c262",
+    cname: "PD. Gusco",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9a7"),
+    idcompany: "c263",
+    cname: "PD. Jasa Nusantara",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9a8"),
+    idcompany: "c264",
+    cname: "PD. Ramuan Manjur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9a9"),
+    idcompany: "c265",
+    cname: "PD. Rosari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9aa"),
+    idcompany: "c266",
+    cname: "PD. Sahara",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ad"),
+    idcompany: "c269",
+    cname: "PD. Teh Krisan Singkawang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ae"),
+    idcompany: "c270",
+    cname: "PJ. Ada Rasa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9af"),
+    idcompany: "c271",
+    cname: "PJ. Agaricus Sidomakmur Sentosa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9b0"),
+    idcompany: "c272",
+    cname: "PJ. Aiki",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ab"),
+    idcompany: "c267",
+    cname: "PD. Samsu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9b1"),
+    idcompany: "c273",
+    cname: "PJ. Air Pusaka",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9b2"),
+    idcompany: "c274",
+    cname: "PJ. Akar Maya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ac"),
+    idcompany: "c268",
+    cname: "PD. Sinar Bokor Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9b3"),
+    idcompany: "c275",
+    cname: "PJ. Akar Sari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9b4"),
+    idcompany: "c276",
+    cname: "PJ. Akar Seribu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9b5"),
+    idcompany: "c277",
+    cname: "PJ. Al Ghuroba",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9b6"),
+    idcompany: "c278",
+    cname: "PJ. Aladin",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9b7"),
+    idcompany: "c279",
+    cname: "PJ. Alam Subur Manjur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9b8"),
+    idcompany: "c280",
+    cname: "PJ. Amar Sakti Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9b9"),
+    idcompany: "c281",
+    cname: "PJ. Amm Sina",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ba"),
+    idcompany: "c282",
+    cname: "PJ. Andarina",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9bc"),
+    idcompany: "c284",
+    cname: "PJ. Anoman",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9bd"),
+    idcompany: "c285",
+    cname: "PJ. Anugerah Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9be"),
+    idcompany: "c286",
+    cname: "PJ. Bangun Kasih Herbalindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9bf"),
+    idcompany: "c287",
+    cname: "PJ. Barokah Putri Kembar",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9c0"),
+    idcompany: "c288",
+    cname: "PJ. Bayudewa Sejahtera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9c2"),
+    idcompany: "c290",
+    cname: "PJ. Bintang Anugerah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9c1"),
+    idcompany: "c289",
+    cname: "PJ. Bintang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9c3"),
+    idcompany: "c291",
+    cname: "PJ. Bintang Bumi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9c5"),
+    idcompany: "c293",
+    cname: "PJ. Bintang Timur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9c4"),
+    idcompany: "c292",
+    cname: "PJ. Bintang Lima",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9c6"),
+    idcompany: "c294",
+    cname: "PJ. Bisma Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9bb"),
+    idcompany: "c283",
+    cname: "PJ. Angsa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9c9"),
+    idcompany: "c297",
+    cname: "PJ. Cap Bajing",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ca"),
+    idcompany: "c298",
+    cname: "PJ. Cap Burung Kasuari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9cb"),
+    idcompany: "c299",
+    cname: "PJ. Cap Joglo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9cc"),
+    idcompany: "c300",
+    cname: "PJ. Cap Klanceng",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9cd"),
+    idcompany: "c301",
+    cname: "PJ. Cap Kresno Narodo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9cf"),
+    idcompany: "c303",
+    cname: "PJ. Cap Merpati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ce"),
+    idcompany: "c302",
+    cname: "PJ. Cap Kuda",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9c8"),
+    idcompany: "c296",
+    cname: "PJ. Bu Slamet",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9d1"),
+    idcompany: "c305",
+    cname: "PJ. CAP ORANG TANI",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9c7"),
+    idcompany: "c295",
+    cname: "PJ. Bu Belina",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9d0"),
+    idcompany: "c304",
+    cname: "PJ. Cap Naga Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9d2"),
+    idcompany: "c306",
+    cname: "PJ. Cap Pak Tani",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9d4"),
+    idcompany: "c308",
+    cname: "PJ. Cap Tiga IKan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9d3"),
+    idcompany: "c307",
+    cname: "PJ. Cap Sumbodro",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9d5"),
+    idcompany: "c309",
+    cname: "PJ. Cap Tiga Wanita Ny. Girang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9d7"),
+    idcompany: "c311",
+    cname: "PJ. Ching Lung",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9d6"),
+    idcompany: "c310",
+    cname: "PJ. Caping Gunung",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9d8"),
+    idcompany: "c312",
+    cname: "PJ. Cipta Rasa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9da"),
+    idcompany: "c314",
+    cname: "PJ. Dewa Dewi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9db"),
+    idcompany: "c315",
+    cname: "PJ. Dhoho",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9dc"),
+    idcompany: "c316",
+    cname: "PJ. Doro",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9de"),
+    idcompany: "c318",
+    cname: "PJ. Dr. Sardjito",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9dd"),
+    idcompany: "c317",
+    cname: "PJ. Dr Eko Wahjuni",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9df"),
+    idcompany: "c319",
+    cname: "PJ. Dwi Tunggal Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9e1"),
+    idcompany: "c321",
+    cname: "PJ. Emak Deprok",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9e0"),
+    idcompany: "c320",
+    cname: "PJ. El Shaddai",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9e2"),
+    idcompany: "c322",
+    cname: "PJ. Firdha Prima",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9e3"),
+    idcompany: "c323",
+    cname: "PJ. Gading Sari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9e4"),
+    idcompany: "c324",
+    cname: "PJ. Gatot Kaca",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9e5"),
+    idcompany: "c325",
+    cname: "PJ. Global Marine Prima",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9e7"),
+    idcompany: "c327",
+    cname: "PJ. Gunung Alam",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9e6"),
+    idcompany: "c326",
+    cname: "PJ. Guna Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9e8"),
+    idcompany: "c328",
+    cname: "PJ. Gunung Subur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9e9"),
+    idcompany: "c329",
+    cname: "PJ. Hasim Golanding",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ea"),
+    idcompany: "c330",
+    cname: "PJ. Herba Medika",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9d9"),
+    idcompany: "c313",
+    cname: "PJ. Daun Emas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ec"),
+    idcompany: "c332",
+    cname: "PJ. Herbal Nusantara",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9eb"),
+    idcompany: "c331",
+    cname: "PJ. Herbal Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ed"),
+    idcompany: "c333",
+    cname: "PJ. IBU TJIPTO",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ef"),
+    idcompany: "c335",
+    cname: "PJ. Indo Sari Raya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ee"),
+    idcompany: "c334",
+    cname: "PJ. Idhi Boeyoet",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9f0"),
+    idcompany: "c336",
+    cname: "PJ. Indra",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9f1"),
+    idcompany: "c337",
+    cname: "PJ. Jago Gulat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9f2"),
+    idcompany: "c338",
+    cname: "PJ. Jalak Sakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9f3"),
+    idcompany: "c339",
+    cname: "PJ. Jamrud Khatulistiwa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9f4"),
+    idcompany: "c340",
+    cname: "PJ. Jamu Dayang Sumbi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9f5"),
+    idcompany: "c341",
+    cname: "PJ. Janor Koneng",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9f6"),
+    idcompany: "c342",
+    cname: "PJ. Jasem",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9f9"),
+    idcompany: "c345",
+    cname: "PJ. Jitu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9f8"),
+    idcompany: "c344",
+    cname: "PJ. Jayadipa Putera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9fb"),
+    idcompany: "c347",
+    cname: "PJ. Joedhistira",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9fc"),
+    idcompany: "c348",
+    cname: "PJ. K.I.I Cap Karapan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9fa"),
+    idcompany: "c346",
+    cname: "PJ. JM",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9fd"),
+    idcompany: "c349",
+    cname: "PJ. Kadarwati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9fe"),
+    idcompany: "c350",
+    cname: "PJ. Kala Gemilang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9ff"),
+    idcompany: "c351",
+    cname: "PJ. KATES",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea01"),
+    idcompany: "c353",
+    cname: "PJ. Klanceng",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea02"),
+    idcompany: "c354",
+    cname: "PJ. Kuda Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea00"),
+    idcompany: "c352",
+    cname: "PJ. Kembang Dunia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003e9f7"),
+    idcompany: "c343",
+    cname: "PJ. Jaya Guna",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea03"),
+    idcompany: "c355",
+    cname: "PJ. Langgeng Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea05"),
+    idcompany: "c357",
+    cname: "PJ. Lestari Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea04"),
+    idcompany: "c356",
+    cname: "PJ. Langgeng Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea07"),
+    idcompany: "c359",
+    cname: "PJ. Madu Nusantara",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea08"),
+    idcompany: "c360",
+    cname: "PJ. Mahkota Rizki",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea09"),
+    idcompany: "c361",
+    cname: "PJ. Mahkota Wijaya Kusuma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea0a"),
+    idcompany: "c362",
+    cname: "PJ. Minyak Ramuan Ciptaan Leluhur (Miracle)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea0c"),
+    idcompany: "c364",
+    cname: "PJ. Monggo Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea0b"),
+    idcompany: "c363",
+    cname: "PJ. Mitro Rahajoe",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea0d"),
+    idcompany: "c365",
+    cname: "PJ. Mudjiono Gunawan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea0e"),
+    idcompany: "c366",
+    cname: "PJ. Mulia Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea0f"),
+    idcompany: "c367",
+    cname: "PJ. Mutiara Banjar",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea12"),
+    idcompany: "c370",
+    cname: "PJ. Nupharma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea10"),
+    idcompany: "c368",
+    cname: "PJ. Nakula Sadewa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea11"),
+    idcompany: "c369",
+    cname: "PJ. Narodo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea13"),
+    idcompany: "c371",
+    cname: "PJ. Ny. Badriyah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea14"),
+    idcompany: "c372",
+    cname: "PJ. Nyonya Asam",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea15"),
+    idcompany: "c373",
+    cname: "PJ. Nyonya Simping Cap Kelapa Jenggi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea17"),
+    idcompany: "c375",
+    cname: "PJ. Partono",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea16"),
+    idcompany: "c374",
+    cname: "PJ. ORIENTAL",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea06"),
+    idcompany: "c358",
+    cname: "PJ. Lipan Jaya Sakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea19"),
+    idcompany: "c377",
+    cname: "PJ. Peng An",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea18"),
+    idcompany: "c376",
+    cname: "PJ. Paten",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea1a"),
+    idcompany: "c378",
+    cname: "PJ. Pharmindo Sakti Bengawan Solo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea1b"),
+    idcompany: "c379",
+    cname: "PJ. Podang Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea1c"),
+    idcompany: "c380",
+    cname: "PJ. Pucuk Sirih",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea1d"),
+    idcompany: "c381",
+    cname: "PJ. Pujiono Onnarso Woen",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea1e"),
+    idcompany: "c382",
+    cname: "PJ. PUNTODEWO",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea1f"),
+    idcompany: "c383",
+    cname: "PJ. Pusoko Pipisan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea20"),
+    idcompany: "c384",
+    cname: "PJ. Puspita Jelita",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea24"),
+    idcompany: "c388",
+    cname: "PJ. Putri Delima",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea23"),
+    idcompany: "c387",
+    cname: "PJ. Putra Rakyat jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea21"),
+    idcompany: "c385",
+    cname: "PJ. Puspita Madura",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea26"),
+    idcompany: "c390",
+    cname: "PJ. Putri Sakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea27"),
+    idcompany: "c391",
+    cname: "PJ. Putri Sejati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea25"),
+    idcompany: "c389",
+    cname: "PJ. Putri Kahyangan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea28"),
+    idcompany: "c392",
+    cname: "PJ. Putro Kinasih",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea2a"),
+    idcompany: "c394",
+    cname: "PJ. Roda Dunia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea29"),
+    idcompany: "c393",
+    cname: "PJ. Ratulangi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea2c"),
+    idcompany: "c396",
+    cname: "PJ. Sabdo Palon",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea2b"),
+    idcompany: "c395",
+    cname: "PJ. Sabdo Jodo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea2d"),
+    idcompany: "c397",
+    cname: "PJ. Sansidarta",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea2e"),
+    idcompany: "c398",
+    cname: "PJ. Sapta Sari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea30"),
+    idcompany: "c400",
+    cname: "PJ. Sapu Jagat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea2f"),
+    idcompany: "c399",
+    cname: "PJ. Sapu Jagad",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea32"),
+    idcompany: "c402",
+    cname: "PJ. Sari Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea33"),
+    idcompany: "c403",
+    cname: "PJ. Sari Wangi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea31"),
+    idcompany: "c401",
+    cname: "PJ. Sari Puri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea22"),
+    idcompany: "c386",
+    cname: "PJ. Putra Galuh",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea34"),
+    idcompany: "c404",
+    cname: "PJ. Sehat Bahagia Keluarga",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea35"),
+    idcompany: "c405",
+    cname: "PJ. Sekar Ayu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea36"),
+    idcompany: "c406",
+    cname: "PJ. Sekar Mawar",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea38"),
+    idcompany: "c408",
+    cname: "PJ. Serbuk Super",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea37"),
+    idcompany: "c407",
+    cname: "PJ. Serbuk Sari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea39"),
+    idcompany: "c409",
+    cname: "PJ. Sergai",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea3a"),
+    idcompany: "c410",
+    cname: "PJ. Shinshe Tan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea3b"),
+    idcompany: "c411",
+    cname: "PJ. Siang Siang Product",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea3c"),
+    idcompany: "c412",
+    cname: "PJ. Sidijodo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea3d"),
+    idcompany: "c413",
+    cname: "PJ. Sido Jodo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea3e"),
+    idcompany: "c414",
+    cname: "PJ. Sinar Cemerlang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea40"),
+    idcompany: "c416",
+    cname: "PJ. Singa Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea41"),
+    idcompany: "c417",
+    cname: "PJ. Sinshe Tan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea42"),
+    idcompany: "c418",
+    cname: "PJ. Sri Cahyo Ny. Senter",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea43"),
+    idcompany: "c419",
+    cname: "PJ. Srigading",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea44"),
+    idcompany: "c420",
+    cname: "PJ. Star VCO Colomadu-Karanganyar",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea45"),
+    idcompany: "c421",
+    cname: "PJ. Sugriwo Subali",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea46"),
+    idcompany: "c422",
+    cname: "PJ. Sumber Rejeki",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea47"),
+    idcompany: "c423",
+    cname: "PJ. Sumber Sukses Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea48"),
+    idcompany: "c424",
+    cname: "PJ. Sumbodro",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea49"),
+    idcompany: "c425",
+    cname: "PJ. Suryo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea4a"),
+    idcompany: "c426",
+    cname: "PJ. Teratai",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea4b"),
+    idcompany: "c427",
+    cname: "PJ. Tiga Juara Olah Raga",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea4c"),
+    idcompany: "c428",
+    cname: "PJ. Tiga Puspa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea4d"),
+    idcompany: "c429",
+    cname: "PJ. Tiga Saudara",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea4e"),
+    idcompany: "c430",
+    cname: "PJ. Tingbao (Cap Semar)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea3f"),
+    idcompany: "c415",
+    cname: "PJ. Sinar Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea51"),
+    idcompany: "c433",
+    cname: "PJ. Trisno Cipta Usaha",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea52"),
+    idcompany: "c434",
+    cname: "PJ. Tumbuh Lestari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea53"),
+    idcompany: "c435",
+    cname: "PJ. Tunggal Mapan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea54"),
+    idcompany: "c436",
+    cname: "PJ. Usadha Santhika Bali",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea55"),
+    idcompany: "c437",
+    cname: "PJ. Usaha Dawa Alam",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea56"),
+    idcompany: "c438",
+    cname: "PJ. Usaha Tradisional Minyak Padi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea57"),
+    idcompany: "c439",
+    cname: "PJ. Vitaher",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea58"),
+    idcompany: "c440",
+    cname: "PJ. Wahyu Ilalloh",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea59"),
+    idcompany: "c441",
+    cname: "PJ. Walikukun",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea5a"),
+    idcompany: "c442",
+    cname: "PJ. Warisan Satu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea5c"),
+    idcompany: "c444",
+    cname: "PJ. Zanet Purbaci (Mafrukhan)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea5b"),
+    idcompany: "c443",
+    cname: "PJ. Wisnu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea5d"),
+    idcompany: "c445",
+    cname: "PJ. Zen Surabaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea5e"),
+    idcompany: "c446",
+    cname: "PJ.Warisan Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea4f"),
+    idcompany: "c431",
+    cname: "PJ. Tjap Lampoe",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea5f"),
+    idcompany: "c447",
+    cname: "PT, Jamu Indonesia Simona",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea60"),
+    idcompany: "c448",
+    cname: "PT. Afi Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea61"),
+    idcompany: "c449",
+    cname: "PT. Afis Prima Perdana",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea50"),
+    idcompany: "c432",
+    cname: "PJ. Tresna",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea63"),
+    idcompany: "c451",
+    cname: "PT. Aka Natural Medika",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea62"),
+    idcompany: "c450",
+    cname: "PT. Air Mancur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea65"),
+    idcompany: "c453",
+    cname: "PT. Alam Sehat Nusantara",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea68"),
+    idcompany: "c456",
+    cname: "PT. Aquasolve Sanaria",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea69"),
+    idcompany: "c457",
+    cname: "PT. ARTA MITRA SEJAHTERA",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea67"),
+    idcompany: "c455",
+    cname: "PT. Aneka Coffee Industry",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea66"),
+    idcompany: "c454",
+    cname: "PT. Alomampa Persada",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea6b"),
+    idcompany: "c459",
+    cname: "PT. Artois Pharmaceutical Indonesia, Ltd.",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea6c"),
+    idcompany: "c460",
+    cname: "PT. Asiatama Agromakmur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea64"),
+    idcompany: "c452",
+    cname: "PT. Akar Pinang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea6d"),
+    idcompany: "c461",
+    cname: "PT. Asoka Waja Wisesa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea6a"),
+    idcompany: "c458",
+    cname: "PT. Arteri Megah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea6e"),
+    idcompany: "c462",
+    cname: "PT. Avcennia Multi Sainteknika",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea6f"),
+    idcompany: "c463",
+    cname: "PT. Ayu Naturally Cemerlang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea73"),
+    idcompany: "c467",
+    cname: "PT. Berial Sumber Medica",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea71"),
+    idcompany: "c465",
+    cname: "PT. Balatif",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea75"),
+    idcompany: "c469",
+    cname: "PT. Berkat Shanghai Hanjiang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea74"),
+    idcompany: "c468",
+    cname: "PT. Berkat Nadah Agung",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea77"),
+    idcompany: "c471",
+    cname: "PT. Bernofarm",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea76"),
+    idcompany: "c470",
+    cname: "PT. Berlico Mulia Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea78"),
+    idcompany: "c472",
+    cname: "PT. BIDADARI",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea79"),
+    idcompany: "c473",
+    cname: "PT. Bintang Baruna Global",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea70"),
+    idcompany: "c464",
+    cname: "PT. Azet Putra Cemerlang",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea7a"),
+    idcompany: "c474",
+    cname: "PT. Bintang Toedjoe",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea7b"),
+    idcompany: "c475",
+    cname: "PT. Bio Phytopharma Lab.",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea7c"),
+    idcompany: "c476",
+    cname: "PT. Bio-Life Medilab",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea7d"),
+    idcompany: "c477",
+    cname: "PT. Biofarmaka Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea7e"),
+    idcompany: "c478",
+    cname: "PT. Biovit Nutraceutical (PT. Tropica Mas )",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea7f"),
+    idcompany: "c479",
+    cname: "PT. Biovit Nutraceutical Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea80"),
+    idcompany: "c480",
+    cname: "PT. Bunga Ros",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea81"),
+    idcompany: "c481",
+    cname: "PT. Cahaya Biru",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea72"),
+    idcompany: "c466",
+    cname: "PT. Bee Toba Makassar",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea82"),
+    idcompany: "c482",
+    cname: "PT. Cahaya Biru Medan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea86"),
+    idcompany: "c486",
+    cname: "PT. Cempaka Tohpati Sejahtera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea87"),
+    idcompany: "c487",
+    cname: "PT. Cendo Industri Farmasi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea83"),
+    idcompany: "c483",
+    cname: "PT. Candi Mas Purba Salma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea88"),
+    idcompany: "c488",
+    cname: "PT. Chandra Nusantara Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea85"),
+    idcompany: "c485",
+    cname: "PT. Capung Indah Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea89"),
+    idcompany: "c489",
+    cname: "PT. Cipta Sehat Sejati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea8a"),
+    idcompany: "c490",
+    cname: "PT. Citra Deli Kreasitama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea8b"),
+    idcompany: "c491",
+    cname: "PT. Citra Giga Agrotama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea8c"),
+    idcompany: "c492",
+    cname: "PT. Ciubros Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea8d"),
+    idcompany: "c493",
+    cname: "PT. Combiphar",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea84"),
+    idcompany: "c484",
+    cname: "PT. Candra Nusantara Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea8e"),
+    idcompany: "c494",
+    cname: "PT. Coronet Crown",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea90"),
+    idcompany: "c496",
+    cname: "PT. Cussons Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea8f"),
+    idcompany: "c495",
+    cname: "PT. Corsa Industries",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea92"),
+    idcompany: "c498",
+    cname: "PT. Dankos Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea94"),
+    idcompany: "c500",
+    cname: "PT. Deltomed Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea95"),
+    idcompany: "c501",
+    cname: "PT. Dewa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea93"),
+    idcompany: "c499",
+    cname: "PT. Daxen Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea96"),
+    idcompany: "c502",
+    cname: "PT. Dewi ratu mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea98"),
+    idcompany: "c504",
+    cname: "PT. Dexa Medica (PT. Ferron Par Pharmaceutical)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea97"),
+    idcompany: "c503",
+    cname: "PT. Dexa Medica",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea99"),
+    idcompany: "c505",
+    cname: "PT. Dimensi Rizky Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea9b"),
+    idcompany: "c507",
+    cname: "PT. Dragon Prima Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea9a"),
+    idcompany: "c506",
+    cname: "PT. Dipa Pharmalab Intersains",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea9c"),
+    idcompany: "c508",
+    cname: "PT. Duta Herba Masindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea9d"),
+    idcompany: "c509",
+    cname: "PT. Eagle Indo Pharma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea9e"),
+    idcompany: "c510",
+    cname: "PT. Eglin Pharma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea9f"),
+    idcompany: "c511",
+    cname: "PT. Erela",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaa0"),
+    idcompany: "c512",
+    cname: "PT. Erlimpex",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaa1"),
+    idcompany: "c513",
+    cname: "PT. Esa Mulia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaa2"),
+    idcompany: "c514",
+    cname: "PT. Fabindo Sejahtera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ea91"),
+    idcompany: "c497",
+    cname: "PT. Dami Sariwana",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaa3"),
+    idcompany: "c515",
+    cname: "PT. Fastabiq",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaa4"),
+    idcompany: "c516",
+    cname: "PT. Ferron Par Pharmaceuticals",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaa6"),
+    idcompany: "c518",
+    cname: "PT. Fraksindo Almira",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaa5"),
+    idcompany: "c517",
+    cname: "PT. Fitrah Fitofarma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaa7"),
+    idcompany: "c519",
+    cname: "PT. Gemilang Sakti Farmindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaa8"),
+    idcompany: "c520",
+    cname: "PT. Golden Millenium Manufacturing",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaa9"),
+    idcompany: "c521",
+    cname: "PT. Gondo Wangi Sariaji",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaaa"),
+    idcompany: "c522",
+    cname: "PT. Gondowangi Tradisional Kosmetika",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaab"),
+    idcompany: "c523",
+    cname: "PT. Graha Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaae"),
+    idcompany: "c526",
+    cname: "PT. Green Herba International",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaaf"),
+    idcompany: "c527",
+    cname: "PT. Guardian Pharmatama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eab0"),
+    idcompany: "c528",
+    cname: "PT. Gujati Lima Puluh Sembilan Utama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eab1"),
+    idcompany: "c529",
+    cname: "PT. Gunung Hijau Lestari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eab2"),
+    idcompany: "c530",
+    cname: "PT. Habbatussauda International",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eab3"),
+    idcompany: "c531",
+    cname: "PT. Haldin Pacific Semesta",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaac"),
+    idcompany: "c524",
+    cname: "PT. Granindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eab4"),
+    idcompany: "c532",
+    cname: "PT. Hanaka Farmasindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eab5"),
+    idcompany: "c533",
+    cname: "PT. Hari Fatma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eab6"),
+    idcompany: "c534",
+    cname: "PT. Harmoni Dinamika Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eab7"),
+    idcompany: "c535",
+    cname: "PT. Harsen Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eab8"),
+    idcompany: "c536",
+    cname: "PT. Health Morinda Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eab9"),
+    idcompany: "c537",
+    cname: "PT. Heksatamaprima",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaba"),
+    idcompany: "c538",
+    cname: "PT. Helmigs Prima Sejahtera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eabb"),
+    idcompany: "c539",
+    cname: "PT. Heptasari Unggul",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eabc"),
+    idcompany: "c540",
+    cname: "PT. Herba Aneka Semesta",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eabd"),
+    idcompany: "c541",
+    cname: "PT. Herba Khasiat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eabe"),
+    idcompany: "c542",
+    cname: "PT. Herba Medica Cosmetindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eabf"),
+    idcompany: "c543",
+    cname: "PT. Herba Medica Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eac0"),
+    idcompany: "c544",
+    cname: "PT. Herbal Power Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eac1"),
+    idcompany: "c545",
+    cname: "PT. Herbanugraha",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eac2"),
+    idcompany: "c546",
+    cname: "PT. Hexpharm Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eac3"),
+    idcompany: "c547",
+    cname: "PT. Holistic Bio-Medicine",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eac4"),
+    idcompany: "c548",
+    cname: "PT. Hortikindo Modernaraya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaad"),
+    idcompany: "c525",
+    cname: "PT. Gratia Husada Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eac5"),
+    idcompany: "c549",
+    cname: "PT. Hudson Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eac6"),
+    idcompany: "c550",
+    cname: "PT. Ifars Pharmaceutical Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eac7"),
+    idcompany: "c551",
+    cname: "PT. Igatama Nusantara Permai",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eac9"),
+    idcompany: "c553",
+    cname: "PT. Ikapharmindo Putramas (IOT)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eac8"),
+    idcompany: "c552",
+    cname: "PT. Ikapharmindo Putramas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaca"),
+    idcompany: "c554",
+    cname: "PT. Ikong Pharmaceutical Industry",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eacb"),
+    idcompany: "c555",
+    cname: "PT. Imfarmind Farmasi industri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eacc"),
+    idcompany: "c556",
+    cname: "PT. Indo Abadi Sarimakmur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eacd"),
+    idcompany: "c557",
+    cname: "PT. Indo Karya Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eace"),
+    idcompany: "c558",
+    cname: "PT. Indofarma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eacf"),
+    idcompany: "c559",
+    cname: "PT. Indopas Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ead1"),
+    idcompany: "c561",
+    cname: "PT. Industri Jamu & Farmasi Cap JAGO",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ead0"),
+    idcompany: "c560",
+    cname: "PT. Indorica Perdana Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ead4"),
+    idcompany: "c564",
+    cname: "PT. Insan Indofarma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ead2"),
+    idcompany: "c562",
+    cname: "PT. Industri Jamu Borobudur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ead6"),
+    idcompany: "c566",
+    cname: "PT. Irawan Djaja Agung",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ead3"),
+    idcompany: "c563",
+    cname: "PT. Inovasi Mitra Sukses",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ead7"),
+    idcompany: "c567",
+    cname: "PT. Ixora Berjalin Mitra",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ead8"),
+    idcompany: "c568",
+    cname: "PT. Jamu Iboe Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eada"),
+    idcompany: "c570",
+    cname: "PT. Jamu Puspo Internusa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ead9"),
+    idcompany: "c569",
+    cname: "PT. Jamu Indonesia Simona",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eadb"),
+    idcompany: "c571",
+    cname: "PT. Jatipurna Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eadc"),
+    idcompany: "c572",
+    cname: "PT. Javanessia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eadd"),
+    idcompany: "c573",
+    cname: "PT. Jaya Nusantara Dipa Husada",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eade"),
+    idcompany: "c574",
+    cname: "PT. Jitu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eadf"),
+    idcompany: "c575",
+    cname: "PT. Kalbe Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eae0"),
+    idcompany: "c576",
+    cname: "PT. Kalbe Farma Tbk ( PT.Bintang Toedjoe)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eae1"),
+    idcompany: "c577",
+    cname: "PT. Kaliroto",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eae2"),
+    idcompany: "c578",
+    cname: "PT. Kambing Prima Leotangkas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eae3"),
+    idcompany: "c579",
+    cname: "PT. Karya Jaya Dunia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eae4"),
+    idcompany: "c580",
+    cname: "PT. Kawi Tradisional",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eae5"),
+    idcompany: "c581",
+    cname: "PT. Kembang Bulan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eae6"),
+    idcompany: "c582",
+    cname: "PT. Kimberal",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003ead5"),
+    idcompany: "c565",
+    cname: "PT. Interbat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eae7"),
+    idcompany: "c583",
+    cname: "PT. Kimia Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eae8"),
+    idcompany: "c584",
+    cname: "PT. Kimia Farma (IOT)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eae9"),
+    idcompany: "c585",
+    cname: "PT. KinoAid Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaea"),
+    idcompany: "c586",
+    cname: "PT. Konimex",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaeb"),
+    idcompany: "c587",
+    cname: "PT. Konimex (IOT)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaec"),
+    idcompany: "c588",
+    cname: "PT. Lapi Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaed"),
+    idcompany: "c589",
+    cname: "PT. Laupan Mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaee"),
+    idcompany: "c590",
+    cname: "PT. Leo Agung Raya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaf1"),
+    idcompany: "c593",
+    cname: "PT. Mahakam Beta Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaf2"),
+    idcompany: "c594",
+    cname: "PT. Maharani Altomaris Sarinatural",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaf3"),
+    idcompany: "c595",
+    cname: "PT. Mahkotadewa Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaf4"),
+    idcompany: "c596",
+    cname: "PT. Makmur Sejati Internusa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaf5"),
+    idcompany: "c597",
+    cname: "PT. Manuasa Harapan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaf7"),
+    idcompany: "c599",
+    cname: "PT. Marin Liza Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaf6"),
+    idcompany: "c598",
+    cname: "PT. Marguna Tarulata Apk. Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaef"),
+    idcompany: "c591",
+    cname: "PT. Liza Herbal International",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaf9"),
+    idcompany: "c601",
+    cname: "PT. Maryong Mondo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaf0"),
+    idcompany: "c592",
+    cname: "PT. Lucas Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9705ebcc0f0003eaf8"),
+    idcompany: "c600",
+    cname: "PT. Martina Berto",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eafb"),
+    idcompany: "c603",
+    cname: "PT. Meddia Herbal",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eafc"),
+    idcompany: "c604",
+    cname: "PT. Medikon Prima Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eafa"),
+    idcompany: "c602",
+    cname: "PT. Mecosin Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eafe"),
+    idcompany: "c606",
+    cname: "PT. Menara Jopurin",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eafd"),
+    idcompany: "c605",
+    cname: "PT. Meditrika Agung Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb01"),
+    idcompany: "c609",
+    cname: "PT. Merlindo Rekamatra",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb02"),
+    idcompany: "c610",
+    cname: "PT. Merpati Mahardika",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb03"),
+    idcompany: "c611",
+    cname: "PT. Minorock Mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb04"),
+    idcompany: "c612",
+    cname: "PT. Miotra Pace",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb05"),
+    idcompany: "c613",
+    cname: "PT. Mudita Karuna",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eaff"),
+    idcompany: "c607",
+    cname: "PT. Mentari Anugerah Sakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb07"),
+    idcompany: "c615",
+    cname: "PT. Murakabi Buana",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb06"),
+    idcompany: "c614",
+    cname: "PT. Mugi Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb08"),
+    idcompany: "c616",
+    cname: "PT. Mustika Putri Deli",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb09"),
+    idcompany: "c617",
+    cname: "PT. Mustika Ratu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb0a"),
+    idcompany: "c618",
+    cname: "PT. Mutiara Mukti Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb00"),
+    idcompany: "c608",
+    cname: "PT. Mergana Satwika Isthi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb0d"),
+    idcompany: "c621",
+    cname: "PT. New Asiapharm",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb0e"),
+    idcompany: "c622",
+    cname: "PT. Nova Chemie Utama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb0f"),
+    idcompany: "c623",
+    cname: "PT. Novell Pharmaceutical Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb10"),
+    idcompany: "c624",
+    cname: "PT. Nyonya Meneer",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb12"),
+    idcompany: "c626",
+    cname: "PT. ORK GOOD HEALTH",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb11"),
+    idcompany: "c625",
+    cname: "PT. Nyonya Mipis",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb0b"),
+    idcompany: "c619",
+    cname: "PT. NATA DECOCO UTAMA",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb13"),
+    idcompany: "c627",
+    cname: "PT. Payung Pusaka",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb0c"),
+    idcompany: "c620",
+    cname: "PT. Nellco Indopharma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb14"),
+    idcompany: "c628",
+    cname: "PT. Pertiwi Agung",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb15"),
+    idcompany: "c629",
+    cname: "PT. Phapros",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb17"),
+    idcompany: "c631",
+    cname: "PT. Pharmasi Binangkit",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb16"),
+    idcompany: "c630",
+    cname: "PT. Pharmacore Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb18"),
+    idcompany: "c632",
+    cname: "PT. Pharmasi Binangkit (PT. Nova Chemie Utama)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb19"),
+    idcompany: "c633",
+    cname: "PT. Pharos Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb1a"),
+    idcompany: "c634",
+    cname: "PT. Phyto Kemo Agung Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb1b"),
+    idcompany: "c635",
+    cname: "PT. Phyto Sana Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb1d"),
+    idcompany: "c637",
+    cname: "PT. Prima Solusi Medika",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb1c"),
+    idcompany: "c636",
+    cname: "PT. Prima Agritech Nusantara",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb20"),
+    idcompany: "c640",
+    cname: "PT. Pusaka Leluhur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb1e"),
+    idcompany: "c638",
+    cname: "PT. Promedic Dyna Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb21"),
+    idcompany: "c641",
+    cname: "PT. Pusaka Surga",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb22"),
+    idcompany: "c642",
+    cname: "PT. Pusut Buhit Barat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb23"),
+    idcompany: "c643",
+    cname: "PT. Putro Kinasih",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb24"),
+    idcompany: "c644",
+    cname: "PT. Pyridam Farma Tbk",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb26"),
+    idcompany: "c646",
+    cname: "PT. Rama Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb25"),
+    idcompany: "c645",
+    cname: "PT. Rajawali Tri Jaya Sukses",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb27"),
+    idcompany: "c647",
+    cname: "PT. Rasio Medika Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb29"),
+    idcompany: "c649",
+    cname: "PT. Royal Medicalink Pharmalab",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb28"),
+    idcompany: "c648",
+    cname: "PT. Risto Mulia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb2a"),
+    idcompany: "c650",
+    cname: "PT. Ruslindo Anugerah Alam Sejahtera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb2b"),
+    idcompany: "c651",
+    cname: "PT. Sahabat Lingkungan Hidup",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb2c"),
+    idcompany: "c652",
+    cname: "PT. Saka Farma Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb2d"),
+    idcompany: "c653",
+    cname: "PT. Samdema",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb2e"),
+    idcompany: "c654",
+    cname: "PT. Sandai Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb2f"),
+    idcompany: "c655",
+    cname: "PT. Saraka Mandiri Semesta",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb30"),
+    idcompany: "c656",
+    cname: "PT. Sari Bhumi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb31"),
+    idcompany: "c657",
+    cname: "PT. Sari Bunga Alam Sejati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb1f"),
+    idcompany: "c639",
+    cname: "PT. Puri Intirasa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb32"),
+    idcompany: "c658",
+    cname: "PT. Sari Enesis Indah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb33"),
+    idcompany: "c659",
+    cname: "PT. Sari Gading Pusaka Kalimantan",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb34"),
+    idcompany: "c660",
+    cname: "PT. Sari Pusaka",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb36"),
+    idcompany: "c662",
+    cname: "PT. Sarinabati Husada",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb35"),
+    idcompany: "c661",
+    cname: "PT. Sariguna Primatirta",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb37"),
+    idcompany: "c663",
+    cname: "PT. Saroni Milenium Laboratoria",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb38"),
+    idcompany: "c664",
+    cname: "PT. Satwa Lestari Permai",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb39"),
+    idcompany: "c665",
+    cname: "PT. Seger Waras",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb3a"),
+    idcompany: "c666",
+    cname: "PT. Sehat Sukses Sejahtera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb3b"),
+    idcompany: "c667",
+    cname: "PT. Sekar Delima Indah Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb3c"),
+    idcompany: "c668",
+    cname: "PT. Sekarsari Sakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb3f"),
+    idcompany: "c671",
+    cname: "PT. Serbuk Manjur",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb40"),
+    idcompany: "c672",
+    cname: "PT. Sido Muncul (PT. Nu Trend International)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb42"),
+    idcompany: "c674",
+    cname: "PT. Sifa Jaya Lestari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb41"),
+    idcompany: "c673",
+    cname: "PT. Sidola",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb44"),
+    idcompany: "c676",
+    cname: "PT. Sinabung",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb43"),
+    idcompany: "c675",
+    cname: "PT. Simex Pharmaceutical Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb3d"),
+    idcompany: "c669",
+    cname: "PT. Semar Enam Puluh Berdikari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb45"),
+    idcompany: "c677",
+    cname: "PT. Sinar Effendi Murni",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb46"),
+    idcompany: "c678",
+    cname: "PT. Sinar Herba Radix",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb47"),
+    idcompany: "c679",
+    cname: "PT. Sinar Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb48"),
+    idcompany: "c680",
+    cname: "PT. Sinar Kaliman Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb49"),
+    idcompany: "c681",
+    cname: "PT. Sinde Budi Sentosa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb4a"),
+    idcompany: "c682",
+    cname: "PT. Sismadi Industri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb4c"),
+    idcompany: "c684",
+    cname: "PT. Soho Industri Pharmasi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb4d"),
+    idcompany: "c685",
+    cname: "PT. Solas Langgeng Sejahtera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb4b"),
+    idcompany: "c683",
+    cname: "PT. Soho Industri Obat Tradisional",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb4e"),
+    idcompany: "c686",
+    cname: "PT. Solas Langgeng Sejahtera (IOT)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb4f"),
+    idcompany: "c687",
+    cname: "PT. Songgolangit Herbal Ind.",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb51"),
+    idcompany: "c689",
+    cname: "PT. Sumber Budimulia Adiputra",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb50"),
+    idcompany: "c688",
+    cname: "PT. Sozo Agro Pasti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb52"),
+    idcompany: "c690",
+    cname: "PT. Sumber Tanushu",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb54"),
+    idcompany: "c692",
+    cname: "PT. Surecoindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb53"),
+    idcompany: "c691",
+    cname: "PT. Surabaya Indah Permai",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb55"),
+    idcompany: "c693",
+    cname: "PT. Surya Coco Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb3e"),
+    idcompany: "c670",
+    cname: "PT. Serasi Indah Sehat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb56"),
+    idcompany: "c694",
+    cname: "PT. Surya Dermato Medica Laboratories",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb57"),
+    idcompany: "c695",
+    cname: "PT. Surya Lestari Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb58"),
+    idcompany: "c696",
+    cname: "PT. Surya Pratama Jaya Mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb59"),
+    idcompany: "c697",
+    cname: "PT. Talenta Wijaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb5a"),
+    idcompany: "c698",
+    cname: "PT. Tawon Jaya Makasar",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb5b"),
+    idcompany: "c699",
+    cname: "PT. Teguhsindo lestaritama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb5c"),
+    idcompany: "c700",
+    cname: "PT. Tempo Natural Products",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb5f"),
+    idcompany: "c703",
+    cname: "PT. Terapi Alam Nabati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb60"),
+    idcompany: "c704",
+    cname: "PT. Tifar Admanco",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb61"),
+    idcompany: "c705",
+    cname: "PT. Tiga Putra Perkasa Pharmindo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb5d"),
+    idcompany: "c701",
+    cname: "PT. Tempo Scan Pacific Tbk",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb63"),
+    idcompany: "c707",
+    cname: "PT. Tjahaja Baru",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb64"),
+    idcompany: "c708",
+    cname: "PT. Toya Konsep Alam",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb5e"),
+    idcompany: "c702",
+    cname: "PT. Tenaga Tani Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb66"),
+    idcompany: "c710",
+    cname: "PT. Tresno Joyo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb65"),
+    idcompany: "c709",
+    cname: "PT. Toyo Brothers",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb67"),
+    idcompany: "c711",
+    cname: "PT. Trias Sukses Dinamika",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb68"),
+    idcompany: "c712",
+    cname: "PT. Trisugo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb69"),
+    idcompany: "c713",
+    cname: "PT. Triyasa Nagamas Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb6a"),
+    idcompany: "c714",
+    cname: "PT. Trust Pharmaceutical Industries",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb6b"),
+    idcompany: "c715",
+    cname: "PT. Tulus Indojaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb6c"),
+    idcompany: "c716",
+    cname: "PT. Ultra Prima Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb6d"),
+    idcompany: "c717",
+    cname: "PT. Ultratrend Biotech Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb6f"),
+    idcompany: "c719",
+    cname: "PT. Unggul Dana Cipta",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb6e"),
+    idcompany: "c718",
+    cname: "PT. Ultratrend Biotech Indonesia (IOT)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb70"),
+    idcompany: "c720",
+    cname: "PT. Unique Herbamed Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb71"),
+    idcompany: "c721",
+    cname: "PT. USFI",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb72"),
+    idcompany: "c722",
+    cname: "PT. Vitabiotics Healthcare (PT. Sandoz)",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb74"),
+    idcompany: "c724",
+    cname: "PT. Wibowo Padmo Kencono",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb62"),
+    idcompany: "c706",
+    cname: "PT. Tirtamas Megah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb75"),
+    idcompany: "c725",
+    cname: "PT. Yanthi Utama",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb76"),
+    idcompany: "c726",
+    cname: "PT. YAP Bersatu Pharmaceutical",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb73"),
+    idcompany: "c723",
+    cname: "PT. Wahida Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb7a"),
+    idcompany: "c730",
+    cname: "PT.Tenaga Tani Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb77"),
+    idcompany: "c727",
+    cname: "PT. YASEPA",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb7b"),
+    idcompany: "c731",
+    cname: "PTIQ Al Furqon",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb7c"),
+    idcompany: "c732",
+    cname: "PTt. Argo Vico Industri Indonesia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb7d"),
+    idcompany: "c733",
+    cname: "Pusaka Wadi Fatmah",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb7e"),
+    idcompany: "c734",
+    cname: "Pusaka Warisan Madura",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb7f"),
+    idcompany: "c735",
+    cname: "Puspita Jelita",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb80"),
+    idcompany: "c736",
+    cname: "Putra Rakyat Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb79"),
+    idcompany: "c729",
+    cname: "PT.Sandai Farma",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb81"),
+    idcompany: "c737",
+    cname: "Setia Kawan Abadi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb82"),
+    idcompany: "c738",
+    cname: "Sido Muncul",
+    address: "Jl. Cipete Raya No. 81",
+    city: "Jakarta",
+    country: "Indonesia",
+    postcode: "12410",
+    contact: "6221765 3535",
+    url: "http://www.sidomuncul.com",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb83"),
+    idcompany: "c739",
+    cname: "Sriana Milliherbs",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb84"),
+    idcompany: "c740",
+    cname: "Tradisi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb78"),
+    idcompany: "c728",
+    cname: "PT. Yupharin Pharmaceutical",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb85"),
+    idcompany: "c741",
+    cname: "UD. Alam Berkat Sejahtera",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb89"),
+    idcompany: "c745",
+    cname: "UD. Bali Holistik",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb8a"),
+    idcompany: "c746",
+    cname: "UD. Bina Raci",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb86"),
+    idcompany: "c742",
+    cname: "UD. AM Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb8b"),
+    idcompany: "c747",
+    cname: "UD. Cahaya Kasih",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb88"),
+    idcompany: "c744",
+    cname: "UD. As-Syifa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb8c"),
+    idcompany: "c748",
+    cname: "UD. Cerah Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb8d"),
+    idcompany: "c749",
+    cname: "UD. Cipto Angso Duo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb8e"),
+    idcompany: "c750",
+    cname: "UD. Citra Alam",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb8f"),
+    idcompany: "c751",
+    cname: "UD. Ekadenta Putra",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb87"),
+    idcompany: "c743",
+    cname: "UD. Aqsho",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb90"),
+    idcompany: "c752",
+    cname: "UD. Hadh",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb94"),
+    idcompany: "c756",
+    cname: "UD. Kalimosodo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb95"),
+    idcompany: "c757",
+    cname: "UD. Karya Berdikari",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb91"),
+    idcompany: "c753",
+    cname: "UD. Indo Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb93"),
+    idcompany: "c755",
+    cname: "UD. Jaya Mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb97"),
+    idcompany: "c759",
+    cname: "UD. Karya Tehnik",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb96"),
+    idcompany: "c758",
+    cname: "UD. Karya Mulia",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb99"),
+    idcompany: "c761",
+    cname: "UD. KONDANG",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb98"),
+    idcompany: "c760",
+    cname: "UD. Keurejheng Mitapa Merk Gigieng UTG",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb9a"),
+    idcompany: "c762",
+    cname: "UD. Lentera Agung Raya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb92"),
+    idcompany: "c754",
+    cname: "UD. Jamu Subur Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb9e"),
+    idcompany: "c766",
+    cname: "UD. Pagoda Mas",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb9b"),
+    idcompany: "c763",
+    cname: "UD. Liye Fasut",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb9f"),
+    idcompany: "c767",
+    cname: "UD. Putri Kinasih",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eba0"),
+    idcompany: "c768",
+    cname: "UD. Rahmat",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eba1"),
+    idcompany: "c769",
+    cname: "UD. Rejeki Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb9c"),
+    idcompany: "c764",
+    cname: "UD. Naga Jaya",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eba2"),
+    idcompany: "c770",
+    cname: "UD. Sambiroto",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eb9d"),
+    idcompany: "c765",
+    cname: "UD. Nurhayati",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eba3"),
+    idcompany: "c771",
+    cname: "UD. Sehat Seger Waras",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eba5"),
+    idcompany: "c773",
+    cname: "UD. Sinar Kami",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eba8"),
+    idcompany: "c776",
+    cname: "UD. Tama Karya Mandiri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eba7"),
+    idcompany: "c775",
+    cname: "UD. Sumber Songo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eba9"),
+    idcompany: "c777",
+    cname: "UD. Thibbin Therapi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eba6"),
+    idcompany: "c774",
+    cname: "UD. Sumatera Pasak Bumi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003ebaa"),
+    idcompany: "c778",
+    cname: "UD. Tugu Agung",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003ebab"),
+    idcompany: "c779",
+    cname: "Usaha Bersama Rio Pinawa",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003ebac"),
+    idcompany: "c780",
+    cname: "Usaha Nuri",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003ebad"),
+    idcompany: "c781",
+    cname: "W 1938 W",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003eba4"),
+    idcompany: "c772",
+    cname: "UD. Sidomulyo",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003ebae"),
+    idcompany: "c782",
+    cname: "WD Herbal",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003ebaf"),
+    idcompany: "c783",
+    cname: "Yayasan Ath-Thibbun Nabawi",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003ebb1"),
+    idcompany: "c785",
+    cname: "Yayasan Sarana Bhakti",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("companies").insert([ {
+    _id: ObjectId("5cf8cd9805ebcc0f0003ebb0"),
+    idcompany: "c784",
+    cname: "Yayasan Hikmah Sejati Yogyakarta",
+    address: "",
+    city: "",
+    country: "",
+    postcode: "",
+    contact: "",
+    url: "",
+    __v: NumberInt("0")
+} ]);
